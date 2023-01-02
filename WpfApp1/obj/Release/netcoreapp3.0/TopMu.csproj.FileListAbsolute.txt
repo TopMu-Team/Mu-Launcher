@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\netcoreapp3.0\TopMu.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\netcoreapp3.0\MainWindow.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\netcoreapp3.0\SaveSetting.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\netcoreapp3.0\App.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\netcoreapp3.0\TopMu_MarkupCompile.cache
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\netcoreapp3.0\TopMu_MarkupCompile.lref
