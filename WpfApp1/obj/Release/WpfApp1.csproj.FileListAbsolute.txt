@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\bin\Release\TopMu.exe.config
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\bin\Release\TopMu.exe
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\bin\Release\TopMu.pdb
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\MainWindow.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\Setting.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\App.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\TopMu_MarkupCompile.cache
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\TopMu_MarkupCompile.lref
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\MainWindow.baml
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\Setting.baml
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\TopMu.g.resources
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\WpfApp1.Properties.Resources.resources
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\WpfApp1.Resource.resources
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\WpfApp1.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\TopMu.exe
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Release\TopMu.pdb

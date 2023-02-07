@@ -1,0 +1,5 @@
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Debug\Setting.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Debug\TopMu_MarkupCompile.cache
+C:\Users\admin\source\repos\WpfApp1\WpfApp1\obj\Debug\TopMu_MarkupCompile.lref
