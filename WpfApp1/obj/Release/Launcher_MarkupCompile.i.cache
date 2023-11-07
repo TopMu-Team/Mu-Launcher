@@ -1,18 +1,18 @@
-﻿TopMu
+﻿Launcher
 
 
 winexe
 C#
 .cs
-D:\my-project\launcher\WpfApp1\obj\Debug\
+D:\my-project\launcher\WpfApp1\obj\Release\
 WpfApp1
 none
 false
-DEBUG;TRACE
+TRACE
 D:\my-project\launcher\WpfApp1\App.xaml
 2-225496733
 
-8-107491014
+8-1889688956
 16-2040997563
 MainWindow.xaml;Setting.xaml;
 

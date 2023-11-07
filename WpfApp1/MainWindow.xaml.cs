@@ -22,6 +22,9 @@ using System.Windows.Threading;
 using WpfApp1.Properties;
 using System.IO.Compression;
 using Path = System.IO.Path;
+using System.Net.Http;
+using System.Security.Policy;
+using System.Security.Cryptography;
 
 public class WebClientEx : WebClient
 {
@@ -48,19 +51,19 @@ namespace WpfApp1
 
         private bool windowMode = false;
 
-        private string version = "";
+        private string checkListFileName = "checklist.txt";
         
         public MainWindow()
         {
             this.WindowStyle = WindowStyle.None;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
             InitializeComponent();
-            this.StartDownload();
             this.DataContext = this;
-
             this.init();
+            this.StartDownload();
 
-            this.GetTimeServer();
+
+            //this.GetTimeServer();
 
             // this.GetStatusServer();
         }
@@ -74,33 +77,180 @@ namespace WpfApp1
             }, this.Dispatcher);
             timer.Start();
         }
+   
+        private void UpdateTotalProgressBar(long totalSize, long currentSize)
+        {
+            double percentage = (double)currentSize / (double)totalSize * 100;
+
+            Dispatcher.BeginInvoke((Action)(() =>
+            {
+                this.TotalProgressText.Text = Math.Round(percentage, 2).ToString() + "%";
+                totalProgressBar.Value = int.Parse(Math.Truncate(percentage).ToString());
+            }));
+        }
+        private void GridOfWindow_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var move = sender as System.Windows.Controls.Grid;
+            var win = Window.GetWindow(move);
+            win.DragMove();
+        }
         private void StartDownload()
         {
             try
             {
+                string fileUrl = Resource.downloadUrl + "MD5.txt";
+                var tempFolder = Path.Combine(Directory.GetCurrentDirectory(), "Temp");
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-                this.status.Content = "Updating your game to the latest version";
-                Thread thread = new Thread(() => {
+                this.status.Text = "Updating your client for the latest version";
+
+                long totalSizeNeedDownload = 0;
+                long totalSizeDownloaded = 0;
+                Thread thread = new Thread(async () => {
                     WebClient getUrl = new WebClient();
-                    var text = getUrl.DownloadString(Resource.downloadUrl).ToString();
-                    var c = Char.Parse("@");
-                    var url = text.Split(c).GetValue(0).ToString();
-                    var version = text.Split(c).GetValue(1).ToString();
-                    if(this.version.ToString() == version.ToString())
+                    var text = getUrl.DownloadString(fileUrl).ToString();
+                
+                    if (File.Exists(checkListFileName))
                     {
-                        Dispatcher.BeginInvoke((Action)(() =>
-                        {
-                            updateProgressBar.Value = 100;
-                            totalProgressBar.Value = 100;
-                            this.status.Content = "Update successful have fun to play";
-                        }));
-                        return;
+                        File.Delete(checkListFileName);
                     }
-                    this.version = version;
-                    WebClient client = new WebClientEx();
-                    client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(Client_DownloadProgressChanged);
-                    client.DownloadFileCompleted += new AsyncCompletedEventHandler(Client_DownloadFileCompleted);
-                    client.DownloadFileAsync(new Uri(url), "ClientPatch.zip");
+                    if (Directory.Exists(tempFolder))
+                    {
+                        Directory.Delete(tempFolder, true);
+                    }
+                    Directory.CreateDirectory(tempFolder);
+                    File.WriteAllText(checkListFileName, text);
+
+                    using (StreamReader reader = new StreamReader(checkListFileName))
+                    {
+                        string line;
+                        while ((line = reader.ReadLine()) != null) 
+                        {
+                            string[] strs = line.Trim().Split(';');
+                            var path = strs[0];
+                            var currentMd5 = strs[1];
+                            var size = Int32.Parse(strs[2]);
+
+                            var newPath = Path.Combine(Directory.GetCurrentDirectory(), path);
+
+                            if (File.Exists(newPath))
+                            {
+                                var newMd5 = CalculateMD5Checksum(newPath);
+                                if (newMd5 != currentMd5) 
+                                {
+                                    totalSizeNeedDownload += size;
+                                }
+                            } else
+                            {
+                                totalSizeNeedDownload += size;
+                            }
+                        }
+                    }
+                    using (StreamReader reader = new StreamReader(checkListFileName))
+                    {
+                        string line;
+                        while ((line = reader.ReadLine()) != null)
+                        {
+                                string[] strs = line.Trim().Split(';');
+                                var path = strs[0];
+                                var currentMd5 = strs[1];
+                                var size = strs[2];
+
+                                var newPath = Path.Combine(Directory.GetCurrentDirectory(), path);
+
+                                if (File.Exists(newPath))
+                                {
+                                var newMd5 = CalculateMD5Checksum(newPath);
+                                if (newMd5 != currentMd5)
+                                {
+                                    string downloadUrl = Resource.downloadUrl + "Update/" + path;
+                                    string downloadFilePath = Path.Combine(Directory.GetCurrentDirectory(), "Temp", Path.GetFileName(downloadUrl));
+                                    string targetFolder = GetContainingFolder(Path.Combine(Directory.GetCurrentDirectory(), path));
+                                    using (HttpClient httpClient = new HttpClient())
+                                    {
+                                        HttpResponseMessage response = await httpClient.GetAsync(downloadUrl);
+                                        Dispatcher.BeginInvoke((Action)(() => {
+                                            Random random = new Random();
+                                            int randomNumber = random.Next(10, 101);
+                                            updateProgressBar.Value = randomNumber;
+                                            UpdateProgressText.Text = randomNumber.ToString() + "%";
+                                        }));
+                                        if (response.IsSuccessStatusCode)
+                                        {
+                                            byte[] fileBytes = await response.Content.ReadAsByteArrayAsync();
+                                            var fileSize = GetFileSize(downloadFilePath);                                            
+                                            File.WriteAllBytes(downloadFilePath, fileBytes);                                            
+                                            string targetPath = Path.Combine(targetFolder, Path.GetFileName(downloadFilePath));
+                                            if (!Directory.Exists(targetFolder))
+                                            {
+                                                Directory.CreateDirectory(targetFolder);
+                                            }
+                                            File.Copy(downloadFilePath, targetPath, true);
+                                            totalSizeDownloaded += fileSize;
+                                            UpdateTotalProgressBar(totalSizeNeedDownload, totalSizeDownloaded);
+                                            Dispatcher.BeginInvoke((Action)(() => {                                                
+                                                updateProgressBar.Value = 100;
+                                                UpdateProgressText.Text = "100" + "%";
+                                            }));
+                                        }
+                                    }
+
+                                }
+                                } else
+                                {
+                                    string downloadUrl = Resource.downloadUrl + "Update/" + path;
+                                    string downloadFilePath =  Path.Combine(Directory.GetCurrentDirectory(), "Temp", Path.GetFileName(downloadUrl));
+                                    string targetFolder = GetContainingFolder(Path.Combine(Directory.GetCurrentDirectory(), path));
+                                    Dispatcher.BeginInvoke((Action)(() => {
+                                        this.status.Text = path;
+                                    }));
+
+                                using (HttpClient httpClient = new HttpClient())
+                                    {
+                                        HttpResponseMessage response = await httpClient.GetAsync(downloadUrl);
+                                        Dispatcher.BeginInvoke((Action)(() => {
+                                            Random random = new Random();
+                                            int randomNumber = random.Next(10, 101);
+                                            updateProgressBar.Value = randomNumber;
+                                            UpdateProgressText.Text = randomNumber.ToString() + "%";
+                                        }));
+                                    if (response.IsSuccessStatusCode)
+                                        {
+                                            byte[] fileBytes = await response.Content.ReadAsByteArrayAsync();
+                                            File.WriteAllBytes(downloadFilePath, fileBytes);                                            
+                                            string targetPath = Path.Combine(targetFolder, Path.GetFileName(downloadFilePath));
+                                            if (!Directory.Exists(targetFolder))
+                                            {
+                                                Directory.CreateDirectory(targetFolder);
+                                            }
+                                            File.Copy(downloadFilePath, targetPath, true);
+                                            var fileSize = GetFileSize(downloadFilePath);
+                                            totalSizeDownloaded += fileSize;
+                                            UpdateTotalProgressBar(totalSizeNeedDownload, totalSizeDownloaded);
+                                            Dispatcher.BeginInvoke((Action)(() => {
+                                                updateProgressBar.Value = 100;
+                                                UpdateProgressText.Text = "100" + "%";
+                                            }));
+                                    }
+                                    }
+                                }
+
+                            }
+                        }
+                    if(File.Exists(checkListFileName))
+                    {
+                        File.Delete(checkListFileName);
+                    }
+                    if(Directory.Exists(tempFolder))
+                    {
+                        Directory.Delete(tempFolder, true);
+                    }
+                    Dispatcher.BeginInvoke((Action)(() => {
+                        this.status.Text = "The client has been updated to the latest version successfully";
+                        totalProgressBar.Value = 100;
+                        updateProgressBar.Value = 100;
+                        UpdateProgressText.Text = "100" + "%";
+                        TotalProgressText.Text = "100" + "%";
+                    }));
                 });
                 thread.Start();
             } catch(Exception e)
@@ -109,65 +259,47 @@ namespace WpfApp1
             }
         }
 
-        private void Client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
+        static long GetFileSize(string FilePath)
         {
-            this.UpdateVersion(this.version);
-            Dispatcher.BeginInvoke((Action)(() => {                
-                double percentage = 100;
-                this.TotalProgressText.Content = Math.Round(percentage, 2).ToString() + "%";
-                totalProgressBar.Value = int.Parse(Math.Truncate(percentage).ToString());
-            }));
-            var maxProgressPercent = 100;
-            var currentFile = 0;
-            using (var strm = File.OpenRead("ClientPatch.zip"))
-            using (ZipArchive a = new ZipArchive(strm))
+           if (File.Exists(FilePath))
             {
-                var totalFiles = a.Entries.Where(x => x.Length > 0).Count();
-
-                a.Entries.Where(o => o.Name == string.Empty && !Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), o.FullName)))
-                    .ToList()
-                    .ForEach(o => {
-                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), o.FullName));
-                        currentFile += 1;
-                        Dispatcher.BeginInvoke((Action)(() =>
-                        {
-                            updateProgressBar.Value = (currentFile / totalFiles) * maxProgressPercent;
-                            UpdateProgressText.Content = ((currentFile / totalFiles) * maxProgressPercent).ToString() + "%";
-                        }));
-                    });
-                a.Entries.Where(o => o.Name != string.Empty).ToList().ForEach(ac => {
-                    ac.ExtractToFile(Path.Combine(Directory.GetCurrentDirectory(), ac.FullName), true);
-                    currentFile += 1;
-                    Dispatcher.BeginInvoke((Action)(() =>
-                    {
-                        updateProgressBar.Value = (currentFile / totalFiles) * maxProgressPercent;
-                        UpdateProgressText.Content = ((currentFile / totalFiles) * maxProgressPercent).ToString() + "%";
-                    }));
-
-                });
+                return new FileInfo(FilePath).Length;
             }
-            File.Delete("ClientPatch.zip");
-            Dispatcher.BeginInvoke((Action)(() =>
-            {
-                this.status.Content = "Update successful have fun to play";
-            }));
-            return;
+            return 0;
         }
 
-        void Client_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        string GetContainingFolder(string filePath)
         {
-            Dispatcher.BeginInvoke((Action)(()=> {
+            string directoryName = Path.GetDirectoryName(filePath);
 
-                double bytesIn = double.Parse(e.BytesReceived.ToString());
-                double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
-                double percentage = bytesIn / totalBytes * 100;
-                this.TotalProgressText.Content = Math.Round(percentage, 2).ToString() + "%";
-                totalProgressBar.Value = int.Parse(Math.Truncate(percentage).ToString()); 
-            }));
+            if (directoryName != null)
+            {
+                return directoryName;
+            }
+            else
+            {
+                return "Invalid file path"; // Handle the case where the file path is not valid.
+            }
         }
+
+        string CalculateMD5Checksum(string filePath)
+        {
+            using (MD5 md5 = MD5.Create())
+            {
+                using (FileStream stream = File.OpenRead(filePath))
+                {
+                    byte[] hashBytes = md5.ComputeHash(stream);
+
+                    // Convert the byte array to a hexadecimal string
+                    return BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+                }
+            }
+        }
+
+
         private async void GetStatusServer()
         {
-            this.status.Content = "Connecting to server";
+            this.status.Text = "Connecting to server";
 
             await Task.Run(() =>
             {
@@ -190,7 +322,7 @@ namespace WpfApp1
                         {
                             Dispatcher.BeginInvoke((Action)(() =>
                             {
-                                this.status.Content = "Connect to server failed";
+                                this.status.Text = "Connect to server failed";
 
                                 // this.connectServer.Content = "OFF";
                                 // this.connectServer.Foreground = new SolidColorBrush(Color.FromRgb(250, 128, 114));
@@ -213,7 +345,7 @@ namespace WpfApp1
                         {
                             Dispatcher.BeginInvoke((Action)(() =>
                             {
-                                this.status.Content = "Connect to server failed";
+                                this.status.Text = "Connect to server failed";
                                 this.gameServer.Content = "OFF";
                                 this.gameServer.Foreground = new SolidColorBrush(Color.FromRgb(250, 128, 114));
                             }));
@@ -222,7 +354,7 @@ namespace WpfApp1
                 });
 
             });
-            this.status.Content = "Connect to server successful";
+            this.status.Text = "Connect to server successful";
         }
 
         public bool WindowMode
@@ -253,7 +385,7 @@ namespace WpfApp1
             }
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Register(object sender, RoutedEventArgs e)
         {
             string url = "https://topmu.org/registration";
             Process.Start(new ProcessStartInfo("cmd", $"/c start {url}") { CreateNoWindow = true });
@@ -284,6 +416,7 @@ namespace WpfApp1
             var saveSettingDialog = new Setting();
             saveSettingDialog.Show();
         }
+
         private void init()
         {
             var lines = File.ReadAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if");
@@ -294,11 +427,7 @@ namespace WpfApp1
                 if (key == "WindowMode")
                 {
                     this.windowMode = line.ToString().Split(c).GetValue(1).Equals("1");
-                }
-                if(key == "Version")
-                {
-                    this.version = line.ToString().Trim().Split(c).GetValue(1).ToString();
-                }
+                }              
             }
         }
 
@@ -312,21 +441,6 @@ namespace WpfApp1
                 if (key == "WindowMode")
                 {
                     lines.SetValue("WindowMode:" + value, i);
-                    break;
-                }
-            }
-            File.WriteAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if", lines.ToArray());
-        }
-        private void UpdateVersion(string value)
-        {
-            var lines = File.ReadAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if");
-            char c = Char.Parse(":");
-            for (var i = 0; i < lines.Length; i++)
-            {
-                var key = lines.GetValue(i).ToString().Trim().Split(c).GetValue(0).ToString();
-                if (key == "Version")
-                {
-                    lines.SetValue("Version:" + value, i);
                     break;
                 }
             }

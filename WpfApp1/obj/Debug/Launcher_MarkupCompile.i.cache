@@ -1,4 +1,4 @@
-﻿TopMu
+﻿Launcher
 
 
 winexe
@@ -16,5 +16,5 @@ D:\my-project\launcher\WpfApp1\App.xaml
 16-2040997563
 MainWindow.xaml;Setting.xaml;
 
-False
+True
 

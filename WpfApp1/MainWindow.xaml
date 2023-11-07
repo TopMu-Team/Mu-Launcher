@@ -10,27 +10,57 @@
         AllowsTransparency="True"
         Background="Transparent"
         Title="MainWindow"
-        Height="768" Width="1366"
+        Height="566" Width="970"
         >
 
-    <Grid>
+    <Grid  MouseLeftButtonDown="GridOfWindow_MouseLeftButtonDown">
         <Image Source="/Resources/Background.png" Stretch="Fill" />
         <Canvas>
-            <Button Opacity="0" Cursor="Hand" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="25" Width="96" Click="Button_Start" Canvas.Left="975" Canvas.Top="573"/>
-            <Button Opacity="0" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" Height="56" Width="297" Click="Button_Click_2" Canvas.Left="125" Canvas.Top="435"/>
-            <Button Cursor="Hand" Opacity="0" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="24" Width="24" Click="Button_Minimized" Canvas.Left="1112" Canvas.Top="142"/>
-            <Button Opacity="0" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Height="24" Click="Button_Close" Canvas.Left="1141" Canvas.Top="142"/>
-            <ProgressBar x:Name="totalProgressBar" Minimum="0" Maximum="100"  Height="9" VerticalAlignment="Top" Width="471" Canvas.Left="483" Canvas.Top="580"/>
-            <ProgressBar x:Name="updateProgressBar" Minimum="0" Maximum="100" Height="10"  Width="426" Canvas.Left="517" Canvas.Top="545"/>
-            <Button x:Name="Setting" Cursor="Hand" Opacity="0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="123" Click="Setting_Click" Canvas.Left="948" Canvas.Top="539"/>
-            <CheckBox x:Name="windowModeCheckBox"  IsChecked="{Binding Path=WindowMode}"  HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.751,2.917" Canvas.Left="975" Canvas.Top="629"/>
-            <Label Name="serverTime" Foreground="AliceBlue"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="208" Height="34" FontSize="16" Canvas.Left="431" Canvas.Top="610" />
-            <Label Name="connectServer" HorizontalAlignment="Left" Margin="768,452,0,0" VerticalAlignment="Top" FontSize="16" Width="102" Height="39"/>
-            <Label Name="gameServer" HorizontalAlignment="Left" Margin="768,500,0,0" VerticalAlignment="Top"  FontSize="16" Width="102" Height="36"/>
-            <Label Name="status" Width="300" Height="30" Foreground="AliceBlue" VerticalAlignment="Top" FontSize="16" Canvas.Left="586" Canvas.Top="500" />
-            <Label Content="Window Mode" Foreground="AliceBlue" Canvas.Left="996" Canvas.Top="624"/>
-            <Label Content="" FontSize="16" FontWeight="Bold" Name="TotalProgressText" Foreground="DarkRed" Canvas.Left="698" Canvas.Top="568"/>
-            <Label Content="" FontSize="16" FontWeight="Bold" Name="UpdateProgressText" Foreground="DarkRed" Canvas.Left="698" Canvas.Top="532"/>
+            <Button Name="Start" Opacity="0" Cursor="Hand" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="50" Width="175" Click="Button_Start" Canvas.Left="690" Canvas.Top="444"/>
+            <Button Opacity="0" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="42" Click="Button_Register" Canvas.Left="148" Canvas.Top="58"/>
+            <Button Cursor="Hand" Opacity="0" HorizontalAlignment="Center" Canvas.Bottom="0" VerticalAlignment="Center" Height="53" Width="39" Name="Mimized" Click="Button_Minimized" Canvas.Left="858" Canvas.Top="-3"/>
+            <Button Name="Close" Opacity="0" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Center" Width="41" Height="40" Click="Button_Close" Canvas.Left="909"/>
+            <Button x:Name="Setting" Cursor="Hand" Opacity="0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="40" Click="Setting_Click" Canvas.Left="454" Canvas.Top="63"/>
+
+            <ProgressBar x:Name="totalProgressBar"   Minimum="0" Maximum="100"  Height="14" BorderBrush="Transparent" Background="Transparent"  VerticalAlignment="Top" Width="523" Canvas.Left="111" Canvas.Top="488" HorizontalAlignment="Center">
+                <ProgressBar.Foreground>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="#64472C" Offset="0" />
+                        <GradientStop Color="#D37C1F" Offset="1" />
+                    </LinearGradientBrush>
+                </ProgressBar.Foreground>
+            </ProgressBar>
+            <ProgressBar x:Name="updateProgressBar" Minimum="0" Maximum="100" Height="16" BorderBrush="Transparent" Background="Transparent"  Width="523" Canvas.Left="111" Canvas.Top="444" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <ProgressBar.Foreground>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="#775C36" Offset="0" />
+                        <GradientStop Color="#FFFFFF" Offset="1" />
+                    </LinearGradientBrush>
+                </ProgressBar.Foreground>
+            </ProgressBar>
+
+            <CheckBox x:Name="windowModeCheckBox"  IsChecked="{Binding Path=WindowMode}"  HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.751,2.917" Canvas.Left="717" Canvas.Top="512"/>
+            <Label Content="Window Mode" Foreground="AliceBlue" Canvas.Left="733" Canvas.Top="505" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial"/>
+
+            <TextBlock Name="status" TextAlignment="Center" Width="532"  Height="30" Foreground="AliceBlue"  FontSize="16" Canvas.Left="102" Canvas.Top="410" HorizontalAlignment="Left" FontFamily="Arial" VerticalAlignment="Center"  />
+
+            <Label Name="serverTime" Foreground="AliceBlue"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="208" Height="25" FontSize="16" Canvas.Left="111" Canvas.Top="507" />
+            <Label Name="connectServer" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Width="102" Height="39" Canvas.Left="102" Canvas.Top="292"/>
+            <Label Name="gameServer" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="16" Width="102" Height="30" Canvas.Left="111" Canvas.Top="372"/>
+
+            <TextBlock Text="" FontWeight="Bold" Name="TotalProgressText" Canvas.Left="374" Canvas.Top="488" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFF3EEE9" FontFamily="Arial">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="3" ShadowDepth="2" Opacity="0.7"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock Text="" FontWeight="Bold" Name="UpdateProgressText" Canvas.Left="374" Canvas.Top="445" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFF3EEE9" FontFamily="Arial">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="3" ShadowDepth="2" Opacity="0.7"/>
+                </TextBlock.Effect>
+            </TextBlock>
+
         </Canvas>
     </Grid>
+
+
 </Window>
