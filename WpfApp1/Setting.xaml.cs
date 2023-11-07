@@ -144,5 +144,7 @@ namespace WpfApp1
             }
             File.WriteAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if", lines.ToArray());
         }
+
+     
     }
 }

@@ -61,6 +61,15 @@ namespace WpfApp1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://mythicmu.net/api.json.
+        /// </summary>
+        internal static string apiUrl {
+            get {
+                return ResourceManager.GetString("apiUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 44455.
         /// </summary>
         internal static string connectServerPort {

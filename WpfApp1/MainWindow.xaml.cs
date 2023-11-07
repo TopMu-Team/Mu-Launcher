@@ -25,6 +25,8 @@ using Path = System.IO.Path;
 using System.Net.Http;
 using System.Security.Policy;
 using System.Security.Cryptography;
+using Newtonsoft.Json;
+using System.Windows.Media.Effects;
 
 public class WebClientEx : WebClient
 {
@@ -37,6 +39,39 @@ public class WebClientEx : WebClient
         }
         return webRequest;
     }
+}
+
+public class News
+{
+    public string Title { get; set; }
+    public string Url { get; set; }
+
+}
+public class Banner
+{
+    public string ImgSrc { get; set; }
+    public string Url { get; set; }
+
+}
+public class Navigation
+{
+    public string Title { get; set; }
+    public string Url { get; set; }
+}
+public class Translate
+{
+    public string UpdateSuccess { get; set; }
+    public string SettingButton { get; set; }
+    public string ServerOffline { get; set; }
+    public string ServerOnline { get; set; }
+}
+public class Data
+{
+    public List<Banner> Banner { get; set; }
+    public List<News> News { get; set; }
+    public Translate Translate { get; set; }
+    public List<Navigation> Navigation { get; set; }
+    public string Logo { get; set; }
 }
 
 namespace WpfApp1
@@ -52,22 +87,88 @@ namespace WpfApp1
         private bool windowMode = false;
 
         private string checkListFileName = "checklist.txt";
-        
+
+        private Translate translate= new Translate();
+        private List<Banner> imagePaths = new List<Banner>
+        {
+           
+        };
+
+        public bool WindowMode
+        {
+            get => windowMode; set
+            {
+                windowMode = value;
+                this.updateWindowMode(value == true ? "1" : "0");
+            }
+        }
+
+
+        private int currentIndex = 0;
+        private DispatcherTimer timer = new DispatcherTimer();
+
         public MainWindow()
         {
             this.WindowStyle = WindowStyle.None;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
             InitializeComponent();
             this.DataContext = this;
-            this.init();
+            this.Init();
             this.StartDownload();
-
-
             //this.GetTimeServer();
+            this.GetStatusServer();
+        }
+        private void InitListView(List<News> news)
+        {
+            
 
-            // this.GetStatusServer();
+            Dispatcher.BeginInvoke((Action)(() =>
+            {
+                listView.Items.Clear();
+                listView.FontFamily = new FontFamily("Arial");
+                listView.FontSize = 14;
+                news.ForEach(item =>
+                {
+                });
+                news.ForEach(item =>
+                {
+                    listView.Items.Add(item);
+                });
+            }));
+          
         }
 
+        private void InitLogoImage(string url)
+        {
+            if(url != "")
+            {
+                try
+                {
+                   
+                    Dispatcher.BeginInvoke((Action)(() =>
+                    {
+                        BitmapImage bitmapImage = new BitmapImage(new Uri(url));
+                        logoImage.Source = bitmapImage;
+                    }));
+                }
+                catch (Exception ex)
+                {
+
+
+                }
+            }
+           
+        }
+        private void InitNavigation(List<Navigation> navigations)
+        {
+           
+            Dispatcher.BeginInvoke((Action)(() =>
+            {
+                navigations.ForEach(navigation => {
+                    this.listViewNavigation.Items.Add(navigation);
+                });
+            }));
+        }
         private async void GetTimeServer()
         {
 
@@ -90,6 +191,7 @@ namespace WpfApp1
         }
         private void GridOfWindow_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            base.OnMouseLeftButtonDown(e);
             var move = sender as System.Windows.Controls.Grid;
             var win = Window.GetWindow(move);
             win.DragMove();
@@ -245,7 +347,14 @@ namespace WpfApp1
                         Directory.Delete(tempFolder, true);
                     }
                     Dispatcher.BeginInvoke((Action)(() => {
-                        this.status.Text = "The client has been updated to the latest version successfully";
+                        if(translate.UpdateSuccess != "")
+                        {
+                            this.status.Text = translate.UpdateSuccess;
+                        } else
+                        {
+                            this.status.Text = "The client has been updated to the latest version successfully";
+                        }
+
                         totalProgressBar.Value = 100;
                         updateProgressBar.Value = 100;
                         UpdateProgressText.Text = "100" + "%";
@@ -299,73 +408,51 @@ namespace WpfApp1
 
         private async void GetStatusServer()
         {
-            this.status.Text = "Connecting to server";
-
             await Task.Run(() =>
             {
-
-                Parallel.For(0, 2, i =>
+                try
                 {
-                    if (i == 0)
+                    var client = new TcpClient();
+                    if (!client.ConnectAsync(Resource.url, Int32.Parse(Resource.connectServerPort)).Wait(3000))
                     {
-                        try
+                        Dispatcher.BeginInvoke((Action)(() =>
                         {
-                            using (var client = new TcpClient(Resource.url, Int32.Parse(Resource.connectServerPort))) { };
-                            Dispatcher.BeginInvoke((Action)(() =>
+                            if(translate.ServerOffline != "")
                             {
-                                // this.connectServer.Content = "ON";
-                                // this.connectServer.Foreground = new SolidColorBrush(Color.FromRgb(124, 252, 0));
-                            }));
-                           
-                        }
-                        catch (SocketException ex)
-                        {
-                            Dispatcher.BeginInvoke((Action)(() =>
-                            {
-                                this.status.Text = "Connect to server failed";
+                                this.connectServer.Content = translate.ServerOffline;
 
-                                // this.connectServer.Content = "OFF";
-                                // this.connectServer.Foreground = new SolidColorBrush(Color.FromRgb(250, 128, 114));
-                            }));
-                        }
+                            } else
+                            {
+                                this.connectServer.Content = "Server is Offline";
+                            }
+                            this.connectServer.Foreground = new SolidColorBrush(Color.FromRgb(250, 128, 114));
+
+                        }));
+                        return;
                     }
-
-                    if (i == 1)
+                    Dispatcher.BeginInvoke((Action)(() =>
                     {
-                        try
+                        if (translate.ServerOffline != "")
                         {
-                            using (var client = new TcpClient(Resource.url, Int32.Parse(Resource.gameServerPort))) ;
-                            Dispatcher.BeginInvoke((Action)(() =>
-                            {
-                                this.gameServer.Content = "ON";
-                                this.gameServer.Foreground = new SolidColorBrush(Color.FromRgb(124, 252, 0));
-                            }));
+                            this.connectServer.Content = translate.ServerOffline;
+
                         }
-                        catch (SocketException ex)
+                        else
                         {
-                            Dispatcher.BeginInvoke((Action)(() =>
-                            {
-                                this.status.Text = "Connect to server failed";
-                                this.gameServer.Content = "OFF";
-                                this.gameServer.Foreground = new SolidColorBrush(Color.FromRgb(250, 128, 114));
-                            }));
+                            this.connectServer.Content = "Server is Online";
                         }
-                    }
-                });
+                        this.connectServer.Content = new SolidColorBrush(Color.FromRgb(124, 252, 0));
+                    }));
+                }
+                catch (SocketException ex)
+                {
+                    
+                }
 
             });
-            this.status.Text = "Connect to server successful";
         }
 
-        public bool WindowMode
-        {
-            get => windowMode; set
-            {
-                windowMode = value;
-                this.updateWindowMode(value == true ? "1" : "0");
-            }
-        }
-
+     
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -417,20 +504,63 @@ namespace WpfApp1
             saveSettingDialog.Show();
         }
 
-        private void init()
+        private void Init()
         {
-            var lines = File.ReadAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if");
-            char c = Char.Parse(":");
-            foreach (var line in lines)
+            try
             {
-                var key = line.ToString().Trim().Split(c).GetValue(0).ToString();
-                if (key == "WindowMode")
+                var lines = File.ReadAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if");
+                char c = Char.Parse(":");
+                foreach (var line in lines)
                 {
-                    this.windowMode = line.ToString().Split(c).GetValue(1).Equals("1");
-                }              
-            }
-        }
+                    var key = line.ToString().Trim().Split(c).GetValue(0).ToString();
+                    if (key == "WindowMode")
+                    {
+                        this.windowMode = line.ToString().Split(c).GetValue(1).Equals("1");
+                    }
+                }
 
+                // Init data from api 
+                Thread thread = new Thread(async () =>
+                {
+                    try
+                    {
+                        WebClient getUrl = new WebClient();
+                        var text = getUrl.DownloadString(Resource.apiUrl).ToString();
+                        Data data = JsonConvert.DeserializeObject<Data>(text);
+
+                        foreach (var item in data.Banner)
+                        {
+                            imagePaths.Add(item);
+                        }
+                        // Init news
+                        this.InitListView(data.News);
+                        this.InitNavigation(data.Navigation);
+                        this.InitLogoImage(data.Logo);
+
+                        // Init translate
+                        this.translate = data.Translate;
+                        //Slider show
+                        timer.Interval = TimeSpan.FromSeconds(3); // Set the interval for image change
+                        timer.Tick += Timer_Tick;
+                        Dispatcher.BeginInvoke((Action)(() =>
+                        {
+                            ShowImage(imagePaths[currentIndex].ImgSrc);
+                            // Set setting text
+                            if (translate.SettingButton != "")
+                            {
+                                this.SettingText.Text = translate.SettingButton;
+                            }
+                        }));
+                        timer.Start();
+                       
+                    } catch (Exception ex) { 
+                        MessageBox.Show(ex.Message);
+                    }
+
+                });
+                thread.Start();
+            } catch(Exception ex) { }
+        }
         private void updateWindowMode(string value)
         {
             var lines = File.ReadAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if");
@@ -445,6 +575,79 @@ namespace WpfApp1
                 }
             }
             File.WriteAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if", lines.ToArray());
+
+
+        }
+
+
+
+        //Slider Show
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            NextImage();
+        }
+
+        private void ShowImage(string imagePath)
+        {
+            imageControl.Source = new BitmapImage(new Uri(imagePath, UriKind.RelativeOrAbsolute));
+        }
+
+        private void NextImage()
+        {
+            currentIndex = (currentIndex + 1) % imagePaths.Count;
+            ShowImage(imagePaths[currentIndex].ImgSrc);
+
+        }
+
+        private void PreviousImage()
+        {
+            currentIndex = (currentIndex - 1 + imagePaths.Count) % imagePaths.Count;
+            ShowImage(imagePaths[currentIndex].ImgSrc);
+        }
+
+        private void NextButtonClick(object sender, RoutedEventArgs e)
+        {
+            NextImage();
+        }
+
+        private void PreviousButtonClick(object sender, RoutedEventArgs e)
+        {
+            PreviousImage();
+        }
+
+        private void imageControl_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                if (currentIndex >= 0 && currentIndex < imagePaths.Count)
+                {
+                    string url = imagePaths[currentIndex].Url;
+                    Process.Start(new ProcessStartInfo(url));
+                }
+            } catch { }
+        }
+
+        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                var baseobj = sender as FrameworkElement;
+                var myObject = baseobj.DataContext as News;
+                string url = myObject.Url;
+                Process.Start(new ProcessStartInfo(url));
+            } catch { }
+        }
+
+        private void TextBlock_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                var baseobj = sender as FrameworkElement;
+                var myObject = baseobj.DataContext as Navigation;
+                string url = myObject.Url;
+                Process.Start(new ProcessStartInfo(url));
+            } catch(Exception ex) { }
+
         }
     }
 }

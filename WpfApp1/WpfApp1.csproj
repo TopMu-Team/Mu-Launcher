@@ -33,7 +33,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -105,6 +111,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,9 +121,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Background.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\Background.png" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +128,26 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\SaveButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SliderBtnLeftDefault.png" />
+    <Resource Include="Resources\SliderBtnRightDefault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ArticleIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SettingButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\StartButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ExitButton.png" />
+    <Resource Include="Resources\MinButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
