@@ -1,32 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
-using WpfApp1.Properties;
-using System.IO.Compression;
 using Path = System.IO.Path;
 using System.Net.Http;
-using System.Security.Policy;
 using System.Security.Cryptography;
-using Newtonsoft.Json;
-using System.Windows.Media.Effects;
+using System.Text;
+using System.Runtime.Serialization.Json;
+using System.Windows.Controls;
+using System.Drawing;
+using Color = System.Windows.Media.Color;
+using FontFamily = System.Windows.Media.FontFamily;
+using Image = System.Windows.Controls.Image;
 
 public class WebClientEx : WebClient
 {
@@ -65,6 +60,12 @@ public class Translate
     public string ServerOffline { get; set; }
     public string ServerOnline { get; set; }
 }
+
+public class Langugage
+{
+    public string Title { get; set; }
+    public string Url { get; set; }
+}
 public class Data
 {
     public List<Banner> Banner { get; set; }
@@ -72,6 +73,8 @@ public class Data
     public Translate Translate { get; set; }
     public List<Navigation> Navigation { get; set; }
     public string Logo { get; set; }
+    public string StartApp { get; set; }
+
 }
 
 namespace WpfApp1
@@ -89,6 +92,7 @@ namespace WpfApp1
         private string checkListFileName = "checklist.txt";
 
         private Translate translate= new Translate();
+        private string startApp;
         private List<Banner> imagePaths = new List<Banner>
         {
            
@@ -359,6 +363,8 @@ namespace WpfApp1
                         updateProgressBar.Value = 100;
                         UpdateProgressText.Text = "100" + "%";
                         TotalProgressText.Text = "100" + "%";
+                        Start.IsEnabled = true;
+
                     }));
                 });
                 thread.Start();
@@ -434,19 +440,18 @@ namespace WpfApp1
                     {
                         if (translate.ServerOffline != "")
                         {
-                            this.connectServer.Content = translate.ServerOffline;
+                            this.connectServer.Content = translate.ServerOnline;
 
                         }
                         else
                         {
                             this.connectServer.Content = "Server is Online";
                         }
-                        this.connectServer.Content = new SolidColorBrush(Color.FromRgb(124, 252, 0));
+                        this.connectServer.Foreground = new SolidColorBrush(Color.FromRgb(0, 128, 0));
                     }));
                 }
                 catch (SocketException ex)
                 {
-                    
                 }
 
             });
@@ -465,17 +470,12 @@ namespace WpfApp1
             try
             {
                 Process.Start(@"main.exe");
+                this.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
-        }
-
-        private void Button_Register(object sender, RoutedEventArgs e)
-        {
-            string url = "https://topmu.org/registration";
-            Process.Start(new ProcessStartInfo("cmd", $"/c start {url}") { CreateNoWindow = true });
         }
 
         private void Button_Minimized(object sender, RoutedEventArgs e)
@@ -526,7 +526,14 @@ namespace WpfApp1
                     {
                         WebClient getUrl = new WebClient();
                         var text = getUrl.DownloadString(Resource.apiUrl).ToString();
-                        Data data = JsonConvert.DeserializeObject<Data>(text);
+                        HandleJson jsonSerialiser = new HandleJson();
+                        Data data = jsonSerialiser.DeSerialize<Data>(text);
+
+                       
+                        Dispatcher.BeginInvoke((Action)(() =>
+                        {
+                            Start.IsEnabled = false;
+                        }));
 
                         foreach (var item in data.Banner)
                         {
@@ -577,6 +584,12 @@ namespace WpfApp1
             File.WriteAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if", lines.ToArray());
 
 
+        }
+
+
+        static T DeserializeJson<T>(string json)
+        {
+            return Activator.CreateInstance<T>();
         }
 
 
@@ -649,5 +662,39 @@ namespace WpfApp1
             } catch(Exception ex) { }
 
         }
+
+        private void Start_MouseEnter(object sender, MouseEventArgs e)
+        {
+            StartButtonImage.Source = (System.Windows.Media.Imaging.BitmapImage)FindResource("StartButtonImageHover");
+        }
+
+        private void Start_MouseLeave(object sender, MouseEventArgs e)
+        {
+            StartButtonImage.Source = (System.Windows.Media.Imaging.BitmapImage)FindResource("StartButtonImageDefault");
+        }
     }
+}
+
+public class HandleJson
+{
+    public string Serialize<T>(T classObj) where T : class, new()
+    {
+        using (MemoryStream ms = new MemoryStream())
+        {
+            DataContractJsonSerializer serialiaze = new DataContractJsonSerializer(typeof(T));
+            serialiaze.WriteObject(ms, classObj);
+            return Encoding.UTF8.GetString(ms.ToArray());
+        }
+    }
+
+    public T DeSerialize<T>(string classObj) where T : class, new()
+    {
+        DataContractJsonSerializer deSerialiaze = new DataContractJsonSerializer(typeof(T));
+        using (MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(classObj)))
+        {
+            return deSerialiaze.ReadObject(ms) as T;
+        }
+
+    }
+
 }

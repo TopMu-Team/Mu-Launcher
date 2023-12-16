@@ -61,7 +61,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://mythicmu.net/api.json.
+        ///   Looks up a localized string similar to https://ficaevent.io.vn/updates/api.json.
         /// </summary>
         internal static string apiUrl {
             get {
@@ -79,7 +79,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://mythicmu.net/Launcher/.
+        ///   Looks up a localized string similar to https://ficaevent.io.vn/updates/.
         /// </summary>
         internal static string downloadUrl {
             get {
@@ -97,7 +97,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 15.235.166.27.
+        ///   Looks up a localized string similar to 103.68.251.65.
         /// </summary>
         internal static string url {
             get {

@@ -9,7 +9,7 @@
         ResizeMode="NoResize"
         AllowsTransparency="True"
         Background="Transparent"
-        Title="MainWindow"
+        Title="Launcher"
         Height="700" Width="1200"
         
         >
@@ -38,7 +38,12 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Marcellus" />
+        </Style>
         <SolidColorBrush x:Key="TransparentBlue" Color="Black" Opacity="0.5" />
+        <BitmapImage x:Key="StartButtonImageHover" UriSource="/Resources/StartButton_Hover.png" />
+        <BitmapImage x:Key="StartButtonImageDefault" UriSource="/Resources/StartButton.png" />
     </Window.Resources>
     <Grid  MouseLeftButtonDown="GridOfWindow_MouseLeftButtonDown">
         <Image Source="/Resources/Background.png" Stretch="Fill" Margin="-10,0,10,0" />
@@ -71,21 +76,15 @@
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="{x:Type ListViewItem}">
-                                    <Label Background="Transparent" Foreground="White" HorizontalContentAlignment="Center"   FontSize="20" VerticalContentAlignment="Center"  Content="{Binding Title}" Height="70" Width="180"   MouseLeftButtonDown="TextBlock_MouseDown_1" ></Label>
+                                    <Label Background="Transparent" Foreground="White" HorizontalContentAlignment="Center"   FontSize="20" VerticalContentAlignment="Center"  Content="{Binding Title}" Height="70" Width="180"   MouseLeftButtonDown="TextBlock_MouseDown_1" FontFamily="Bahnschrift Condensed"  ></Label>
                                 </ControlTemplate>
                             </Setter.Value>
                         </Setter>
                     </Style>
                 </ListView.ItemContainerStyle>
             </ListView>
-            <Button Style="{StaticResource MyButtonStyle}" Name="Start" Content="Start" BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="50" Width="174" Click="Button_Start" Canvas.Left="863" Canvas.Top="583">
-                <Button.ContentTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <Image Source="/Resources/StartButton.png" Stretch="Fill"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </Button.ContentTemplate>
+            <Button Style="{StaticResource MyButtonStyle}" Name="Start" MouseLeave="Start_MouseLeave" MouseEnter="Start_MouseEnter" BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="69" Width="212" Click="Button_Start" Canvas.Left="890" Canvas.Top="535">
+                <Image Name="StartButtonImage" Source="/Resources/StartButton.png" Stretch="Fill" Width="202"/>
             </Button>
             <Button Style="{StaticResource MyButtonStyle}" Cursor="Hand" BorderBrush="Transparent"  BorderThickness="0"  HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Center" Width="40" Height="40" Name="Mimized" Click="Button_Minimized" Canvas.Left="1097" Canvas.Top="10">
                 <Button.ContentTemplate>
@@ -108,22 +107,22 @@
                     <SolidColorBrush Color="Transparent" />
                 </Button.Background>
             </Button>
-            <Button x:Name="Setting" Style="{StaticResource MyButtonStyle}"   BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" Height="50"  HorizontalAlignment="Left" VerticalAlignment="Top"  Click="Setting_Click" Canvas.Left="785" Canvas.Top="585">
+            <Button x:Name="Setting" Style="{StaticResource MyButtonStyle}"   BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" Height="50"  HorizontalAlignment="Left" VerticalAlignment="Top"  Click="Setting_Click" Canvas.Left="808" Canvas.Top="526">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Text="Setting" Name="SettingText" FontSize="14" FontFamily="Arial" Foreground="White"/>
+                    <TextBlock Text="Setting" x:Name="SettingText" FontSize="14" FontFamily="Marcellus" Foreground="#FF3C7FB1"/>
                     <Image Source="/Resources/SettingButton.png" Width="16" Height="16" Margin="10 0 0 0"/>
                 </StackPanel>
             </Button>
 
-            <ProgressBar x:Name="totalProgressBar"   Minimum="0" Maximum="100"  Height="16" BorderBrush="Transparent"   VerticalAlignment="Top" Width="523" Canvas.Left="102" Canvas.Top="635" HorizontalAlignment="Left">
+            <ProgressBar x:Name="totalProgressBar"   Minimum="0" Maximum="100"  Height="10" Width="1000" BorderBrush="Transparent"   VerticalAlignment="Top" Canvas.Left="102" Canvas.Top="635" HorizontalAlignment="Left">
                 <ProgressBar.Foreground>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                        <GradientStop Color="#64472C" Offset="0" />
-                        <GradientStop Color="#D37C1F" Offset="1" />
+                        <GradientStop Color="#008000 " Offset="0" />
+                        <GradientStop Color="#008000 " Offset="1" />
                     </LinearGradientBrush>
                 </ProgressBar.Foreground>
             </ProgressBar>
-            <ProgressBar x:Name="updateProgressBar" Minimum="0" Maximum="100" Height="16" BorderBrush="Transparent"   Width="523" Canvas.Left="102" Canvas.Top="597" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <ProgressBar Visibility="Hidden" x:Name="updateProgressBar" Minimum="0" Maximum="100" Height="16" BorderBrush="Transparent"   Width="1000" Canvas.Left="102" Canvas.Top="597" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <ProgressBar.Foreground>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                         <GradientStop Color="#775C36" Offset="0" />
@@ -132,28 +131,28 @@
                 </ProgressBar.Foreground>
             </ProgressBar>
 
-            <CheckBox x:Name="windowModeCheckBox"  IsChecked="{Binding Path=WindowMode}"  HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.751,2.917" Canvas.Left="790" Canvas.Top="657"/>
-            <Label Content="Window Mode" Foreground="AliceBlue" Canvas.Left="811" Canvas.Top="653" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Arial"/>
+            <CheckBox x:Name="windowModeCheckBox"  IsChecked="{Binding Path=WindowMode}" Background="#FF3C7FB1"  HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.751,2.917" Canvas.Left="874" Canvas.Top="586"/>
+            <Label Content="Window Mode" FontSize="14" Foreground="#FF3C7FB1" Canvas.Left="763" Canvas.Top="580" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Marcellus"/>
 
-            <TextBlock Name="status" TextAlignment="Center" Width="523"  Height="30" Foreground="AliceBlue"   FontSize="16" Canvas.Left="102" Canvas.Top="562" HorizontalAlignment="Center" FontFamily="Arial" VerticalAlignment="Top"  />
+            <TextBlock Name="status" Width="523"  Height="30" Foreground="AliceBlue"   FontSize="16" Canvas.Left="102" Canvas.Top="600" HorizontalAlignment="Center" FontFamily="Strong Sword" VerticalAlignment="Top"  />
 
             <Label Name="serverTime" Foreground="AliceBlue"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="208" Height="25" FontSize="16" Canvas.Left="111" Canvas.Top="507" />
-            <Label Name="connectServer" FontFamily="Arial" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Width="150" Height="39" Canvas.Left="102" Canvas.Top="661"/>
+            <Label Name="connectServer" FontFamily="Arial" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Width="150" Height="39" Canvas.Left="98" Canvas.Top="661"/>
 
-            <TextBlock Text="" FontWeight="Bold" Name="TotalProgressText" Canvas.Left="351" Canvas.Top="635"  HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFF3EEE9" FontFamily="Arial" Height="14">
+            <TextBlock Text="" FontWeight="Bold" Name="TotalProgressText" Canvas.Left="600" Canvas.Top="633"  HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFF3EEE9" FontFamily="Marcellus" Height="14">
                 <TextBlock.Effect>
                     <DropShadowEffect Color="Black" BlurRadius="3" ShadowDepth="2" Opacity="0.7"/>
                 </TextBlock.Effect>
             </TextBlock>
-            <TextBlock Text="" FontWeight="Bold" Name="UpdateProgressText" Canvas.Left="351" Canvas.Top="598"  HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFF3EEE9" FontFamily="Arial">
+            <TextBlock Text="" FontWeight="Bold" Visibility="Hidden" Name="UpdateProgressText" Canvas.Left="600" Canvas.Top="598"  HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFF3EEE9" FontFamily="Arial">
                 <TextBlock.Effect>
                     <DropShadowEffect Color="Black" BlurRadius="3" ShadowDepth="2" Opacity="0.7"/>
                 </TextBlock.Effect>
             </TextBlock>
-            <Border BorderBrush="#606060" BorderThickness="1" CornerRadius="0" Canvas.Left="640" Canvas.Top="103" Height="284" Width="515" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Border BorderBrush="#606060" BorderThickness="1" CornerRadius="0" Canvas.Left="640" Canvas.Top="103" Height="235" Width="515" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Image Cursor="Hand"  Stretch="Fill"  Name="imageControl"  MouseLeftButtonDown="imageControl_MouseDown"  HorizontalAlignment="Left" VerticalAlignment="Top" />
             </Border>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1077" Canvas.Top="350">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1077" Canvas.Top="300">
                 <Button Content="Click Me"  Cursor="Hand" Width="25" Height="25" Margin="0 0 10 0">
                     <Button.ContentTemplate >
                         <DataTemplate>
@@ -179,7 +178,7 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
-            <ListView BorderThickness="0" BorderBrush="Transparent" Height="131" Width="515" Name="listView" Background="Transparent"  Canvas.Left="640" Canvas.Top="421">
+            <ListView BorderThickness="0" BorderBrush="Transparent" Height="131" Width="515" Name="listView" Background="Transparent"  Canvas.Left="640" Canvas.Top="350" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <ListView.Resources>
                     <Style TargetType="GridViewColumnHeader">
                         <Setter Property="Template" Value="{x:Null}" />
@@ -204,7 +203,7 @@
                                 <ControlTemplate TargetType="{x:Type ListViewItem}">
                                     <StackPanel Orientation="Horizontal">
                                         <Image Source="/Resources/ArticleIcon.png" Width="16" Height="16" />
-                                        <TextBlock  Text="{Binding Title}" Margin="10 0 0 0" MouseLeftButtonDown="TextBlock_MouseDown" ></TextBlock>
+                                        <TextBlock  Text="{Binding Title}"  Margin="10 0 0 0" MouseLeftButtonDown="TextBlock_MouseDown" FontFamily="Strong Sword" ></TextBlock>
                                     </StackPanel>
                                 </ControlTemplate>
                             </Setter.Value>

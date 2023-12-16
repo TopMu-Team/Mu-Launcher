@@ -45,6 +45,9 @@ namespace WpfApp1
             ListResolution.Add(new ComboData { Id = 6, Value = "1600x900" });
             ListResolution.Add(new ComboData { Id = 7, Value = "1680x1050" });
             ListResolution.Add(new ComboData { Id = 8, Value = "1920x1080" });
+            ListResolution.Add(new ComboData { Id = 9, Value = "2160x1440" });
+            ListResolution.Add(new ComboData { Id = 10, Value = "3840x2160" });
+
             this.Resolution.ItemsSource = ListResolution;
             this.Resolution.DisplayMemberPath = "Value";
             this.Resolution.SelectedValuePath = "Id";
@@ -58,8 +61,10 @@ namespace WpfApp1
 
             List<ComboData> ListLanguage = new List<ComboData>();
             ListLanguage.Add(new ComboData { Id = 0, Value = "English" });
+            ListLanguage.Add(new ComboData { Id = 5, Value = "Vietnamese" });
             this.Language.ItemsSource = ListLanguage;
-            this.Language.DisplayMemberPath = "Value";           
+            this.Language.DisplayMemberPath = "Value";
+            this.Language.SelectedValuePath = "Id";
             this.Language.SelectedIndex = 0;
 
 
@@ -75,12 +80,18 @@ namespace WpfApp1
                 }
                 if (key == "WindowMode")
                 {
-                    this.WindowMode.SelectedValue = line.ToString().Split(c).GetValue(1);
+                    var value = line.ToString().Split(c).GetValue(1).ToString();
+                    this.WindowMode.SelectedValue = value;
                 }
                 if(key == "ID")
                 {
                     var value = line.ToString().Split(c).GetValue(1).ToString();
                     this.Account.Text = value;
+                }
+                if (key == "Language")
+                {
+                    var value = line.ToString().Split(c).GetValue(1).ToString();
+                    this.Language.SelectedValue = value;
                 }
             }            
         }
@@ -96,6 +107,9 @@ namespace WpfApp1
             var windowMode = (ComboData)this.WindowMode.SelectedItem;
             UpdateWindowMode(windowMode.Id.ToString());
 
+
+            var language = (ComboData)this.Language.SelectedItem;
+            UpdateLanguague(language.Id.ToString());
             this.Close();
         }
         private void UpdateDevModeIndex(string value)
@@ -145,6 +159,22 @@ namespace WpfApp1
             File.WriteAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if", lines.ToArray());
         }
 
-     
+        private void UpdateLanguague(string value)
+        {
+            var lines = File.ReadAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if");
+            var c = Char.Parse(":");
+            for (var i = 0; i < lines.Length; i++)
+            {
+                var key = lines.GetValue(i).ToString().Trim().Split(c).GetValue(0).ToString();
+                if (key == "Language")
+                {
+                    lines.SetValue("Language:" + value, i);
+                    break;
+                }
+            }
+            File.WriteAllLines(Directory.GetCurrentDirectory() + "/LauncherOption.if", lines.ToArray());
+        }
+
+
     }
 }
