@@ -10,7 +10,7 @@
         AllowsTransparency="True"
         Background="Transparent"
         Title="Launcher"
-        Height="700" Width="1200"
+        Height="720" Width="1200"
         
         >
     <Window.Resources>
@@ -46,9 +46,13 @@
         <BitmapImage x:Key="StartButtonImageDefault" UriSource="/Resources/StartButton.png" />
     </Window.Resources>
     <Grid  MouseLeftButtonDown="GridOfWindow_MouseLeftButtonDown">
-        <Image Source="/Resources/Background.png" Stretch="Fill" Margin="-10,0,10,0" />
-        <Canvas>
-            <ListView Background="{StaticResource TransparentBlue}" ScrollViewer.CanContentScroll="False" BorderThickness="0" BorderBrush="Transparent" Name="listViewNavigation"   Height="80" Width="1000" Canvas.Left="10" Canvas.Top="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="251*"/>
+            <RowDefinition Height="380*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Resources/Background.png" Stretch="Fill" Margin="36,43,10,0" Grid.RowSpan="2" />
+        <Canvas Margin="0,10,0,-82" Grid.RowSpan="2">
+            <ListView Visibility="Hidden" Background="{StaticResource TransparentBlue}" ScrollViewer.CanContentScroll="False" BorderThickness="0" BorderBrush="Transparent" Name="listViewNavigation"   Height="80" Width="1000" Canvas.Left="10" Canvas.Top="15">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel Orientation="Horizontal"/>
@@ -83,10 +87,10 @@
                     </Style>
                 </ListView.ItemContainerStyle>
             </ListView>
-            <Button Style="{StaticResource MyButtonStyle}" Name="Start" MouseLeave="Start_MouseLeave" MouseEnter="Start_MouseEnter" BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="69" Width="212" Click="Button_Start" Canvas.Left="890" Canvas.Top="535">
-                <Image Name="StartButtonImage" Source="/Resources/StartButton.png" Stretch="Fill" Width="202"/>
+            <Button Style="{StaticResource MyButtonStyle}" Name="Start"  BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Height="84" Width="88" Click="Button_Start" Canvas.Left="531" Canvas.Top="596">
+
             </Button>
-            <Button Style="{StaticResource MyButtonStyle}" Cursor="Hand" BorderBrush="Transparent"  BorderThickness="0"  HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Center" Width="40" Height="40" Name="Mimized" Click="Button_Minimized" Canvas.Left="1097" Canvas.Top="10">
+            <Button Style="{StaticResource MyButtonStyle}" Cursor="Hand" BorderBrush="Transparent"  BorderThickness="0"  HorizontalAlignment="Left" Canvas.Bottom="0" VerticalAlignment="Top" Width="40" Height="40" Name="Mimized" Click="Button_Minimized" Canvas.Left="878" Canvas.Top="154">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <Image Source="/Resources/MinButton.png" Stretch="Fill"/>
@@ -97,7 +101,7 @@
                 </Button.Background>
                 <StackPanel/>
             </Button>
-            <Button Style="{StaticResource MyButtonStyle}" Name="Close" BorderBrush="Transparent"  BorderThickness="0"  Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Close" Canvas.Left="1149" Canvas.Top="10">
+            <Button Style="{StaticResource MyButtonStyle}" Name="Close" BorderBrush="Transparent"  BorderThickness="0"  Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Close" Canvas.Left="928" Canvas.Top="180">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <Image Source="/Resources/ExitButton.png" Stretch="Fill"/>
@@ -107,22 +111,20 @@
                     <SolidColorBrush Color="Transparent" />
                 </Button.Background>
             </Button>
-            <Button x:Name="Setting" Style="{StaticResource MyButtonStyle}"   BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Cursor="Hand" Height="50"  HorizontalAlignment="Left" VerticalAlignment="Top"  Click="Setting_Click" Canvas.Left="808" Canvas.Top="526">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Text="Setting" x:Name="SettingText" FontSize="14" FontFamily="Marcellus" Foreground="#FF3C7FB1"/>
-                    <Image Source="/Resources/SettingButton.png" Width="16" Height="16" Margin="10 0 0 0"/>
-                </StackPanel>
+            <Button x:Name="Setting" Style="{StaticResource MyButtonStyle}"   BorderBrush="Transparent" BorderThickness="0"  Background="Transparent" Cursor="Hand"  HorizontalAlignment="Left" VerticalAlignment="Top"  Click="Setting_Click" Canvas.Left="125" Canvas.Top="340">
+                <Image Source="/Resources/SettingButton.png" Width="30" Height="30" Margin="0 0 0 0"/>
             </Button>
 
-            <ProgressBar x:Name="totalProgressBar"   Minimum="0" Maximum="100"  Height="10" Width="1000" BorderBrush="Transparent"   VerticalAlignment="Top" Canvas.Left="102" Canvas.Top="635" HorizontalAlignment="Left">
+            <ProgressBar  x:Name="totalProgressBar" Panel.ZIndex="999"  Value="100"  Minimum="0" Maximum="100"  Height="5" Width="358" BorderBrush="Transparent"   VerticalAlignment="Center" Canvas.Left="176" Canvas.Top="541" HorizontalAlignment="Left" >
                 <ProgressBar.Foreground>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                        <GradientStop Color="#008000 " Offset="0" />
-                        <GradientStop Color="#008000 " Offset="1" />
+                        <GradientStop Color="#A00000 " Offset="0" />
+                        <GradientStop Color="Red" Offset="1" />
                     </LinearGradientBrush>
                 </ProgressBar.Foreground>
             </ProgressBar>
-            <ProgressBar Visibility="Hidden" x:Name="updateProgressBar" Minimum="0" Maximum="100" Height="16" BorderBrush="Transparent"   Width="1000" Canvas.Left="102" Canvas.Top="597" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+            <ProgressBar  x:Name="updateProgressBar" Panel.ZIndex="999" Minimum="0" Maximum="100" Value="100" Height="5" BorderBrush="Transparent"   Width="357" Canvas.Left="177" Canvas.Top="523" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <ProgressBar.Foreground>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                         <GradientStop Color="#775C36" Offset="0" />
@@ -131,28 +133,41 @@
                 </ProgressBar.Foreground>
             </ProgressBar>
 
-            <CheckBox x:Name="windowModeCheckBox"  IsChecked="{Binding Path=WindowMode}" Background="#FF3C7FB1"  HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.751,2.917" Canvas.Left="874" Canvas.Top="586"/>
-            <Label Content="Window Mode" FontSize="14" Foreground="#FF3C7FB1" Canvas.Left="763" Canvas.Top="580" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Marcellus"/>
+            <CheckBox x:Name="windowModeCheckBox"  IsChecked="{Binding Path=WindowMode}" Background="#FF3C7FB1"  HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.751,2.917" Canvas.Left="706" Canvas.Top="569">
+                <CheckBox.Template>
+                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                        <Grid>
+                            <Image x:Name="CheckBoxImg" Width="16" Height="16" Source="/Resources/CheckBox.png" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="CheckBoxImg" Property="Source" Value="/Resources/BoxChecked.png" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </CheckBox.Template>
+            </CheckBox>
+            <Label Content="Window Mode" FontSize="14" Foreground="White" Canvas.Left="722" Canvas.Top="562" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Marcellus"/>
 
-            <TextBlock Name="status" Width="523"  Height="30" Foreground="AliceBlue"   FontSize="16" Canvas.Left="102" Canvas.Top="600" HorizontalAlignment="Center" FontFamily="Strong Sword" VerticalAlignment="Top"  />
 
-            <Label Name="serverTime" Foreground="AliceBlue"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="208" Height="25" FontSize="16" Canvas.Left="111" Canvas.Top="507" />
-            <Label Name="connectServer" FontFamily="Arial" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Width="150" Height="39" Canvas.Left="98" Canvas.Top="661"/>
+            <TextBlock Name="status" Width="358" Text="Text"  Height="36" Foreground="AliceBlue"   FontSize="16" Canvas.Left="176" Canvas.Top="497"  FontFamily="Arial" VerticalAlignment="Top"  TextAlignment="Center" HorizontalAlignment="Center" />
+            <Label Name="serverTime" Content="Server Time" Foreground="AliceBlue"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="194" Height="43" FontSize="16" Canvas.Left="555" Canvas.Top="526" />
+            <Label  Name="connectServer" Content="Connecting Server" Foreground="AliceBlue" FontFamily="Arial" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Width="178" Height="38" Canvas.Left="266" Canvas.Top="548"/>
 
-            <TextBlock Text="" FontWeight="Bold" Name="TotalProgressText" Canvas.Left="600" Canvas.Top="633"  HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFF3EEE9" FontFamily="Marcellus" Height="14">
+            <TextBlock Text="" FontWeight="Bold" Visibility="Hidden" Name="TotalProgressText" Canvas.Left="355" Canvas.Top="540"  HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFF3EEE9" FontFamily="Marcellus" Height="14">
                 <TextBlock.Effect>
                     <DropShadowEffect Color="Black" BlurRadius="3" ShadowDepth="2" Opacity="0.7"/>
                 </TextBlock.Effect>
             </TextBlock>
-            <TextBlock Text="" FontWeight="Bold" Visibility="Hidden" Name="UpdateProgressText" Canvas.Left="600" Canvas.Top="598"  HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFF3EEE9" FontFamily="Arial">
+            <TextBlock Text="" FontWeight="Bold" Visibility="Hidden" Name="UpdateProgressText" Canvas.Left="355" Canvas.Top="598"  HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFF3EEE9" FontFamily="Arial">
                 <TextBlock.Effect>
                     <DropShadowEffect Color="Black" BlurRadius="3" ShadowDepth="2" Opacity="0.7"/>
                 </TextBlock.Effect>
             </TextBlock>
-            <Border BorderBrush="#606060" BorderThickness="1" CornerRadius="0" Canvas.Left="640" Canvas.Top="103" Height="235" Width="515" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Border Visibility="Hidden" BorderBrush="#606060" BorderThickness="1" CornerRadius="0" Canvas.Left="640" Canvas.Top="103" Height="235" Width="515" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Image Cursor="Hand"  Stretch="Fill"  Name="imageControl"  MouseLeftButtonDown="imageControl_MouseDown"  HorizontalAlignment="Left" VerticalAlignment="Top" />
             </Border>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1077" Canvas.Top="300">
+            <StackPanel Visibility="Hidden" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1077" Canvas.Top="300">
                 <Button Content="Click Me"  Cursor="Hand" Width="25" Height="25" Margin="0 0 10 0">
                     <Button.ContentTemplate >
                         <DataTemplate>
@@ -178,7 +193,7 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
-            <ListView BorderThickness="0" BorderBrush="Transparent" Height="131" Width="515" Name="listView" Background="Transparent"  Canvas.Left="640" Canvas.Top="350" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <ListView Visibility="Hidden"  BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderBrush="Transparent"  Height="131" Width="515" Name="listView" Background="Transparent"  Canvas.Left="640" Canvas.Top="350" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <ListView.Resources>
                     <Style TargetType="GridViewColumnHeader">
                         <Setter Property="Template" Value="{x:Null}" />
@@ -203,7 +218,7 @@
                                 <ControlTemplate TargetType="{x:Type ListViewItem}">
                                     <StackPanel Orientation="Horizontal">
                                         <Image Source="/Resources/ArticleIcon.png" Width="16" Height="16" />
-                                        <TextBlock  Text="{Binding Title}"  Margin="10 0 0 0" MouseLeftButtonDown="TextBlock_MouseDown" FontFamily="Strong Sword" ></TextBlock>
+                                        <TextBlock ToolTip="{Binding Title}" TextWrapping="Wrap" Text="{Binding Title}"  Margin="10 0 0 0" MouseLeftButtonDown="TextBlock_MouseDown" FontFamily="Strong Sword" ></TextBlock>
                                     </StackPanel>
                                 </ControlTemplate>
                             </Setter.Value>
@@ -211,9 +226,26 @@
                     </Style>
                 </ListView.ItemContainerStyle>
             </ListView>
-            <Image Height="122" Width="187" Canvas.Left="140" Name="logoImage" Canvas.Top="414"/>
+            <Image Source="/Resources/Bar.png" Height="15" Canvas.Left="36" Canvas.Top="538" Width="670" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Image Source="/Resources/Bar.png" Height="15" Canvas.Left="36" Canvas.Top="520" Width="670" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Canvas.Left="100" TextWrapping="Wrap"  Canvas.Top="380">
+                <Hyperlink TextDecorations="None" NavigateUri="https://ficaloren.com/registration" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/Register.png" Width="100" Height="40" />
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Canvas.Left="100" TextWrapping="Wrap"  Canvas.Top="410">
+                <Hyperlink TextDecorations="None" NavigateUri="https://ficaloren.com/" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/Website.png" Width="100" Height="40" RenderTransformOrigin="0.5,0.598" />
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Canvas.Left="100" TextWrapping="Wrap"  Canvas.Top="440">
+                <Hyperlink TextDecorations="None" NavigateUri="https://ficaloren.com/rankings" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/Rankings.png" Width="100" Height="40" />
+                </Hyperlink>
+            </TextBlock>
         </Canvas>
     </Grid>
 </Window>
 
+    
     

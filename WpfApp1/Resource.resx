@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="apiUrl" xml:space="preserve">
-    <value>https://ficaevent.io.vn/updates/api.json</value>
+    <value>https://ficaloren.com/updates/api.json</value>
   </data>
   <data name="connectServerPort" xml:space="preserve">
-    <value>44455</value>
+    <value>44406</value>
   </data>
   <data name="downloadUrl" xml:space="preserve">
-    <value>https://ficaevent.io.vn/updates/</value>
+    <value>https://ficaloren.com/updates/</value>
   </data>
   <data name="gameServerPort" xml:space="preserve">
     <value>56900</value>
   </data>
   <data name="url" xml:space="preserve">
-    <value>103.68.251.65</value>
+    <value>103.90.224.58</value>
   </data>
 </root>

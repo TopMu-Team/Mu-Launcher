@@ -117,10 +117,12 @@ namespace WpfApp1
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
             InitializeComponent();
             this.DataContext = this;
+            Start.IsEnabled = false;
             this.Init();
             this.StartDownload();
-            //this.GetTimeServer();
+            this.GetTimeServer();
             this.GetStatusServer();
+            Start.IsEnabled = true;
         }
         private void InitListView(List<News> news)
         {
@@ -130,7 +132,7 @@ namespace WpfApp1
             {
                 listView.Items.Clear();
                 listView.FontFamily = new FontFamily("Arial");
-                listView.FontSize = 14;
+                listView.FontSize = 14; 
                 news.ForEach(item =>
                 {
                 });
@@ -142,27 +144,7 @@ namespace WpfApp1
           
         }
 
-        private void InitLogoImage(string url)
-        {
-            if(url != "")
-            {
-                try
-                {
-                   
-                    Dispatcher.BeginInvoke((Action)(() =>
-                    {
-                        BitmapImage bitmapImage = new BitmapImage(new Uri(url));
-                        logoImage.Source = bitmapImage;
-                    }));
-                }
-                catch (Exception ex)
-                {
-
-
-                }
-            }
-           
-        }
+ 
         private void InitNavigation(List<Navigation> navigations)
         {
            
@@ -178,7 +160,7 @@ namespace WpfApp1
 
             DispatcherTimer timer = new DispatcherTimer(TimeSpan.FromSeconds(1), DispatcherPriority.Normal, (object s, EventArgs ev) =>
             {
-                this.serverTime.Content = DateTime.UtcNow.AddHours(4).ToString();
+                this.serverTime.Content = DateTime.UtcNow.AddHours(-5).ToString();
             }, this.Dispatcher);
             timer.Start();
         }
@@ -351,20 +333,11 @@ namespace WpfApp1
                         Directory.Delete(tempFolder, true);
                     }
                     Dispatcher.BeginInvoke((Action)(() => {
-                        if(translate.UpdateSuccess != "")
-                        {
-                            this.status.Text = translate.UpdateSuccess;
-                        } else
-                        {
-                            this.status.Text = "The client has been updated to the latest version successfully";
-                        }
-
+                        this.status.Text = "The client has been updated to the latest version";
                         totalProgressBar.Value = 100;
                         updateProgressBar.Value = 100;
                         UpdateProgressText.Text = "100" + "%";
                         TotalProgressText.Text = "100" + "%";
-                        Start.IsEnabled = true;
-
                     }));
                 });
                 thread.Start();
@@ -469,12 +442,38 @@ namespace WpfApp1
         {
             try
             {
-                Process.Start(@"main.exe");
-                this.Close();
+                const string mutexName = "LauncherMutex";
+
+                // Create a named mutex
+                using (Mutex mutex = new Mutex(true, mutexName, out bool createdNew))
+                {
+                    if (createdNew)
+                    {
+                        // The mutex was created by this instance, indicating that this is the launcher
+                        Console.WriteLine("Launcher.exe: Mutex created. Press Enter to exit.");
+
+                        // Optionally, release the mutex when done
+                        // mutex.ReleaseMutex();
+
+                        Console.ReadLine();
+                        mutex.WaitOne(5000);
+                        Process.Start(@"main.exe");
+                        mutex.ReleaseMutex();
+                    }
+                    else
+                    {
+                        // The mutex already exists, indicating that this is not the launcher
+                        Console.WriteLine("main.exe: Mutex already exists. It is not launched from the launcher.");
+                    }
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                this.Close();
             }
         }
 
@@ -520,52 +519,41 @@ namespace WpfApp1
                 }
 
                 // Init data from api 
-                Thread thread = new Thread(async () =>
-                {
-                    try
-                    {
-                        WebClient getUrl = new WebClient();
-                        var text = getUrl.DownloadString(Resource.apiUrl).ToString();
-                        HandleJson jsonSerialiser = new HandleJson();
-                        Data data = jsonSerialiser.DeSerialize<Data>(text);
+                //Thread thread = new Thread(async () =>
+                //{
+                //    try
+                //    {
+                //        WebClient getUrl = new WebClient();
+                //        var text = getUrl.DownloadString(Resource.apiUrl).ToString();
+                //        HandleJson jsonSerialiser = new HandleJson();
+                //        Data data = jsonSerialiser.DeSerialize<Data>(text);
+                                            
 
+                //        foreach (var item in data.Banner)
+                //        {
+                //            imagePaths.Add(item);
+                //        }
+                //        // Init news
+                //        this.InitListView(data.News);
+                //        this.InitNavigation(data.Navigation);
+
+                //        // Init translate
+                //        this.translate = data.Translate;
+                //        //Slider show
+                //        timer.Interval = TimeSpan.FromSeconds(3); // Set the interval for image change
+                //        timer.Tick += Timer_Tick;
+                //        Dispatcher.BeginInvoke((Action)(() =>
+                //        {
+                //            ShowImage(imagePaths[currentIndex].ImgSrc);
+                //        }));
+                //        timer.Start();
                        
-                        Dispatcher.BeginInvoke((Action)(() =>
-                        {
-                            Start.IsEnabled = false;
-                        }));
+                //    } catch (Exception ex) { 
+                //        MessageBox.Show(ex.Message);
+                //    }
 
-                        foreach (var item in data.Banner)
-                        {
-                            imagePaths.Add(item);
-                        }
-                        // Init news
-                        this.InitListView(data.News);
-                        this.InitNavigation(data.Navigation);
-                        this.InitLogoImage(data.Logo);
-
-                        // Init translate
-                        this.translate = data.Translate;
-                        //Slider show
-                        timer.Interval = TimeSpan.FromSeconds(3); // Set the interval for image change
-                        timer.Tick += Timer_Tick;
-                        Dispatcher.BeginInvoke((Action)(() =>
-                        {
-                            ShowImage(imagePaths[currentIndex].ImgSrc);
-                            // Set setting text
-                            if (translate.SettingButton != "")
-                            {
-                                this.SettingText.Text = translate.SettingButton;
-                            }
-                        }));
-                        timer.Start();
-                       
-                    } catch (Exception ex) { 
-                        MessageBox.Show(ex.Message);
-                    }
-
-                });
-                thread.Start();
+                //});
+                //thread.Start();
             } catch(Exception ex) { }
         }
         private void updateWindowMode(string value)
@@ -663,14 +651,14 @@ namespace WpfApp1
 
         }
 
-        private void Start_MouseEnter(object sender, MouseEventArgs e)
+        private void totalProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            StartButtonImage.Source = (System.Windows.Media.Imaging.BitmapImage)FindResource("StartButtonImageHover");
+
         }
 
-        private void Start_MouseLeave(object sender, MouseEventArgs e)
+        private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
         {
-            StartButtonImage.Source = (System.Windows.Media.Imaging.BitmapImage)FindResource("StartButtonImageDefault");
+            Process.Start(e.Uri.ToString());
         }
     }
 }

@@ -61,7 +61,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://ficaevent.io.vn/updates/api.json.
+        ///   Looks up a localized string similar to https://ficaloren.com/updates/api.json.
         /// </summary>
         internal static string apiUrl {
             get {
@@ -70,7 +70,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 44455.
+        ///   Looks up a localized string similar to 44406.
         /// </summary>
         internal static string connectServerPort {
             get {
@@ -79,7 +79,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://ficaevent.io.vn/updates/.
+        ///   Looks up a localized string similar to https://ficaloren.com/updates/.
         /// </summary>
         internal static string downloadUrl {
             get {
@@ -97,7 +97,7 @@ namespace WpfApp1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 103.68.251.65.
+        ///   Looks up a localized string similar to 103.90.224.58.
         /// </summary>
         internal static string url {
             get {

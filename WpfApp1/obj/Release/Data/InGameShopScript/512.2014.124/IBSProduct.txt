@@ -1,0 +1,1528 @@
+1@testddd@Quantity@test@EA@1000@1@142@145@1@144@673@518@1200@7@138@680
+2@testddd@Quantity@test@EA@1000@2@142@145@1@144@673@518@1200@7@138@680
+3@Seal of Wealth(3day)@Duration@259200@Sec.@0@3@142@145@1@144@673@518@6700@10@140@386
+4@Scroll of Wizardry(3Day)@Duration@259200@Sec.@0@4@142@145@1@144@673@518@7243@10@140@386
+5@Scroll of Wrath(3Day)@Duration@259200@Sec.@0@5@142@145@1@144@673@518@7242@10@140@386
+6@Pet Panda(3Day)@Duration@259200@Sec.@0@6@142@145@1@144@673@518@6736@10@140@386
+7@Ruby Ring(5Day)@Duration@432000@Sec.@0@7@142@145@1@144@673@518@6766@10@140@386
+8@Topaz Ring(5Day)@Duration@432000@Sec.@0@8@142@145@1@144@673@518@6767@10@140@386
+9@ Seal of Ascension@Duration@1440@[1 Day(s)]@100@9@142@145@1@144@673@518@6699@10@138@680
+9@ Seal of Ascension@Duration@4320@[3 Day(s)]@250@10@142@145@1@144@673@518@6699@10@138@680
+9@ Seal of Ascension@Duration@10080@[7 Day(s)]@500@11@142@145@1@144@673@518@6699@10@138@680
+9@ Seal of Ascension@Duration@43200@[30 Day(s)]@1400@12@142@145@1@144@673@518@6699@10@138@680
+10@Seal of Wealth@Duration@1440@[1 Day(s)]@5000@13@142@145@1@144@673@518@6700@10@138@680
+10@Seal of Wealth@Duration@4320@[3 Day(s)]@30000@14@142@145@1@144@673@518@6700@10@138@680
+10@Seal of Wealth@Duration@10080@[7 Day(s)]@120000@15@142@145@1@144@673@518@6700@10@138@680
+10@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@16@142@145@1@144@673@518@6700@10@138@680
+11@ Seal of Sustenance@Duration@1440@[1 Day(s)]@80@17@142@145@1@144@673@518@6701@10@138@680
+11@ Seal of Sustenance@Duration@14400@[10 Day(s)]@680@18@142@145@1@144@673@518@6701@10@138@680
+11@ Seal of Sustenance@Duration@43200@[30 Day(s)]@1250@19@142@145@1@144@673@518@6701@10@138@680
+12@ Devil Square Ticket@Quantity@1@EA@100@20@142@145@1@144@673@518@6702@7@138@680
+12@ Devil Square Ticket@Quantity@1@EA@900@21@142@145@1@144@673@518@6702@7@138@680
+13@ Blood Castle Ticket@Quantity@1@EA@100@22@142@145@1@144@673@518@6703@7@138@680
+13@ Blood Castle Ticket@Quantity@1@EA@900@23@142@145@1@144@673@518@6703@7@138@680
+14@Reset Fruit Strength@Quantity@1@EA@250@24@142@145@1@144@673@518@6710@7@138@680
+15@Reset Fruit Quickness@Quantity@1@EA@250@25@142@145@1@144@673@518@6711@7@138@680
+16@Reset Fruit Health@Quantity@1@EA@250@26@142@145@1@144@673@518@6712@7@138@680
+17@Reset Fruit Energy@Quantity@1@EA@250@27@142@145@1@144@673@518@6713@7@138@680
+18@Reset Fruit Control@Quantity@1@EA@250@28@142@145@1@144@673@518@6714@7@138@680
+19@ Illusion Temple Ticket@Quantity@1@EA@150@29@142@145@1@144@673@518@6717@7@138@680
+19@ Illusion Temple Ticket@Quantity@1@EA@1350@30@142@145@1@144@673@518@6717@7@138@680
+20@Demon@Duration@1440@[1 Day(s)]@7000@31@142@145@1@144@673@518@6720@10@138@680
+20@Demon@Duration@10080@[7 Day(s)]@42000@32@142@145@1@144@673@518@6720@10@138@680
+20@Demon@Duration@43200@[30 Day(s)]@168000@33@142@145@1@144@673@518@6720@10@138@680
+21@Spirit of Guardian@Duration@1440@[1 Day(s)]@7000@34@142@145@1@144@673@518@6721@10@138@680
+21@Spirit of Guardian@Duration@10080@[7 Day(s)]@49000@35@142@145@1@144@673@518@6721@10@138@680
+21@Spirit of Guardian@Duration@43200@[30 Day(s)]@168000@36@142@145@1@144@673@518@6721@10@138@680
+22@ Talisman of Luck@Rate@1@%@50@37@142@145@1@144@673@518@7221@74@138@680
+22@ Talisman of Luck@Rate@1@%@200@38@142@145@1@144@673@518@7221@74@138@680
+23@Elite Healing Potion@Quantity@1@EA@20@39@142@145@1@144@673@518@7238@7@138@680
+24@Elite Mana Potion@Quantity@1@EA@20@40@142@145@1@144@673@518@7239@7@138@680
+25@ Scroll of Quickness@Duration@1440@[1 Day(s)]@150@41@142@145@1@144@673@518@7240@10@138@680
+25@ Scroll of Quickness@Duration@10080@[7 Day(s)]@700@42@142@145@1@144@673@518@7240@10@138@680
+26@ Scroll of Protection@Duration@1440@[1 Day(s)]@100@43@142@145@1@144@673@518@7241@10@138@680
+26@ Scroll of Protection@Duration@10080@[7 Day(s)]@500@44@142@145@1@144@673@518@7241@10@138@680
+27@ Scroll of Wrath@Duration@1440@[1 Day(s)]@150@45@142@145@1@144@673@518@7242@10@138@680
+27@ Scroll of Wrath@Duration@10080@[7 Day(s)]@700@46@142@145@1@144@673@518@7242@10@138@680
+28@ Scroll of Wizardry@Duration@1440@[1 Day(s)]@150@47@142@145@1@144@673@518@7243@10@138@680
+28@ Scroll of Wizardry@Duration@10080@[7 Day(s)]@700@48@142@145@1@144@673@518@7243@10@138@680
+29@ Scroll of Health@Duration@1440@[1 Day(s)]@100@49@142@145@1@144@673@518@7244@10@138@680
+29@ Scroll of Health@Duration@10080@[7 Day(s)]@500@50@142@145@1@144@673@518@7244@10@138@680
+30@ Scroll of Mana@Duration@1440@[1 Day(s)]@100@51@142@145@1@144@673@518@7245@10@138@680
+30@ Scroll of Mana@Duration@10080@[7 Day(s)]@500@52@142@145@1@144@673@518@7245@10@138@680
+31@Summoner Character Card@Quantity@1@NA@500@53@142@145@1@144@673@518@7259@7@138@680
+32@Chaos Card Gold@Quantity@1@EA@350@54@142@145@1@144@673@518@7260@7@138@680
+33@Chaos Card Rare@Quantity@1@EA@500@55@142@145@1@144@673@518@7261@7@138@680
+34@Chaos Card  Mini@Quantity@1@EA@120@56@142@145@1@144@673@518@7263@7@138@680
+35@Talisman of Chaos Assembly@Quantity@1@EA@2000@57@142@145@1@144@673@518@7264@7@138@680
+36@ Scroll of Battle@Duration@1440@[1 Day(s)]@150@58@142@145@1@144@673@518@7265@10@138@680
+36@ Scroll of Battle@Duration@10080@[7 Day(s)]@700@59@142@145@1@144@673@518@7265@10@138@680
+37@ Scroll of Strengthener@Duration@1440@[1 Day(s)]@150@60@142@145@1@144@673@518@7266@10@138@680
+37@ Scroll of Strengthener@Duration@10080@[7 Day(s)]@700@61@142@145@1@144@673@518@7266@10@138@680
+38@Seal of Healing@Duration@1440@[1 Day(s)]@120@62@142@145@1@144@673@518@6718@10@138@680
+38@Seal of Healing@Duration@10080@[7 Day(s)]@600@63@142@145@1@144@673@518@6718@10@138@680
+38@Seal of Healing@Duration@43200@[30 Day(s)]@1000@1311@142@145@1@144@673@518@6718@10@138@680
+39@Seal of Divinity@Duration@1440@[1 Day(s)]@100@64@142@145@1@144@673@518@6719@10@138@680
+39@Seal of Divinity@Duration@10080@[7 Day(s)]@500@65@142@145@1@144@673@518@6719@10@138@680
+39@Seal of Divinity@Duration@43200@[30 Day(s)]@1000@1313@142@145@1@144@673@518@6719@10@138@680
+40@Talisman of Resurrection@Quantity@1@EA@50@66@142@145@1@144@673@518@6725@7@138@680
+41@Talisman of Mobility@Quantity@1@EA@40@67@142@145@1@144@673@518@6726@7@138@680
+42@Leap of Strength@Quantity@1@EA@480@68@142@145@1@144@673@518@7246@7@138@680
+43@Leap of Quickness@Quantity@1@EA@480@69@142@145@1@144@673@518@7247@7@138@680
+44@Leap of Health@Quantity@1@EA@480@70@142@145@1@144@673@518@7248@7@138@680
+45@Leap of Energy@Quantity@1@EA@480@71@142@145@1@144@673@518@7249@7@138@680
+46@Leap of Control@Quantity@1@EA@480@72@142@145@1@144@673@518@7250@7@138@680
+47@ Kalima Ticket@Quantity@1@EA@80@73@142@145@1@144@673@518@6704@7@138@680
+47@ Kalima Ticket@Quantity@1@EA@720@74@142@145@1@144@673@518@6704@7@138@680
+48@Talisman of Guardian@Quantity@1@EA@50@75@142@145@1@144@673@518@6737@7@138@680
+49@Talisman of Item Protection@Quantity@1@EA@50@76@142@145@1@144@673@518@6738@7@138@680
+50@ Master Seal of Ascension@Duration@1440@[1 Day(s)]@100@77@142@145@1@144@673@518@6749@10@138@680
+50@ Master Seal of Ascension@Duration@10080@[7 Day(s)]@500@78@142@145@1@144@673@518@6749@10@138@680
+50@ Master Seal of Ascension@Duration@43200@[30 Day(s)]@1400@79@142@145@1@144@673@518@6749@10@138@680
+51@ Master Seal of Wealth@Duration@1440@[1 Day(s)]@150@80@142@145@1@144@673@518@6750@10@138@680
+51@ Master Seal of Wealth@Duration@10080@[7 Day(s)]@700@81@142@145@1@144@673@518@6750@10@138@680
+51@ Master Seal of Wealth@Duration@43200@[30 Day(s)]@2100@82@142@145@1@144@673@518@6750@10@138@680
+52@Gold Channel Ticket@Duration@604800@Sec.@600@83@142@145@1@144@673@518@6780@2@135@386
+52@Gold Channel Ticket@Duration@2592000@Sec.@1400@84@142@145@1@144@673@518@6780@2@135@386
+53@ Small Wings of Disaster@Duration@1440@[1 Day(s)]@90@85@142@145@1@144@673@518@6275@10@138@680
+53@ Small Wings of Disaster@Duration@10080@[7 Day(s)]@450@86@142@145@1@144@673@518@6275@10@138@680
+54@ Small Wings of Fairy@Duration@1440@[1 Day(s)]@90@87@142@145@1@144@673@518@6276@10@138@680
+54@ Small Wings of Fairy@Duration@10080@[7 Day(s)]@450@88@142@145@1@144@673@518@6276@10@138@680
+55@ Small Wings of Heaven@Duration@1440@[1 Day(s)]@90@89@142@145@1@144@673@518@6277@10@138@680
+55@ Small Wings of Heaven@Duration@10080@[7 Day(s)]@450@90@142@145@1@144@673@518@6277@10@138@680
+56@ Small Wings of Satan@Duration@1440@[1 Day(s)]@90@91@142@145@1@144@673@518@6278@10@138@680
+56@ Small Wings of Satan@Duration@10080@[7 Day(s)]@450@92@142@145@1@144@673@518@6278@10@138@680
+57@Panda Ring@Duration@1440@[1 Day(s)]@5000@93@142@145@1@144@673@518@6732@10@138@680
+57@Panda Ring@Duration@10080@[7 Day(s)]@30000@94@142@145@1@144@673@518@6732@10@138@680
+57@Panda Ring@Duration@43200@[30 Day(s)]@12000@1126@142@145@1@144@673@518@6732@10@138@680
+58@ Wizard Ring@Duration@1440@[1 Day(s)]@100@95@142@145@1@144@673@518@6676@10@138@680
+58@ Wizard Ring@Duration@10080@[7 Day(s)]@500@96@142@145@1@144@673@518@6676@10@138@680
+59@ Skeleton Transformation Ring@Duration@1440@[1 Day(s)]@100@97@142@145@1@144@673@518@6778@10@138@680
+59@ Skeleton Transformation Ring@Duration@10080@[7 Day(s)]@500@98@142@145@1@144@673@518@6778@10@138@680
+60@Pet Panda@Duration@1440@[1 Day(s)]@5000@99@142@145@1@144@673@518@6736@10@138@680
+60@Pet Panda@Duration@10080@[7 Day(s)]@30000@100@142@145@1@144@673@518@6736@10@138@680
+60@Pet Panda@Duration@43200@[30 Day(s)]@120000@1165@142@145@1@144@673@518@6736@10@138@680
+61@Pet Skeleton@Duration@1440@[1 Day(s)]@5000@101@142@145@1@144@673@518@6779@10@138@680
+61@Pet Skeleton@Duration@10080@[7 Day(s)]@30000@102@142@145@1@144@673@518@6779@10@138@680
+61@Pet Skeleton@Duration@43200@[30 Day(s)]@120000@1166@142@145@1@144@673@518@6779@10@138@680
+62@ Sapphire Ring@Duration@1440@[1 Day(s)]@80@103@142@145@1@144@673@518@6765@10@138@680
+62@ Sapphire Ring@Duration@10080@[7 Day(s)]@400@104@142@145@1@144@673@518@6765@10@138@680
+63@ Ruby Ring@Duration@1440@[1 Day(s)]@80@105@142@145@1@144@673@518@6766@10@138@680
+63@ Ruby Ring@Duration@10080@[7 Day(s)]@400@106@142@145@1@144@673@518@6766@10@138@680
+64@ Topaz Ring@Duration@1440@[1 Day(s)]@80@107@142@145@1@144@673@518@6767@10@138@680
+64@ Topaz Ring@Duration@10080@[7 Day(s)]@400@108@142@145@1@144@673@518@6767@10@138@680
+65@ Amethyst Ring@Duration@1440@[1 Day(s)]@80@109@142@145@1@144@673@518@6768@10@138@680
+65@ Amethyst Ring@Duration@10080@[7 Day(s)]@400@110@142@145@1@144@673@518@6768@10@138@680
+66@ Ruby Necklace@Duration@1440@[1 Day(s)]@90@111@142@145@1@144@673@518@6769@10@138@680
+66@ Ruby Necklace@Duration@10080@[7 Day(s)]@450@112@142@145@1@144@673@518@6769@10@138@680
+67@Emerald Necklace@Duration@1440@[1 Day(s)]@90@113@142@145@1@144@673@518@6770@10@138@680
+67@Emerald Necklace@Duration@10080@[7 Day(s)]@450@114@142@145@1@144@673@518@6770@10@138@680
+68@Sapphire Necklace@Duration@1440@[1 Day(s)]@90@115@142@145@1@144@673@518@6771@10@138@680
+68@Sapphire Necklace@Duration@10080@[7 Day(s)]@450@116@142@145@1@144@673@518@6771@10@138@680
+69@Silver Key@Quantity@1@EA@20@117@142@145@1@144@673@518@7280@7@138@680
+70@Gold Key@Quantity@1@EA@60@118@142@145@1@144@673@518@7281@7@138@680
+71@ Critical Ring of Wizard@Duration@1440@[1 Day(s)]@300@119@142@145@1@144@673@518@6763@10@138@680
+71@ Critical Ring of Wizard@Duration@10080@[7 Day(s)]@300@120@142@145@1@144@673@518@6763@10@138@680
+72@Pet Unicorn@Duration@1440@[1 Day(s)]@5000@121@142@145@1@144@673@518@6762@10@138@680
+72@Pet Unicorn@Duration@10080@[7 Day(s)]@30000@122@142@145@1@144@673@518@6762@10@138@680
+72@Pet Unicorn@Duration@43200@[30 Day(s)]@120000@1167@142@145@1@144@673@518@6762@10@138@680
+73@ AG Boost Aura@Duration@1440@[1 Day(s)]@120@123@142@145@1@144@673@518@6760@10@138@680
+73@ AG Boost Aura@Duration@10080@[7 Day(s)]@600@124@142@145@1@144@673@518@6760@10@138@680
+74@ SD Boost Aura@Duration@1440@[1 Day(s)]@120@125@142@145@1@144@673@518@6761@10@138@680
+74@ SD Boost Aura@Duration@10080@[7 Day(s)]@600@126@142@145@1@144@673@518@6761@10@138@680
+75@Party EXP Increase@Duration@86400@Sec.@80@127@142@145@1@144@673@518@6759@10@140@386
+75@Party EXP Increase@Duration@604800@Sec.@400@128@142@145@1@144@673@518@6759@10@140@386
+76@Elite SD Potion@Quantity@1@EA@40@129@142@145@1@144@673@518@7301@7@138@680
+77@Open Access Ticket to Doppelganger@Quantity@1@EA@100@130@142@145@1@144@673@518@6781@7@138@680
+77@Open Access Ticket to Doppelganger@Quantity@10@EA@900@131@142@145@1@144@673@518@6781@7@138@680
+78@Open Access Ticket to Varka@Quantity@1@EA@100@132@142@145@1@144@673@518@6782@7@138@680
+78@Open Access Ticket to Varka@Quantity@10@EA@900@133@142@145@1@144@673@518@6782@7@138@680
+79@ Open Access Ticket to Varka 7@Quantity@1@EA@100@134@142@145@1@144@673@518@6783@7@138@680
+79@ Open Access Ticket to Varka 7@Quantity@1@EA@900@135@142@145@1@144@673@518@6783@7@138@680
+80@Talisman of Guardian@Duration@86400@Sec.@50@136@142@145@1@144@673@518@6737@10@140@386
+80@Talisman of Guardian@Duration@604800@Sec.@250@137@142@145@1@144@673@518@6737@10@140@386
+81@Talisman of Item Protection@Duration@86400@Sec.@50@138@142@145@1@144@673@518@6738@10@140@386
+81@Talisman of Item Protection@Duration@604800@Sec.@250@139@142@145@1@144@673@518@6738@10@140@386
+82@Gold Channel Ticket*@Duration@259200@Sec.@290@140@142@145@1@144@673@518@6780@2@135@386
+83@G-Scroll of Wrath@Duration@21600@Sec.@300@141@142@145@1@144@673@518@7242@10@140@386
+84@G-Scroll of Wizardry@Duration@21600@Sec.@300@142@142@145@1@144@673@518@7243@10@140@386
+85@G-Scroll of Health@Duration@21600@Sec.@200@143@142@145@1@144@673@518@7244@10@140@386
+86@G-Scroll of Mana@Duration@21600@Sec.@200@144@142@145@1@144@673@518@7245@10@140@386
+87@G-Scroll of Quickness@Duration@21600@Sec.@300@145@142@145@1@144@673@518@7240@10@140@386
+88@G-Scroll of Protection@Duration@21600@Sec.@200@146@142@145@1@144@673@518@7241@10@140@386
+89@G-Medium Elite Healing Potion@Quantity@10@EA@40@147@142@145@1@144@673@518@7262@7@138@680
+90@G-Devil Square Ticket@Quantity@1@EA@360@148@142@145@1@144@673@518@6702@7@138@680
+91@G-Blood Castle Ticket@Quantity@1@EA@360@149@142@145@1@144@673@518@6703@7@138@680
+92@G-Illusion Temple Ticket@Quantity@1@EA@410@150@142@145@1@144@673@518@6717@7@138@680
+93@Test_GB@���� ���ϸ���@100000@WReward@0@151@142@145@1@144@673@518@1@59@515@596
+94@Seal of Wealth*@Duration@604800@Sec.@700@152@142@145@1@144@673@518@6700@10@140@386
+95@Master Seal of Wealth*@Duration@604800@Sec.@700@153@142@145@1@144@673@518@6750@10@140@386
+96@Chaos Card Gold*@Quantity@1@EA@80@154@142@145@1@144@673@518@7260@7@138@680
+97@Scroll of Protection*@Duration@86400@Sec.@30@155@142@145@1@144@673@518@7241@10@140@386
+98@Gold Channel Ticket**@Duration@604800@Sec.@600@156@142@145@1@144@673@518@6780@2@135@386
+99@Chaos Card Gold**@Quantity@1@EA@80@157@142@145@1@144@673@518@7260@7@138@680
+100@Chaos Card Gold***@Quantity@1@EA@80@158@142@145@1@144@673@518@7260@7@138@680
+101@Pet Panda*@Duration@172800@Sec.@0@159@142@145@1@144@673@518@6736@10@140@386
+102@Pet Panda**@Duration@345600@Sec.@0@160@142@145@1@144@673@518@6736@10@140@386
+103@Silver Key_Day@Quantity@1@EA@0@162@142@145@1@144@673@518@7280@7@138@680
+104@Gold Key_7Days@Quantity@1@EA@0@163@142@145@1@144@673@518@7281@7@138@680
+105@Elite Healing Potion_7Days@Quantity@20@EA@0@164@142@145@1@144@673@518@7238@7@138@680
+106@Skeleton Transformation Ring_7Days@Duration@86400@Sec.@0@165@142@145@1@144@673@518@6778@10@140@386
+107@Pet Panda_30Days@Duration@259200@Sec.@0@166@142@145@1@144@673@518@6736@10@140@386
+108@Chaos Card Gold_30Days@Quantity@1@EA@0@167@142@145@1@144@673@518@7260@7@138@680
+109@Seal of Ascension_30Days@Duration@604800@Sec.@0@168@142@145@1@144@673@518@6699@10@140@386
+110@Master Seal of Ascension_30Days@Duration@604800@Sec.@0@169@142@145@1@144@673@518@6749@10@140@386
+111@Gold Channel Ticket_3Days@Duration@259200@Sec.@290@170@142@145@1@144@673@518@6780@2@135@386
+112@Seed (Lightning)@Quantity@1@EA@2000@171@142@145@1@144@673@518@6208@7@138@680
+113@Seed (Fire)@Quantity@1@EA@1900@172@142@145@1@144@673@518@6204@7@138@680
+114@Seed (Ice)@Quantity@1@EA@1700@173@142@145@1@144@673@518@6206@7@138@680
+115@D-Scroll of Quickness@Duration@86400@Sec.@0@174@142@145@1@144@673@518@7240@10@140@386
+116@D-Elite SD Potion@Quantity@10@EA@0@175@142@145@1@144@673@518@7301@7@138@680
+117@B-Chaos Card  Mini@Quantity@1@EA@0@176@142@145@1@144@673@518@7263@7@138@680
+118@D-Critical Ring of Wizard@Duration@86400@Sec.@130@177@142@145@1@144@673@518@6763@10@140@386
+119@D-Demon@Duration@86400@Sec.@100@178@142@145@1@144@673@518@6720@10@140@386
+120@D-Scroll of Strengthener@Duration@86400@Sec.@150@179@142@145@1@144@673@518@7266@10@140@386
+121@D-SD Boost Aura@Duration@86400@Sec.@120@180@142@145@1@144@673@518@6761@10@140@386
+122@D-Ruby Necklace@Duration@86400@Sec.@0@181@142@145@1@144@673@518@6769@10@140@386
+123@B-Talisman of Luck@Rate@1@%@100@182@142@145@1@144@673@518@7221@74@138@304
+124@B-Silver Key@Quantity@1@EA@0@183@142@145@1@144@673@518@7280@7@138@680
+125@B-1 Silver Key@Quantity@1@EA@20@184@142@145@1@144@673@518@7280@7@138@680
+126@B-2 Silver Key@Quantity@1@EA@20@185@142@145@1@144@673@518@7280@7@138@680
+128@Gold Channel Ticket@Duration@259200@Sec.@0@187@142@145@1@144@673@518@6780@2@135@386
+129@Gold Channel Ticket-Limited@Duration@604800@Sec.@400@188@142@145@1@144@673@518@6780@2@135@386
+129@Gold Channel Ticket-Limited@Duration@2592000@Sec.@1400@189@142@145@1@144@673@518@6780@2@135@386
+130@Pet Panda-1Day@Duration@86400@Sec.@0@190@142@145@1@144@673@518@6736@10@140@386
+131@Gold Key-1EA@Quantity@1@EA@0@191@142@145@1@144@673@518@7281@7@138@680
+132@Chaos Card Gold_BUG Event@Quantity@1@EA@0@192@142@145@1@144@673@518@7260@7@138@680
+133@Seed (Water) DEF Accuracy@Quantity@1@EA@1000@193@142@145@1@144@673@518@6205@7@138@680
+134@Seed (Water) DEF Increase@Quantity@1@EA@1000@194@142@145@1@144@673@518@6205@7@138@680
+135@Seed (Wind)@Quantity@1@EA@1000@195@142@145@1@144@673@518@6207@7@138@680
+136@Seed (Earth)@Quantity@1@EA@2000@196@142@145@1@144@673@518@6209@7@138@680
+137@Gold Channel Ticket_Nov_Event@Duration@604800@Sec.@0@197@142@145@1@144@673@518@6780@2@135@386
+138@Chaos Card Gold_Nov_Event@Quantity@1@EA@0@198@142@145@1@144@673@518@7260@7@138@680
+139@Scroll of Quickness-ALL@Duration@86400@Sec.@50@199@142@145@1@144@673@518@7240@10@140@386
+140@Scroll of Protection-ALL@Duration@86400@Sec.@30@200@142@145@1@144@673@518@7241@10@140@386
+141@Scroll of Wrath-ALL@Duration@86400@Sec.@30@201@142@145@1@144@673@518@7242@10@140@386
+142@Scroll of Wizardry-ALL@Duration@86400@Sec.@30@202@142@145@1@144@673@518@7243@10@140@386
+143@Scroll of Health-ALL@Duration@86400@Sec.@30@203@142@145@1@144@673@518@7244@10@140@386
+144@Scroll of Mana-ALL@Duration@86400@Sec.@30@204@142@145@1@144@673@518@7245@10@140@386
+145@Charater Transfer@Quantity@1@EA@1900@205@142@145@1@144@673@518@7286@11@137@680
+146@Server Transfer@Quantity@1@EA@2900@206@142@145@1@144@673@518@7286@11@137@680
+147@Character Name Change@Quantity@1@EA@1900@207@142@145@1@144@673@518@7285@11@137@680
+148@Master Skill Initialization@Quantity@1@EA@3900@208@142@145@1@144@673@518@7282@11@137@680
+149@Premium Service@Quantity@1@&nbsp;@0@209@142@145@1@144@673@518@7305@9@140@147
+150@Server Transfer@Quantity@1@EA@0@210@142@145@1@144@673@518@7286@11@137@680
+151@Character Transfer@Quantity@1@EA@0@211@142@145@1@144@673@518@7285@11@137@680
+152@Pet Panda-7day_Event@Duration@604800@Sec.@0@212@142@145@1@144@673@518@6736@10@140@386
+154@Gold Channel Ticket_1Day@Duration@86400@Sec.@190@214@142@145@1@144@673@518@6780@2@135@386
+155@GP-500@���� ���ϸ���@500@WReward@0@215@142@145@1@144@673@518@7288@59@515@596
+156@Scroll of Mana-P@Duration@86400@Sec.@56@216@142@145@1@144@673@518@7245@10@140@386
+157@Scroll of Health-P@Duration@86400@Sec.@56@217@142@145@1@144@673@518@7244@10@140@386
+158@Scroll of Wizardry-P@Duration@86400@Sec.@120@218@142@145@1@144@673@518@7243@10@140@386
+159@Scroll of Wrath-P@Duration@86400@Sec.@120@219@142@145@1@144@673@518@7242@10@140@386
+160@Scroll of Protection-P@Duration@86400@Sec.@100@220@142@145@1@144@673@518@7241@10@140@386
+161@Scroll of Quickness-P@Duration@86400@Sec.@100@221@142@145@1@144@673@518@7240@10@140@386
+162@Scroll of Battle-P@Duration@86400@Sec.@56@222@142@145@1@144@673@518@7265@10@140@386
+163@Silver Key - 1th day@Quantity@1@EA@0@223@142@145@1@144@673@518@7280@7@138@680
+164@Gold Key - 5th day@Quantity@1@EA@0@224@142@145@1@144@673@518@7281@7@138@680
+165@Chaos Card Mini - 9th day@Quantity@1@EA@0@225@142@145@1@144@673@518@7263@7@138@680
+166@Chaos Card Gold - 13th day@Quantity@1@EA@0@226@142@145@1@144@673@518@7260@7@138@680
+167@Pet Panda_1Day - 17th day@Duration@86400@Sec.@0@227@142@145@1@144@673@518@6736@10@140@386
+168@Panda Ring_1Day - 17th day@Duration@86400@Sec.@0@228@142@145@1@144@673@518@6732@10@140@386
+169@Gold Channel Ticket_3Days - 20th day@Duration@259200@Sec.@0@229@142@145@1@144@673@518@6780@2@135@386
+170@Talisman of Luck_1% Increases - 20th day@Rate@1@%@0@230@142@145@1@144@673@518@7221@74@138@304
+171@Gold Channel Ticket_3Days_Event@Duration@259200@Sec.@0@231@142@145@1@144@673@518@6780@2@135@386
+172@Pet Skeleton_7Day_Event@Duration@604800@Sec.@0@232@142@145@1@144@673@518@6779@10@140@386
+173@Skeleton Transformation Ring_7Day_Event@Duration@604800@Sec.@0@233@142@145@1@144@673@518@6778@10@140@386
+174@Rage Fighter Character Card_Event@Quantity@1@EA@0@234@142@145@1@144@673@518@7337@7@138@680
+175@Gold Channel Ticket_7Day_Event@Duration@604800@Sec.@0@235@142@145@1@144@673@518@6780@2@135@386
+176@Pet Panda_7Day_Event@Duration@604800@Sec.@0@236@142@145@1@144@673@518@6736@10@140@386
+177@Panda Ring_7Day_Event@Duration@604800@Sec.@0@237@142@145@1@144@673@518@6732@10@140@386
+178@Talisman of Mobility_Event@Quantity@1@EA@0@238@142@145@1@144@673@518@6726@7@138@680
+179@Talisman of Resurrection_Event@Quantity@1@EA@0@239@142@145@1@144@673@518@6725@7@138@680
+180@Scroll of Protection_7Day_Event@Duration@604800@Sec.@0@240@142@145@1@144@673@518@7241@10@140@386
+181@Scroll of Health_7Day_Event@Duration@604800@Sec.@0@241@142@145@1@144@673@518@7244@10@140@386
+182@Scroll of Mana_7Day_Event@Duration@604800@Sec.@0@242@142@145@1@144@673@518@7245@10@140@386
+183@Charater transfer_Event@Quantity@1@EA@0@243@142@145@1@143@673@518@7286@11@137@680
+184@Seal of Ascension_Reward for DC@Duration@86400@Sec.@0@244@142@145@1@144@673@518@6699@10@140@386
+185@Master Seal of Ascension_Reward for DC@Duration@86400@Sec.@0@245@142@145@1@144@673@518@6749@10@140@386
+186@Charater transfer_Event@Quantity@1@EA@0@246@142@145@1@144@673@518@7286@11@137@680
+187@Silver Key_Event@Quantity@1@EA@0@247@142@145@1@144@673@518@7280@7@138@680
+188@Gold Key_Event@Quantity@1@EA@0@248@142@145@1@144@673@518@7281@7@138@680
+189@Chaos Card Mini_Event@Quantity@1@EA@0@249@142@145@1@144@673@518@7263@7@138@680
+190@Chaos Card Gold_Event@Quantity@1@EA@0@250@142@145@1@144@673@518@7260@7@138@680
+191@Seal of Divinity_Event@Duration@86400@Sec.@0@251@142@145@1@144@673@518@6719@10@140@386
+192@Seal of Healing_Event@Duration@86400@Sec.@0@252@142@145@1@144@673@518@6718@10@140@386
+193@Skeleton Transformation Ring_Event@Duration@86400@Sec.@0@253@142@145@1@144@673@518@6778@10@140@386
+194@Pet Skeleton_Event@Duration@86400@Sec.@0@254@142@145@1@144@673@518@6779@10@140@386
+195@Gold Channel Ticket_Event@Duration@259200@Sec.@0@255@142@145@1@144@673@518@6780@2@135@386
+196@Talisman of Luck 1%_Event@Rate@1@%@0@256@142@145@1@144@673@518@7221@74@138@304
+197@Gold Channel Ticket_7Day_Event@Duration@604800@Sec.@0@257@142@145@1@144@673@518@6780@2@135@386
+198@Seal of Wealth(Normal)_7Day_Event@Duration@604800@Sec.@0@258@142@145@1@144@673@518@6700@10@140@386
+199@Scroll of Protection_1Day_Event@Duration@86400@Sec.@0@259@142@145@1@144@673@518@7241@10@140@386
+200@Chaos Card Gold_Event*@Quantity@1@EA@0@260@142@145@1@144@673@518@7260@7@138@680
+201@Chaos Card Gold_Event**@Quantity@1@EA@0@261@142@145@1@144@673@518@7260@7@138@680
+202@Chaos Card Gold_Event***@Quantity@1@EA@0@262@142@145@1@144@673@518@7260@7@138@680
+203@Scroll of Protection_Red@Duration@86400@Sec.@150@263@142@145@1@144@673@518@7241@10@140@386
+204@Scroll of Health_Red@Duration@86400@Sec.@150@264@142@145@1@144@673@518@7244@10@140@386
+205@Scroll of Mana_Red@Duration@86400@Sec.@150@265@142@145@1@144@673@518@7245@10@140@386
+206@Scroll of Battle_Red@Duration@86400@Sec.@150@266@142@145@1@144@673@518@7265@10@140@386
+207@Scroll of Strengthener_Red@Duration@86400@Sec.@150@267@142@145@1@144@673@518@7266@10@140@386
+208@Scroll of Quickness_Red@Duration@86400@Sec.@150@268@142@145@1@144@673@518@7240@10@140@386
+209@Scroll of Wrath_Red@Duration@86400@Sec.@150@269@142@145@1@144@673@518@7242@10@140@386
+210@Scroll of Wizardry_Red@Duration@86400@Sec.@150@270@142@145@1@144@673@518@7243@10@140@386
+211@Skeleton Transformation Ring_Red@Duration@86400@Sec.@150@271@142@145@1@144@673@518@6778@10@140@386
+212@Pet Skeleton_Red@Duration@86400@Sec.@150@272@142@145@1@144@673@518@6779@10@140@386
+213@Panda Ring_Red@Duration@86400@Sec.@150@273@142@145@1@144@673@518@6732@10@140@386
+214@Pet Panda_Red@Duration@86400@Sec.@150@274@142@145@1@144@673@518@6736@10@140@386
+215@Talisman of Luck 1%_Red@Rate@1@%@150@275@142@145@1@144@673@518@7221@74@138@304
+216@Talisman of Luck 5%_Red@Rate@5@%@150@276@142@145@1@144@673@518@7221@74@138@304
+217@Talisman of Luck 10%_Red@Rate@10@%@150@277@142@145@1@144@673@518@7221@74@138@304
+218@Bundle of Jewel of Bless (30)_Red@Quantity@1@EA@150@278@142@145@1@144@673@518@6174@7@138@680
+219@Bundle of Jewel of Soul (30)_Red@Quantity@1@EA@150@279@142@145@1@144@673@518@6175@7@138@680
+220@Talisman of Chaos Assembly_Red@Quantity@1@EA@150@280@142@145@1@144@673@518@7264@7@138@680
+221@Rare Item Ticket 4_Red@Quantity@1@EA@150@281@142@145@1@144@673@518@7229@7@138@680
+222@Cherry Blossom Wine (3)@Quantity@1@EA@300@282@142@145@1@144@673@517@7253@7@138@680
+223@Cherry Blossom Rice Cake (2)@Quantity@1@EA@300@283@142@145@1@144@673@517@7254@7@138@680
+224@Cherry Blossom Petal (3)@Quantity@1@EA@300@284@142@145@1@144@673@517@7255@7@138@680
+225@Rare Item Ticket 5(�̻��)@Quantity@1@EA@0@285@142@145@1@144@673@518@7230@7@138@680
+226@Rare Item Ticket 6(�̻��)@Quantity@1@EA@0@286@142@145@1@144@673@518@7251@7@138@680
+227@Rare Item Ticket 7(�̻��)@Quantity@1@EA@0@287@142@145@1@144@673@518@7313@7@138@680
+228@Rare Item Ticket 8(�̻��)@Quantity@1@EA@0@288@142@145@1@144@673@518@7314@7@138@680
+229@Rare Item Ticket 8_BLUE@Quantity@1@EA@480@289@142@145@1@144@673@518@7314@7@138@680
+230@Rare Item Ticket 7_BLUE@Quantity@1@EA@480@290@142@145@1@144@673@518@7313@7@138@680
+231@Wing of Ruin_BLUE@Quantity@1@EA@480@291@142@145@1@144@673@518@6183@7@138@680
+232@Wing of Storm_BLUE@Quantity@1@EA@480@292@142@145@1@144@673@518@6180@7@138@680
+233@Wing of Dimension_BLUE@Quantity@1@EA@480@293@142@145@1@144@673@518@6187@7@138@680
+234@Cape of Emperor_BLUE@Quantity@1@EA@480@294@142@145@1@144@673@518@6184@7@138@680
+235@Wing of Illusion_BLUE@Quantity@1@EA@480@295@142@145@1@144@673@518@6182@7@138@680
+236@Wing of Eternal_BLUE@Quantity@1@EA@480@296@142@145@1@144@673@518@6181@7@138@680
+237@Bundle of Jewel of Bless (30)_BLUE@Quantity@1@EA@420@297@142@145@1@144@673@518@6174@7@138@680
+238@Bundle of Jewel of Soul (30)_BLUE@Quantity@1@EA@420@298@142@145@1@144@673@518@6175@7@138@680
+239@Seed (Lightning)_BLUE@Quantity@1@EA@480@299@142@145@1@144@673@518@6208@7@138@680
+240@Seed (Earth)_BLUE@Quantity@1@EA@480@300@142@145@1@144@673@518@6209@7@138@680
+241@Seed (Fire)_BLUE@Quantity@1@EA@480@301@142@145@1@144@673@518@6204@7@138@680
+242@Seed (Ice Mana)_BLUE@Quantity@1@EA@480@302@142@145@1@144@673@518@6206@7@138@680
+243@Seed (Ice Skill)_BLUE@Quantity@1@EA@480@303@142@145@1@144@673@518@6206@7@138@680
+244@Seed (Water DR)_BLUE@Quantity@1@EA@480@304@142@145@1@144@673@518@6205@7@138@680
+245@Seed (Water BR)_BLUE@Quantity@1@EA@480@305@142@145@1@144@673@518@6205@7@138@680
+246@Scroll of Protection_S@Duration@86400@Sec.@100@306@142@145@1@144@673@518@7241@10@140@386
+246@Scroll of Protection_S@Duration@604800@Sec.@300@307@142@145@1@144@673@518@7241@10@140@386
+247@Scroll of Health_S@Duration@86400@Sec.@100@308@142@145@1@144@673@518@7244@10@140@386
+247@Scroll of Health_S@Duration@604800@Sec.@300@309@142@145@1@144@673@518@7244@10@140@386
+248@Scroll of Mana_S@Duration@86400@Sec.@100@310@142@145@1@144@673@518@7245@10@140@386
+248@Scroll of Mana_S@Duration@604800@Sec.@300@311@142@145@1@144@673@518@7245@10@140@386
+249@Scroll of Battle_S@Duration@86400@Sec.@150@312@142@145@1@144@673@518@7265@10@140@386
+249@Scroll of Battle_S@Duration@604800@Sec.@420@313@142@145@1@144@673@518@7265@10@140@386
+250@Scroll of Strengthener_S@Duration@86400@Sec.@150@314@142@145@1@144@673@518@7266@10@140@386
+250@Scroll of Strengthener_S@Duration@604800@Sec.@420@315@142@145@1@144@673@518@7266@10@140@386
+251@Scroll of Quickness_S@Duration@86400@Sec.@150@316@142@145@1@144@673@518@7240@10@140@386
+251@Scroll of Quickness_S@Duration@604800@Sec.@420@317@142@145@1@144@673@518@7240@10@140@386
+252@Scroll of Wrath_S@Duration@86400@Sec.@150@318@142@145@1@144@673@518@7242@10@140@386
+252@Scroll of Wrath_S@Duration@604800@Sec.@420@319@142@145@1@144@673@518@7242@10@140@386
+253@Scroll of Wizardry_S@Duration@86400@Sec.@150@320@142@145@1@144@673@518@7243@10@140@386
+253@Scroll of Wizardry_S@Duration@604800@Sec.@420@321@142@145@1@144@673@518@7243@10@140@386
+254@Scroll of Protection_P@Duration@86400@Sec.@100@322@142@145@1@144@673@518@7241@10@140@386
+255@Scroll of Health_P@Duration@86400@Sec.@50@323@142@145@1@144@673@518@7244@10@140@386
+256@Scroll of Mana_P@Duration@86400@Sec.@50@324@142@145@1@144@673@518@7245@10@140@386
+257@Scroll of Battle_P@Duration@86400@Sec.@34@325@142@145@1@144@673@518@7265@10@140@386
+258@Scroll of Quickness_P@Duration@86400@Sec.@100@326@142@145@1@144@673@518@7240@10@140@386
+259@Scroll of Wrath_P@Duration@86400@Sec.@56@327@142@145@1@144@673@518@7242@10@140@386
+260@Scroll of Wizardry_P@Duration@86400@Sec.@56@328@142@145@1@144@673@518@7243@10@140@386
+261@Brave ITEM_�ǸźҰ�@Quantity@1@EA@10000@329@142@145@1@144@673@518@3630@7@138@680
+262@Penrill_�ǸźҰ�@Quantity@1@EA@100000@330@142@145@1@144@673@518@6693@7@138@680
+263@Rage Fighter Character Card_�ǸźҰ�@Quantity@1@EA@400@331@142@145@1@144@673@518@7337@7@138@680
+264@Rare Item Ticket 8_Red@Quantity@1@EA@200@332@142@145@1@144@673@518@7314@7@138@680
+265@Rare Item Ticket 4_Red@Quantity@1@EA@200@333@142@145@1@144@673@518@7229@7@138@680
+266@Gold Channel Ticket_Red@Duration@259200@Sec.@200@334@142@145@1@144@673@518@6780@2@135@386
+267@Talisman of Luck 10%_Red@Rate@10@%@200@335@142@145@1@144@673@518@7221@74@138@304
+268@Bundle of Jewel of Chaos (30)_Red@Quantity@1@EA@200@336@142@145@1@144@673@518@6285@7@138@680
+269@Bundle of Jewel of Soul (30)_Red@Quantity@1@EA@200@337@142@145@1@144@673@518@6175@7@138@680
+270@Bundle of Jewel of Bless (30)_Red@Quantity@1@EA@200@338@142@145@1@144@673@518@6174@7@138@680
+271@2nd Lucky Boots Ticket_Red@Quantity@1@EA@200@339@142@145@1@144@673@518@6800@7@138@680
+272@2nd Lucky Gloves Ticket_Red@Quantity@1@EA@200@340@142@145@1@144@673@518@6799@7@138@680
+273@2nd Lucky Helm Ticket_Red@Quantity@1@EA@200@341@142@145@1@144@673@518@6798@7@138@680
+274@2nd Lucky Pants Ticket_Red@Quantity@1@EA@200@342@142@145@1@144@673@518@6797@7@138@680
+275@2nd Lucky Armor Ticket_Red@Quantity@1@EA@200@343@142@145@1@144@673@518@6796@7@138@680
+276@1st Lucky Boots Ticket_Red@Quantity@1@EA@200@344@142@145@1@144@673@518@6795@7@138@680
+277@1st Lucky Gloves Ticket_Red@Quantity@1@EA@200@345@142@145@1@144@673@518@6794@7@138@680
+278@1st Lucky Helm Ticket_Red@Quantity@1@EA@200@346@142@145@1@144@673@518@6793@7@138@680
+279@1st Lucky Pants Ticket_Red@Quantity@1@EA@200@347@142@145@1@144@673@518@6792@7@138@680
+280@1st Lucky Armor Ticket_Red@Quantity@1@EA@200@348@142@145@1@144@673@518@6791@7@138@680
+281@Magic Backpack@Quantity@1@EA@690@349@142@145@1@144@673@518@7330@7@138@680
+282@Vault Expansion Certificate@Quantity@1@EA@2490@350@142@145@1@144@673@518@7331@7@138@680
+283@ Little Warrior's Cloak@Duration@1440@[1 Day(s)]@90@351@142@145@1@144@673@518@6279@10@138@680
+283@ Little Warrior's Cloak@Duration@10080@[7 Day(s)]@450@352@142@145@1@144@673@518@6279@10@138@680
+284@Rage Fighter Character Card@Quantity@1@NA@500@353@142@145@1@144@673@518@7337@7@138@680
+285@Silver Key_Time Attack@Quantity@1@EA@0@354@142@145@1@144@673@518@7280@7@138@680
+286@Gold Key_Time Attack@Quantity@1@EA@0@355@142@145@1@144@673@518@7281@7@138@680
+287@Chaos Card Gold_Time Attack@Quantity@1@EA@0@356@142@145@1@144@673@518@7260@7@138@680
+288@Talisman of Luck 10%_Time Attack@Rate@10@%@0@357@142@145@1@144@673@518@7221@74@138@304
+289@Seed of Lightning_Time Attack@Quantity@1@EA@0@358@142@145@1@144@673@518@6208@7@138@680
+290@Chaos Card Gold_Time Attack_@Quantity@1@EA@0@359@142@145@1@144@673@518@7260@7@138@680
+291@Event Reward - Dragon Helm@Quantity@1@EA@0@360@142@145@1@144@673@518@3585@7@138@680
+292@Event Reward - Dragon Armor@Quantity@1@EA@0@361@142@145@1@144@673@518@4097@7@138@680
+293@Event Reward - Dragon Gloves@Quantity@1@EA@0@362@142@145@1@144@673@518@5121@7@138@680
+294@Event Reward - Dragon Boots@Quantity@1@EA@0@363@142@145@1@144@673@518@5633@7@138@680
+295@Event Reward - Legendary Helm@Quantity@1@EA@0@364@142@145@1@144@673@518@3587@7@138@680
+296@Event Reward - Legendary Armor@Quantity@1@EA@0@365@142@145@1@144@673@518@4099@7@138@680
+297@Event Reward - Legendary Boots@Quantity@1@EA@0@366@142@145@1@144@673@518@5635@7@138@680
+298@Event Reward - Legendary Pants@Quantity@1@EA@0@367@142@145@1@144@673@518@4611@7@138@680
+299@Event Reward - Legendary Gloves@Quantity@1@EA@0@368@142@145@1@144@673@518@5123@7@138@680
+300@Event Reward - Dragon Pants@Quantity@1@EA@0@369@142@145@1@144@673@518@4609@7@138@680
+301@Event Reward - Redwing Helm@Quantity@1@EA@0@370@142@145@1@144@673@518@3624@7@138@680
+302@Event Reward - Redwing Armor@Quantity@1@EA@0@371@142@145@1@144@673@518@4136@7@138@680
+303@Event Reward - Redwing Gloves@Quantity@1@EA@0@372@142@145@1@144@673@518@5160@7@138@680
+304@Event Reward - Redwing Pants@Quantity@1@EA@0@373@142@145@1@144@673@518@4648@7@138@680
+305@Event Reward - Redwing Boots@Quantity@1@EA@0@374@142@145@1@144@673@518@5672@7@138@680
+306@Event Reward - Guardian Helm@Quantity@1@EA@0@375@142@145@1@144@673@518@3598@7@138@680
+307@Event Reward - Guardian Armor@Quantity@1@EA@0@376@142@145@1@144@673@518@4110@7@138@680
+308@Event Reward - Guardian Gloves@Quantity@1@EA@0@377@142@145@1@144@673@518@5134@7@138@680
+309@Event Reward - Guardian Pants@Quantity@1@EA@0@378@142@145@1@144@673@518@4622@7@138@680
+310@Event Reward - Guardian Boots@Quantity@1@EA@0@379@142@145@1@144@673@518@5646@7@138@680
+311@Event Reward - Great Dragon Helm@Quantity@1@EA@0@380@142@145@1@144@673@518@3605@7@138@680
+312@Event Reward - Great Dragon Armor@Quantity@1@EA@0@381@142@145@1@144@673@518@4117@7@138@680
+313@Event Reward - Great Dragon Pants@Quantity@1@EA@0@382@142@145@1@144@673@518@4629@7@138@680
+314@Event Reward - Great Dragon Gloves@Quantity@1@EA@0@383@142@145@1@144@673@518@5141@7@138@680
+315@Event Reward - Great Dragon Boots@Quantity@1@EA@0@384@142@145@1@144@673@518@5653@7@138@680
+316@Event Reward - Black Soul Helm@Quantity@1@EA@0@385@142@145@1@144@673@518@3606@7@138@680
+317@Event Reward - Black Soul Armor@Quantity@1@EA@0@386@142@145@1@144@673@518@4118@7@138@680
+318@Event Reward - Black Soul Pants@Quantity@1@EA@0@387@142@145@1@144@673@518@4630@7@138@680
+319@Event Reward - Black Soul Gloves@Quantity@1@EA@0@388@142@145@1@144@673@518@5142@7@138@680
+320@Event Reward - Black Soul Boots@Quantity@1@EA@0@389@142@145@1@144@673@518@5654@7@138@680
+321@Event Reward - Storm Blitz Helm@Quantity@1@EA@0@390@142@145@1@144@673@518@3627@7@138@680
+322@Event Reward - Storm Blitz Armor@Quantity@1@EA@0@391@142@145@1@144@673@518@4139@7@138@680
+323@Event Reward - Storm Blitz Pants@Quantity@1@EA@0@392@142@145@1@144@673@518@4651@7@138@680
+324@Event Reward - Storm Blitz Gloves@Quantity@1@EA@0@393@142@145@1@144@673@518@5163@7@138@680
+325@Event Reward - Storm Blitz Boots@Quantity@1@EA@0@394@142@145@1@144@673@518@5675@7@138@680
+326@Event Reward - Red Spirit Helm@Quantity@1@EA@0@395@142@145@1@144@673@518@3608@7@138@680
+327@Event Reward - Red Spirit Armor@Quantity@1@EA@0@396@142@145@1@144@673@518@4120@7@138@680
+328@Event Reward - Red Spirit Pants@Quantity@1@EA@0@397@142@145@1@144@673@518@4632@7@138@680
+329@Event Reward - Red Spirit Gloves@Quantity@1@EA@0@398@142@145@1@144@673@518@5144@7@138@680
+330@Event Reward - Red Spirit Boots@Quantity@1@EA@0@399@142@145@1@144@673@518@5656@7@138@680
+331@Event Reward - Sacred Fire Helm@Quantity@1@EA@0@400@142@145@1@144@673@518@3643@7@138@680
+332@Event Reward - Sacred Fire Armor@Quantity@1@EA@0@401@142@145@1@144@673@518@4155@7@138@680
+333@Event Reward - Sacred Fire Pants@Quantity@1@EA@0@402@142@145@1@144@673@518@4667@7@138@680
+334@Event Reward - Sacred Fire Gloves@Quantity@1@EA@0@403@142@145@1@144@673@518@32@7@138@680
+335@Event Reward - Sacred Fire Boots@Quantity@1@EA@0@404@142@145@1@144@673@518@5691@7@138@680
+336@Event Reward - Piercing Groove Helm@Quantity@1@EA@0@405@142@145@1@144@673@518@3645@7@138@680
+337@Event Reward - Piercing Groove Armor@Quantity@1@EA@0@406@142@145@1@144@673@518@4157@7@138@680
+338@Event Reward - Piercing Groove Pants@Quantity@1@EA@0@407@142@145@1@144@673@518@4669@7@138@680
+339@Event Reward - Piercing Groove Boots@Quantity@1@EA@0@408@142@145@1@144@673@518@5693@7@138@680
+340@Event Reward - Piercing Groove Gloves@Quantity@1@EA@0@409@142@145@1@144@673@518@34@7@138@680
+341@Event Reward - Wings of Dragon@Quantity@1@EA@0@410@142@145@1@144@673@518@6149@7@138@680
+342@Event Reward - Wings of Soul @Quantity@1@EA@0@411@142@145@1@144@673@518@6148@7@138@680
+343@Event Reward -Wings of Despair @Quantity@1@EA@0@412@142@145@1@144@673@518@6186@7@138@680
+344@Event Reward -Wings of Spirits @Quantity@1@EA@0@413@142@145@1@144@673@518@6147@7@138@680
+345@Event Reward -Wings of Darkness @Quantity@1@EA@0@414@142@145@1@144@673@518@6150@7@138@680
+346@Event Reward -Cape of Lord @Quantity@1@EA@0@415@142@145@1@144@673@518@6686@7@138@680
+347@Event Reward -Cape of Fighter@Quantity@1@EA@0@416@142@145@1@144@673@518@6193@7@138@680
+348@Seal of Ascension 3Days@Duration@259200@Sec.@0@417@142@145@1@144@673@518@6699@10@140@386
+349@Jewel of Chaos Bundle (30)_BLUE@Quantity@1@EA@480@418@142@145@1@144@673@518@6285@7@138@680
+350@Jewel of Life Bundle (30)_BLUE@Quantity@1@EA@480@419@142@145@1@144@673@518@6280@7@138@680
+351@Horn of Fenrir_Platinum@Quantity@1@EA@1500@420@142@145@1@144@673@518@6693@7@138@680
+352@Feather of Condor_Platinum@Quantity@1@EA@1500@421@142@145@1@144@673@518@6709@7@138@680
+353@Rare Item Ticket 1_Platinum@Quantity@1@EA@1500@422@142@145@1@144@673@518@7226@7@138@680
+354@Rare Item Ticket 2_Platinum@Quantity@1@EA@1500@423@142@145@1@144@673@518@7227@7@138@680
+355@Rare Item Ticket 3_Platinum@Quantity@1@EA@1500@424@142@145@1@144@673@518@7228@7@138@680
+356@Rare Item Ticket 4_Platinum@Quantity@1@EA@1500@425@142@145@1@144@673@518@7229@7@138@680
+357@Rare Item Ticket 7_Platinum@Quantity@1@EA@1500@426@142@145@1@144@673@518@7313@7@138@680
+358@Rare Item Ticket 8_Platinum@Quantity@1@EA@1500@427@142@145@1@144@673@518@7314@7@138@680
+359@Talisman of Chaos Assembly_Platinum@Quantity@1@EA@1500@428@142@145@1@144@673@518@7264@7@138@680
+360@Jewel of Life Bundle (30)_Platinum@Quantity@1@EA@1500@429@142@145@1@144@673@518@6280@7@138@680
+361@Jewel of Chaos Bundle (30)_Platinum@Quantity@1@EA@1500@430@142@145@1@144@673@518@6285@7@138@680
+362@Seal of Healing 7DAYS@Duration@86400@Sec.@0@431@142@145@1@144@673@518@6718@10@140@386
+363@Rage Fighter Character Card_Event@Quantity@1@EA@0@432@142@145@1@144@673@518@7337@7@138@680
+364@Summoner Character Card_Event@Quantity@1@EA@0@433@142@145@1@144@673@518@7259@7@138@680
+365@Gold Channel Ticket_7day_Event@Duration@604800@Sec.@0@434@142@145@1@144@673@518@6780@2@135@386
+366@Seal of Wealth_7day_Event@Duration@604800@Sec.@0@435@142@145@1@144@673@518@6700@10@140@386
+367@Pet Panda_7day_Event@Duration@604800@Sec.@0@436@142@145@1@144@673@518@6736@10@140@386
+368@Feather of Condor_Event@Quantity@1@EA@1200@437@142@145@1@144@673@518@6709@7@138@680
+369@Event Reward -Dark Master Mask@Quantity@1@EA@0@438@142@145@1@144@673@518@3612@7@138@680
+370@Event Reward - Dark Master Armor@Quantity@1@EA@0@439@142@145@1@144@673@518@4124@7@138@680
+371@Event Reward -Dark Master Pants@Quantity@1@EA@0@440@142@145@1@144@673@518@4636@7@138@680
+372@Event Reward -Dark Master Gloves@Quantity@1@EA@0@441@142@145@1@144@673@518@5148@7@138@680
+373@Event Reward -Dark Master Boots@Quantity@1@EA@0@442@142@145@1@144@673@518@5660@7@138@680
+374@Event Reward -Thunder Hawk Armor@Quantity@1@EA@0@443@142@145@1@144@673@518@4116@7@138@680
+375@Event Reward -Thunder Hawk Pants@Quantity@1@EA@0@444@142@145@1@144@673@518@4628@7@138@680
+376@Event Reward -Thunder Hawk Gloves@Quantity@1@EA@0@445@142@145@1@144@673@518@5140@7@138@680
+377@Event Reward -Thunder Hawk Boots@Quantity@1@EA@0@446@142@145@1@144@673@518@5652@7@138@680
+378@Skeleton Transformation Ring [3Days]@Duration@259200@Sec.@0@447@142@145@1@144@673@518@6778@10@140@386
+379@Pet Skeleton [3Days]@Duration@259200@Sec.@0@448@142@145@1@144@673@518@6779@10@140@386
+380@Panda Ring [3Days]@Duration@259200@Sec.@0@449@142@145@1@144@673@518@6732@10@140@386
+381@Pet Panda [3Days]@Duration@259200@Sec.@0@450@142@145@1@144@673@518@6736@10@140@386
+382@Rare Item Ticket 9@Quantity@1@EA@50000@451@142@145@1@144@673@518@7315@7@138@680
+383@Rare Item Ticket 10@Quantity@1@EA@50000@452@142@145@1@144@673@518@7316@7@138@680
+384@Rare Item Ticket 11@Quantity@1@EA@50000@453@142@145@1@144@673@518@7317@7@138@680
+385@Rare Item Ticket 12@Quantity@1@EA@50000@454@142@145@1@144@673@518@7318@7@138@680
+386@Horn of Fenrir_Event@Quantity@1@EA@10000@455@142@145@1@144@673@518@6693@7@138@680
+387@Wings of Spirits_Event@Quantity@1@EA@10000@456@142@145@1@144@673@518@6147@7@138@680
+388@Wings of Dragon_Event@Quantity@1@EA@10000@457@142@145@1@144@673@518@6149@7@138@680
+389@Wings of Darkness_Event@Quantity@1@EA@10000@458@142@145@1@144@673@518@6150@7@138@680
+390@Wings of Soul_Event@Quantity@1@EA@10000@459@142@145@1@144@673@518@6148@7@138@680
+391@Wings of Despair_Event@Quantity@1@EA@10000@460@142@145@1@144@673@518@6186@7@138@680
+392@Cape of Lord_Event@Quantity@1@EA@10000@461@142@145@1@144@673@518@6686@7@138@680
+393@Cape of Fighter_Event@Quantity@1@EA@10000@462@142@145@1@144@673@518@6193@7@138@680
+394@Jewel of Life Bundle (10)@Quantity@1@EA@10000@463@142@145@1@144@673@518@6280@7@138@680
+395@Jewel of Life Bundle (30)@Quantity@1@EA@10000@464@142@145@1@144@673@518@6280@7@138@680
+396@Bundle of Jewel of Soul (10)@Quantity@1@EA@10000@465@142@145@1@144@673@518@6175@7@138@680
+397@Bundle of Jewel of Soul (30)@Quantity@1@EA@10000@466@142@145@1@144@673@518@6175@7@138@680
+398@Bundle of Jewel of Bless (10)@Quantity@1@EA@10000@467@142@145@1@144@673@518@6174@7@138@680
+399@Bundle of Jewel of Bless (30)@Quantity@1@EA@10000@468@142@145@1@144@673@518@6174@7@138@680
+400@Bundle of Jewel of Harmony (10)@Quantity@1@EA@10000@469@142@145@1@144@673@518@6284@7@138@680
+401@Bundle of Jewel of Harmony (30)@Quantity@1@EA@10000@470@142@145@1@144@673@518@6284@7@138@680
+402@Pet Panda [28 Day]_���Ǹ�@Duration@2419200@Sec.@0@471@142@145@1@144@673@518@6736@10@140@386
+403@Pet Panda_28 Day_Event@Duration@2419200@Sec.@0@472@142@145@1@143@673@518@6736@10@140@386
+404@Pet Panda_7Day_���Ǹ�@Duration@604800@Sec.@0@473@142@145@1@144@673@518@6736@10@140@386
+405@Pet Panda_28Day_Event@Duration@2419200@Sec.@0@474@142@145@1@144@673@518@6736@10@140@386
+406@Bundle of Jewel of Soul (20)@Quantity@1@EA@0@475@142@145@1@144@673@518@6175@7@138@680
+407@Bundle of Jewel of Bless (20)@Quantity@1@EA@0@476@142@145@1@144@673@518@6174@7@138@680
+408@Bundle of Jewel of Chaos (20)@Quantity@1@EA@0@477@142@145@1@144@673@518@6285@7@138@680
+409@Jewel of Life Bundle (20)@Quantity@1@EA@0@478@142@145@1@144@673@518@6280@7@138@680
+410@Feather of Loch@Quantity@1@EA@0@479@142@145@1@144@673@518@6670@7@138@680
+411@Bundle of Jewel of Creation (20)@Quantity@1@EA@0@480@142@145@1@144@673@518@6281@7@138@680
+412@Bundle of Jewel of Creation (10)@Quantity@1@EA@0@481@142@145@1@144@673@518@6281@7@138@680
+413@Bundle of Jewel of Chaos (10)@Quantity@1@EA@0@482@142@145@1@144@673@518@6285@7@138@680
+414@Talisman of Chaos Assembly_CARD@Quantity@1@EA@2000@483@142@145@1@144@673@518@7264@7@138@680
+415@Feather of Condor_CARD@Quantity@1@EA@2000@484@142@145@1@144@673@518@6709@7@138@680
+416@Horn of Fenrir_CARD@Quantity@1@EA@2000@485@142@145@1@144@673@518@6693@7@138@680
+417@Wing of Eternal_CARD@Quantity@1@EA@2000@486@142@145@1@144@673@518@6181@7@138@680
+418@Wing of Illusion_CARD@Quantity@1@EA@2000@487@142@145@1@144@673@518@6182@7@138@680
+419@Cape of Emperor_CARD@Quantity@1@EA@2000@488@142@145@1@144@673@518@6184@7@138@680
+420@Wing of Dimension_CARD@Quantity@1@EA@2000@489@142@145@1@144@673@518@6187@7@138@680
+421@Wing of Storm_CARD@Quantity@1@EA@2000@490@142@145@1@144@673@518@6180@7@138@680
+422@Wing of Ruin_CARD@Quantity@1@EA@2000@491@142@145@1@144@673@518@6183@7@138@680
+423@Cape of Overrule_CARD@Quantity@1@EA@2000@492@142@145@1@144@673@518@6194@7@138@680
+424@Rare Item Ticket 1_CARD@Quantity@1@EA@2000@493@142@145@1@144@673@518@7226@7@138@680
+425@Rare Item Ticket 2_CARD@Quantity@1@EA@2000@494@142@145@1@144@673@518@7227@7@138@680
+426@Rare Item Ticket 3_CARD@Quantity@1@EA@2000@495@142@145@1@144@673@518@7228@7@138@680
+427@Rare Item Ticket 4_CARD@Quantity@1@EA@2000@496@142@145@1@144@673@518@7229@7@138@680
+428@Rare Item Ticket 8_CARD@Quantity@1@EA@2000@497@142@145@1@144@673@518@7314@7@138@680
+429@Rare Item Ticket 9_CARD@Quantity@1@EA@2000@498@142@145@1@144@673@518@7315@7@138@680
+430@Rare Item Ticket 11_CARD@Quantity@1@EA@2000@499@142@145@1@144@673@518@7317@7@138@680
+431@Pet Panda (7 Day)_P@Duration@604800@Sec.@200@500@142@145@1@144@673@518@6736@10@140@386
+432@Seal of Healing (7 Day)_P@Duration@604800@Sec.@200@501@142@145@1@144@673@518@6718@10@140@386
+433@Bundle of Jewel of Bless (10)_P@Quantity@1@EA@200@502@142@145@1@144@673@518@6174@7@138@680
+434@Bundle of Jewel of Soul (10)_P@Quantity@1@EA@200@503@142@145@1@144@673@518@6175@7@138@680
+435@Orb of Strike of Destruction_P@Quantity@1@EA@200@504@142@145@1@144@673@518@6188@7@138@680
+436@Orb of Rageful Blow_P@Quantity@1@EA@200@505@142@145@1@144@673@518@6156@7@138@680
+437@Orb of Death Stab_P@Quantity@1@EA@150@506@142@145@1@144@673@518@6163@7@138@680
+438@Orb of Swell Life_P@Quantity@1@EA@150@507@142@145@1@144@673@518@6158@7@138@680
+439@Scroll of Evil Spirit_P@Quantity@1@EA@200@508@142@145@1@144@673@518@7688@7@138@680
+440@Scroll of Expansion of Wizardry_P@Quantity@1@EA@200@509@142@145@1@144@673@518@7708@7@138@680
+441@Scroll of Nova_P@Quantity@1@EA@150@510@142@145@1@144@673@518@7698@7@138@680
+442@Scroll of Soul Barrior_P@Quantity@1@EA@150@511@142@145@1@144@673@518@7695@7@138@680
+443@Chain Lightning Parchment_P@Quantity@1@EA@200@512@142@145@1@144@673@518@7699@7@138@680
+444@Damage Reflection Parchment_P@Quantity@1@EA@200@513@142@145@1@144@673@518@7702@7@138@680
+445@Berserker Parchment_P@Quantity@1@EA@150@514@142@145@1@144@673@518@7703@7@138@680
+446@Lightning Shock Parchment_P@Quantity@1@EA@150@515@142@145@1@144@673@518@7701@7@138@680
+447@Increase Health Parchment_P@Quantity@1@EA@200@516@142@145@1@144@673@518@7715@7@138@680
+448@Dark Side Parchment_P@Quantity@1@EA@200@517@142@145@1@144@673@518@7711@7@138@680
+449@Dragon Slasher Parchment_P@Quantity@1@EA@150@518@142@145@1@144@673@518@7713@7@138@680
+450@Increase Block Parchment_P@Quantity@1@EA@150@519@142@145@1@144@673@518@7716@7@138@680
+451@Scroll of Multi Shot_P@Quantity@1@EA@200@520@142@145@1@144@673@518@6189@7@138@680
+452@Orb of Ice Arrow_P@Quantity@1@EA@200@521@142@145@1@144@673@518@6162@7@138@680
+453@Orb of Penetration_P@Quantity@1@EA@150@522@142@145@1@144@673@518@6161@7@138@680
+454@Orb of Recovery_P@Quantity@1@EA@150@523@142@145@1@144@673@518@6190@7@138@680
+455@Scroll of Gigantic Storm_P@Quantity@1@EA@200@524@142@145@1@144@673@518@7709@7@138@680
+456@Scroll of Cometfall_P@Quantity@1@EA@150@525@142@145@1@144@673@518@7692@7@138@680
+457@Scroll of Flame Strike_P@Quantity@1@EA@150@526@142@145@1@144@673@518@6191@7@138@680
+458@Cape of Overrule_BLUE@Quantity@1@EA@480@527@142@145@1@144@673@518@6194@7@138@680
+459@ Statue of Hawk@Duration@1440@[1 Day(s)]@80@528@142@145@1@144@673@518@6784@10@138@680
+459@ Statue of Hawk@Duration@10080@[7 Day(s)]@400@529@142@145@1@144@673@518@6784@10@138@680
+459@ Statue of Hawk@Duration@43200@[30 Day(s)]@1200@530@142@145@1@144@673@518@6784@10@138@680
+460@ Statue of Goral@Duration@1440@[1 Day(s)]@80@531@142@145@1@144@673@518@6785@10@138@680
+460@ Statue of Goral@Duration@10080@[7 Day(s)]@400@532@142@145@1@144@673@518@6785@10@138@680
+460@ Statue of Goral@Duration@43200@[30 Day(s)]@1200@533@142@145@1@144@673@518@6785@10@138@680
+461@ Oak Charm@Duration@1440@[1 Day(s)]@30@534@142@145@1@144@673@518@6786@10@138@680
+461@ Oak Charm@Duration@10080@[7 Day(s)]@150@535@142@145@1@144@673@518@6786@10@138@680
+461@ Oak Charm@Duration@43200@[30 Day(s)]@500@536@142@145@1@144@673@518@6786@10@138@680
+462@Golden Oak Charm@Duration@1440@[1 Day(s)]@1000@537@142@145@1@144@673@518@6788@10@138@680
+462@Golden Oak Charm@Duration@10080@[7 Day(s)]@6000@538@142@145@1@144@673@518@6788@10@138@680
+462@Golden Oak Charm@Duration@43200@[30 Day(s)]@1800@539@142@145@1@144@673@518@6788@10@138@680
+463@ Worn Horseshoe@Duration@1440@[1 Day(s)]@80@540@142@145@1@144@673@518@6790@10@138@680
+463@ Worn Horseshoe@Duration@10080@[7 Day(s)]@400@541@142@145@1@144@673@518@6790@10@138@680
+463@ Worn Horseshoe@Duration@43200@[30 Day(s)]@1200@542@142@145@1@144@673@518@6790@10@138@680
+464@10000 GP@���� ���ϸ���@10000@WReward@10000@543@142@145@1@144@673@518@7288@59@515@596
+465@1st Lucky Armor Ticket@Quantity@1@EA@100@544@142@145@1@144@673@518@6791@7@138@680
+466@1st Lucky Pants Ticket@Quantity@1@EA@100@545@142@145@1@144@673@518@6792@7@138@680
+467@1st Lucky Helm Ticket@Quantity@1@EA@100@546@142@145@1@144@673@518@6793@7@138@680
+468@1st Lucky Gloves Ticket@Quantity@1@EA@100@547@142@145@1@144@673@518@6794@7@138@680
+469@1st Lucky Boots Ticket@Quantity@1@EA@100@548@142@145@1@144@673@518@6795@7@138@680
+470@2nd Lucky Armor Ticket@Quantity@1@EA@150@549@142@145@1@144@673@518@6796@7@138@680
+471@2nd Lucky Pants Ticket@Quantity@1@EA@150@550@142@145@1@144@673@518@6797@7@138@680
+472@2nd Lucky Helm Ticket@Quantity@1@EA@150@551@142@145@1@144@673@518@6798@7@138@680
+473@2nd Lucky Gloves Ticket@Quantity@1@EA@150@552@142@145@1@144@673@518@6799@7@138@680
+474@2nd Lucky Boots Ticket@Quantity@1@EA@150@553@142@145@1@144@673@518@6800@7@138@680
+475@Talisman of Luck 10%_BLUE@Rate@10@%@480@554@142@145@1@144@673@518@7221@74@138@304
+476@Jewel of Extension_BLUE@Quantity@1@EA@480@555@142@145@1@144@673@518@7328@7@138@680
+477@Bundle of Jewel of Soul (30)_BLUE@Quantity@1@EA@480@556@142@145@1@144@673@518@6175@7@138@680
+478@Bundle of Jewel of Bless (30))_BLUE@Quantity@1@EA@480@557@142@145@1@144@673@518@6174@7@138@680
+479@+11 Wing of Eternal_BLUE@Quantity@1@EA@480@558@142@145@1@144@673@518@6181@7@138@680
+480@+11 Wing of Illusion_BLUE@Quantity@1@EA@480@559@142@145@1@144@673@518@6182@7@138@680
+481@+11 Cape of Emperor_BLUE@Quantity@1@EA@480@560@142@145@1@144@673@518@6184@7@138@680
+482@+11 Wing of Dimension_BLUE@Quantity@1@EA@480@561@142@145@1@144@673@518@6187@7@138@680
+483@+11 Wing of Storm_BLUE@Quantity@1@EA@480@562@142@145@1@144@673@518@6180@7@138@680
+484@+11 Wing of Ruin_BLUE@Quantity@1@EA@480@563@142@145@1@144@673@518@6183@7@138@680
+485@+11 Cape of Overrule@Quantity@1@EA@480@564@142@145@1@144@673@518@6194@7@138@680
+486@Rare Item Ticket 4_BLUE@Quantity@1@EA@480@565@142@145@1@144@673@518@7229@7@138@680
+487@Jewel of Chaos Bundle (30)_Event@Quantity@1@EA@1000@566@142@145@1@144@673@518@6285@7@138@680
+488@Cherry Blossom Petal@Quantity@1@EA@200@567@142@145@1@144@673@518@7255@7@138@680
+489@Cherry Blossom Wine@Quantity@1@EA@300@568@142@145@1@144@673@518@7253@7@138@680
+490@Cherry Blossom Rice Cake@Quantity@1@EA@300@569@142@145@1@144@673@518@7254@7@138@680
+491@Scroll of Protection_7 Day@Duration@10080@[7 Day(s)]@2000@570@142@145@1@144@673@518@7241@10@140@386
+492@Scroll of Health_7 Day@Duration@10080@[7 Day(s)]@2000@571@142@145@1@144@673@518@7244@10@140@386
+493@Scroll of Mana_7 Day@Duration@10080@[7 Day(s)]@2000@572@142@145@1@144@673@518@7245@10@140@386
+494@Scroll of Battle_7 Day@Duration@10080@[7 Day(s)]@2800@573@142@145@1@144@673@518@7265@10@140@386
+495@Scroll of Strengthener_7 Day@Duration@604800@Sec.@2800@574@142@145@1@144@673@518@7266@10@140@386
+496@Scroll of Quickness_7 Day@Duration@10080@[7 Day(s)]@2800@575@142@145@1@144@673@518@7240@10@140@386
+497@Scroll of Wrath_7 Day@Duration@10080@[7 Day(s)]@2800@576@142@145@1@144@673@518@7242@10@140@386
+498@Scroll of Wizardry_7 Day@Duration@10080@[7 Day(s)]@2800@577@142@145@1@144@673@518@7243@10@140@386
+499@Bundle of Jewel of Bless (30)@Quantity@1@EA@2000@578@142@145@1@144@673@518@6174@7@138@680
+500@Bundle of Jewel of Soul (30)@Quantity@1@EA@2000@579@142@145@1@144@673@518@6175@7@138@680
+501@Jewel of Chaos Bundle (10)@Quantity@1@EA@2000@580@142@145@1@144@673@518@6285@7@138@680
+502@Jewel of Life Bundle (10)@Quantity@1@EA@4800@581@142@145@1@144@673@518@6280@7@138@680
+503@Bundle of Jewel of Harmony (10)@Quantity@1@EA@4800@582@142@145@1@144@673@518@6284@7@138@680
+504@Talisman of Luck 10%@Rate@10@%@3200@583@142@145@1@144@673@518@7221@74@138@304
+505@Rare Item Ticket 11@Quantity@1@EA@60000@584@142@145@1@144@673@518@7317@7@138@680
+506@Rare Item Ticket 8@Quantity@1@EA@100000@585@142@145@1@144@673@518@7314@7@138@680
+507@8 Goblin Point@���� ���ϸ���@8@WReward@0@586@142@145@1@144@673@518@7288@59@515@596
+508@20 Goblin Point@���� ���ϸ���@20@WReward@0@587@142@145@1@144@673@518@7288@59@515@596
+509@25 Goblin Point@���� ���ϸ���@25@WReward@0@588@142@145@1@144@673@518@7288@59@515@596
+510@30 Goblin Point@���� ���ϸ���@30@WReward@0@589@142@145@1@144@673@518@7288@59@515@596
+511@35 Goblin Point@���� ���ϸ���@35@WReward@0@590@142@145@1@144@673@518@7288@59@515@596
+512@40 Goblin Point@���� ���ϸ���@40@WReward@0@591@142@145@1@144@673@518@7288@59@515@596
+513@60 Goblin Point@���� ���ϸ���@60@WReward@0@592@142@145@1@144@673@518@7288@59@515@596
+514@70 Goblin Point@���� ���ϸ���@70@WReward@0@593@142@145@1@144@673@518@7288@59@515@596
+515@90 Goblin Point@���� ���ϸ���@90@WReward@0@594@142@145@1@144@673@518@7288@59@515@596
+516@105 Goblin Point@���� ���ϸ���@105@WReward@0@595@142@145@1@144@673@518@7288@59@515@596
+517@115 Goblin Point@���� ���ϸ���@115@WReward@0@596@142@145@1@144@673@518@7288@59@515@596
+518@Seal of Wealth_7 Day@Duration@604800@Sec.@700@597@142@145@1@144@673@518@6700@10@140@386
+519@Seal of Wealth_30 Day@Duration@2592000@Sec.@2100@598@142@145@1@144@673@518@6700@10@140@386
+520@Master Seal of Wealth_7 Day@Duration@604800@Sec.@700@599@142@145@1@144@673@518@6750@10@140@386
+521@Master Seal of Wealth_30 Day@Duration@2592000@Sec.@2100@600@142@145@1@144@673@518@6750@10@140@386
+522@Seal of Ascension_7 Day@Duration@604800@Sec.@500@601@142@145@1@144@673@518@6699@10@140@386
+523@Seal of Ascension_30 Day@Duration@2592000@Sec.@1400@602@142@145@1@143@673@518@6699@10@140@386
+524@Master Seal of Ascension_7 Day@Duration@604800@Sec.@500@603@142@145@1@144@673@518@6749@10@140@386
+525@Master Seal of Ascension_30 Day@Duration@2592000@Sec.@1400@604@142@145@1@144@673@518@6749@10@140@386
+526@Gold Channel Ticket_7 Day@Duration@604800@Sec.@800@605@142@145@1@144@673@518@6780@2@135@386
+527@Gold Channel Ticket_30 Day@Duration@2592000@Sec.@2300@606@142@145@1@144@673@518@6780@2@135@386
+528@Gold Channel Ticket@Duration@86400@Sec.@190@607@142@145@1@144@673@518@6780@2@135@386
+528@Gold Channel Ticket@Duration@259200@Sec.@400@608@142@145@1@144@673@518@6780@2@135@386
+528@Gold Channel Ticket@Duration@604800@Sec.@800@609@142@145@1@144@673@518@6780@2@135@386
+528@Gold Channel Ticket@Duration@2592000@Sec.@2300@610@142@145@1@144@673@518@6780@2@135@386
+529@Seal of Ascension_30 Day@Duration@2592000@Sec.@1400@611@142@145@1@144@673@518@6699@10@140@386
+530@Chaos Card GOLD_Bonus(3)@Quantity@1@EA@0@612@142@145@1@144@673@518@7260@7@138@680
+531@Chaos Card  Mini_Bonus@Quantity@1@EA@0@613@142@145@1@143@673@518@7263@7@138@680
+533@Chaos Card Gold_6 Bundle@Quantity@6@EA@1750@620@142@145@1@143@673@518@7260@7@138@680
+534@Chaos Card GOLD_Bonus(2)@Quantity@1@EA@0@621@142@145@1@144@673@518@7260@7@138@680
+535@Chaos Card GOLD_Bonus(1)@Quantity@1@EA@0@622@142@145@1@144@673@518@7260@7@138@680
+536@Chaos Card GOLD_10@Quantity@1@EA@350@623@142@145@1@144@673@518@7260@7@138@680
+537@Chaos Card GOLD_9@Quantity@1@EA@350@624@142@145@1@144@673@518@7260@7@138@680
+538@Chaos Card GOLD_8@Quantity@1@EA@350@625@142@145@1@144@673@518@7260@7@138@680
+539@Chaos Card GOLD_7@Quantity@1@EA@350@626@142@145@1@144@673@518@7260@7@138@680
+540@Chaos Card GOLD_6@Quantity@1@EA@350@627@142@145@1@144@673@518@7260@7@138@680
+541@Chaos Card GOLD_5@Quantity@1@EA@350@628@142@145@1@144@673@518@7260@7@138@680
+542@Chaos Card GOLD_4@Quantity@1@EA@350@629@142@145@1@144@673@518@7260@7@138@680
+543@Chaos Card GOLD_3@Quantity@1@EA@350@630@142@145@1@144@673@518@7260@7@138@680
+544@Chaos Card GOLD_2@Quantity@1@EA@350@631@142@145@1@144@673@518@7260@7@138@680
+545@Chaos Card GOLD_1@Quantity@1@EA@350@632@142@145@1@144@673@518@7260@7@138@680
+546@Chaos Card  Mini_Bonus(3)@Quantity@1@EA@0@633@142@145@1@144@673@518@7263@7@138@680
+547@Chaos Card  Mini_Bonus(2)@Quantity@1@EA@0@634@142@145@1@144@673@518@7263@7@138@680
+548@Chaos Card  Mini_Bonus(1)@Quantity@1@EA@0@635@142@145@1@144@673@518@7263@7@138@680
+549@Chaos Card  Mini_10@Quantity@1@EA@120@636@142@145@1@144@673@518@7263@7@138@680
+550@Chaos Card  Mini_9@Quantity@1@EA@120@637@142@145@1@144@673@518@7263@7@138@680
+551@Chaos Card  Mini_8@Quantity@1@EA@120@638@142@145@1@144@673@518@7263@7@138@680
+552@Chaos Card  Mini_7@Quantity@1@EA@120@639@142@145@1@144@673@518@7263@7@138@680
+553@Chaos Card  Mini_6@Quantity@1@EA@120@640@142@145@1@144@673@518@7263@7@138@680
+554@Chaos Card  Mini_5@Quantity@1@EA@120@641@142@145@1@144@673@518@7263@7@138@680
+555@Chaos Card  Mini_4@Quantity@1@EA@120@642@142@145@1@144@673@518@7263@7@138@680
+556@Chaos Card  Mini_3@Quantity@1@EA@120@643@142@145@1@144@673@518@7263@7@138@680
+557@Chaos Card  Mini_2@Quantity@1@EA@120@644@142@145@1@144@673@518@7263@7@138@680
+558@Chaos Card  Mini_1@Quantity@1@EA@120@645@142@145@1@144@673@518@7263@7@138@680
+559@[GP]Box of Kundun +1 @Quantity@1@EA@400@646@142@145@1@144@673@518@7179@7@138@680
+560@[GP]Box of Kundun +2@Quantity@1@EA@800@647@142@145@1@144@673@518@7179@7@138@680
+561@[GP]Box of Kundun +3@Quantity@1@EA@1600@648@142@145@1@144@673@518@7179@7@138@680
+562@[GP]Box of Kundun +4@Quantity@1@EA@2400@649@142@145@1@144@673@518@7179@7@138@680
+563@[GP]Box of Kundun +5@Quantity@1@EA@3200@650@142@145@1@144@673@518@7179@7@138@680
+564@GM Gift Box@Quantity@1@EA@0@651@142@145@1@144@673@518@7220@7@138@680
+565@Pet Rudolph@Quantity@1@EA@0@652@142@145@1@144@673@518@6723@7@138@680
+566@Snowman Transformation Ring@Quantity@1@EA@0@653@142@145@1@144@673@518@6724@7@138@680
+567@Emerald Necklace@Duration@86400@Sec.@0@654@142@145@1@144@673@518@6770@10@140@386
+568@Sapphire Necklace@Duration@86400@Sec.@0@655@142@145@1@144@673@518@6771@10@140@386
+569@Topaz Ring@Duration@86400@Sec.@0@656@142@145@1@144@673@518@6767@10@140@386
+570@Ruby Ring@Duration@86400@Sec.@0@657@142@145@1@144@673@518@6766@10@140@386
+571@Sapphire Ring@Duration@86400@Sec.@0@658@142@145@1@144@673@518@6765@10@140@386
+572@Kalima Ticket @Quantity@1@EA@0@659@142@145@1@144@673@518@6704@7@138@680
+573@Devil Square Ticket@Quantity@1@EA@0@660@142@145@1@144@673@518@6702@7@138@680
+574@Blood Castle Ticket@Quantity@1@EA@0@661@142@145@1@144@673@518@6703@7@138@680
+575@Illusion Temple Ticket@Quantity@1@EA@0@662@142@145@1@144@673@518@6717@7@138@680
+576@Open Access Ticket to Varka 7@Quantity@1@EA@0@663@142@145@1@144@673@518@6783@7@138@680
+577@Gold Channel Ticket_Compensation@Duration@86400@Sec.@0@664@142@145@1@144@673@518@6780@2@135@386
+578@+11 Wing of Eternal_CARD@Quantity@1@EA@2000@665@142@145@1@144@673@518@6181@7@138@680
+579@+11 Wing of Illusion_CARD@Quantity@1@EA@2000@666@142@145@1@144@673@518@6182@7@138@680
+580@+11 Cape of Emperor_CARD@Quantity@1@EA@2000@667@142@145@1@144@673@518@6184@7@138@680
+581@+11 Wing of Dimension_CARD@Quantity@1@EA@2000@668@142@145@1@144@673@518@6187@7@138@680
+582@+11 Wing of Storm_CARD@Quantity@1@EA@2000@669@142@145@1@144@673@518@6180@7@138@680
+583@+11 Wing of Ruin_CARD@Quantity@1@EA@2000@670@142@145@1@144@673@518@6183@7@138@680
+584@+11 Cape of Overrule_CARD@Quantity@1@EA@2000@671@142@145@1@144@673@518@6194@7@138@680
+585@ [Discount][Gold Channel Ticket]@Duration@1@Days@190@672@142@145@1@144@673@518@6780@2@138@680
+585@ [Discount][Gold Channel Ticket]@Duration@3@Days@400@673@142@145@1@144@673@518@6780@2@138@680
+585@ [Discount][Gold Channel Ticket]@Duration@7@Days@600@674@142@145@1@144@673@518@6780@2@138@680
+585@ [Discount][Gold Channel Ticket]@Duration@30@Days@1600@675@142@145@1@144@673@518@6780@2@138@680
+586@+11 Wings of Spirits_Event@Quantity@1@EA@5000@676@142@145@1@144@673@518@6147@7@138@680
+587@+11 Wings of Dragon_Event@Quantity@1@EA@5000@677@142@145@1@144@673@518@6149@7@138@680
+588@+11 Wings of Darkness_Event@Quantity@1@EA@5000@678@142@145@1@144@673@518@6150@7@138@680
+589@+11 Wings of Soul_Event@Quantity@1@EA@5000@679@142@145@1@144@673@518@6148@7@138@680
+590@+11 Wings of Despair_Event@Quantity@1@EA@5000@680@142@145@1@144@673@518@6186@7@138@680
+591@+11 Cape of Lord_Event@Quantity@1@EA@5000@681@142@145@1@144@673@518@6686@7@138@680
+592@+11 Cape of Fighter_Event@Quantity@1@EA@5000@682@142@145@1@144@673@518@6193@7@138@680
+593@Horn of Fenrir_Event@Quantity@1@EA@20000@683@142@145@1@144@673@518@6693@7@138@680
+594@Wing of Eternal_Event@Quantity@1@EA@1500@684@142@145@1@144@673@518@6181@7@138@680
+595@Wing of Illusion_Event@Quantity@1@EA@15000@685@142@145@1@144@673@518@6182@7@138@680
+596@Cape of Emperor_Event@Quantity@1@EA@15000@686@142@145@1@144@673@518@6184@7@138@680
+597@Wing of Dimension_Event@Quantity@1@EA@15000@687@142@145@1@144@673@518@6187@7@138@680
+598@Wing of Storm_Event@Quantity@1@EA@15000@688@142@145@1@144@673@518@6180@7@138@680
+599@Wing of Ruin_Event@Quantity@1@EA@15000@689@142@145@1@144@673@518@6183@7@138@680
+600@Cape of Overrule_Event@Quantity@1@EA@15000@690@142@145@1@144@673@518@6194@7@138@680
+601@15 Goblin Point@���� ���ϸ���@15@WReward@0@691@142@145@1@144@673@518@7288@59@515@596
+602@50 Goblin Point@���� ���ϸ���@50@WReward@0@692@142@145@1@144@673@518@7288@59@515@596
+603@80 Goblin Point@���� ���ϸ���@80@WReward@0@693@142@145@1@144@673@518@7288@59@515@596
+604@100 Goblin Point@���� ���ϸ���@100@WReward@0@694@142@145@1@144@673@518@7288@59@515@596
+605@240 Goblin Point@���� ���ϸ���@240@WReward@0@695@142@145@1@144@673@518@7288@59@515@596
+606@280 Goblin Point@���� ���ϸ���@280@WReward@0@696@142@145@1@144@673@518@7288@59@515@596
+607@360 Goblin Point@���� ���ϸ���@360@WReward@0@697@142@145@1@144@673@518@7288@59@515@596
+608@420 Goblin Point@���� ���ϸ���@420@WReward@0@698@142@145@1@144@673@518@7288@59@515@596
+609@460 Goblin Point@���� ���ϸ���@460@WReward@0@699@142@145@1@144@673@518@7288@59@515@596
+610@[+GP_EVENT] Seal of Wealth_7 Day@Duration@10080@[7 Day(s)]@700@700@142@145@1@144@673@518@6700@10@140@386
+611@[+GP_EVENT] Seal of Wealth_30 Day@Duration@43200@[30 Day(s)]@2100@701@142@145@1@144@673@518@6700@10@140@386
+612@[+GP_EVENT] Master Seal of Wealth_7 Day@Duration@10080@[7 Day(s)]@700@702@142@145@1@144@673@518@6750@10@140@386
+613@[+GP_EVENT] Master Seal of Wealth_30 Day@Duration@43200@[30 Day(s)]@2100@703@142@145@1@144@673@518@6750@10@140@386
+614@[+GP_EVENT] Seal of Ascension_7 Day@Duration@10080@[7 Day(s)]@500@704@142@145@1@144@673@518@6699@10@140@386
+615@[+GP_EVENT] Seal of Ascension_30 Day@Duration@43200@[30 Day(s)]@1400@705@142@145@1@144@673@518@6699@10@140@386
+616@[+GP_EVENT] Master Seal of Ascension_7 Day@Duration@10080@[7 Day(s)]@500@706@142@145@1@144@673@518@6749@10@140@386
+617@[+GP_EVENT] Master Seal of Ascension_30 Day@Duration@43200@[30 Day(s)]@1400@707@142@145@1@144@673@518@6749@10@140@386
+618@[+GP_EVENT] Statue of Hawk 7 Day@Duration@10080@[7 Day(s)]@400@708@142@145@1@144@673@518@6784@10@140@386
+619@[+GP_EVENT] Statue of Hawk 30 Day@Duration@43200@[30 Day(s)]@1200@709@142@145@1@144@673@518@6784@10@140@386
+620@[+GP_EVENT] Statue of Goral 7 Day@Duration@10080@[7 Day(s)]@400@710@142@145@1@144@673@518@6785@10@140@386
+621@[+GP_EVENT] Statue of Goral 30 Day@Duration@43200@[30 Day(s)]@1200@711@142@145@1@144@673@518@6785@10@140@386
+622@[+GP_EVENT] Oak Charm 7 Day@Duration@10080@[7 Day(s)]@150@712@142@145@1@144@673@518@6786@10@140@386
+623@[+GP_EVENT] Oak Charm 30 Day@Duration@43200@[30 Day(s)]@500@713@142@145@1@144@673@518@6786@10@140@386
+624@[+GP_EVENT] Golden Oak Charm 7 Day@Duration@10080@[7 Day(s)]@600@714@142@145@1@144@673@518@6788@10@140@386
+625@[+GP_EVENT] Golden Oak Charm 30 Day@Duration@43200@[30 Day(s)]@1800@715@142@145@1@144@673@518@6788@10@140@386
+626@[+GP_EVENT] Worn Horseshoe 7 Day@Duration@10080@[7 Day(s)]@400@716@142@145@1@144@673@518@6790@10@140@386
+627@[+GP_EVENT] Worn Horseshoe 30 Day@Duration@43200@[30 Day(s)]@1200@717@142@145@1@144@673@518@6790@10@140@386
+628@Rage Fighters Small Wing@Duration@604800@Sec.@0@718@142@145@1@144@673@518@6279@10@140@386
+629@100000 Goblin Point@���� ���ϸ���@100000@WReward@100000@719@142@145@1@144@673@518@7288@59@515@596
+893@Invitation Ticket to Santa Village@Quantity@1@EA@0@1094@142@145@1@144@673@518@6722@7@138@680
+894@ [Discount][Gold Channel Ticket]@Duration@1@Days@190@1095@142@145@1@144@673@518@6780@10@138@680
+894@ [Discount][Gold Channel Ticket]@Duration@3@Days@400@1096@142@145@1@144@673@518@6780@10@138@680
+894@ [Discount][Gold Channel Ticket]@Duration@7@Days@600@1097@142@145@1@144@673@518@6780@10@138@680
+894@ [Discount][Gold Channel Ticket]@Duration@30@Days@1600@1098@142@145@1@144@673@518@6780@10@138@680
+896@Magic Backpack@Quantity@1@EA@690@1100@142@145@1@144@673@518@7330@7@138@680
+897@Vault Expansion Certificate@Quantity@1@EA@2490@1102@142@145@1@144@673@518@7331@7@138@680
+898@Devil Square Ticket@Quantity@1@EA@5000@1104@142@145@1@144@673@518@6702@7@138@680
+899@Blood Castle Ticket@Quantity@1@EA@5000@1106@142@145@1@144@673@518@6703@7@138@680
+900@Kalima Ticket@Quantity@1@EA@5000@1108@142@145@1@144@673@518@6704@7@138@680
+901@Gaion's Order@Quantity@1@EA@2000@1110@142@145@1@144@673@518@7270@7@138@680
+902@Complete Secromicon@Quantity@1@EA@2000@1112@142@145@1@144@673@518@7277@7@138@680
+903@Critical Ring of Wizard@Duration@1440@[1 Day(s)]@300@1114@142@145@1@144@673@518@6763@10@138@680
+903@Critical Ring of Wizard@Duration@10080@[7 Day(s)]@300@1115@142@145@1@144@673@518@6763@10@138@680
+904@Wizard Ring@Duration@1440@[1 Day(s)]@100@1117@142@145@1@144@673@518@6676@10@138@680
+904@Wizard Ring@Duration@10080@[7 Day(s)]@500@1118@142@145@1@144@673@518@6676@10@138@680
+905@Brown Panda Ring@Duration@1440@[1 Day(s)]@75@1120@142@145@1@144@673@518@6733@10@138@680
+905@Brown Panda Ring@Duration@10080@[7 Day(s)]@500@1121@142@145@1@144@673@518@6733@10@138@680
+905@Brown Panda Ring@Duration@43200@[30 Day(s)]@1125@1128@142@145@1@144@673@518@6733@10@138@680
+906@Skeleton Transformation Ring@Duration@1440@[1 Day(s)]@100@1123@142@145@1@144@673@518@6734@10@138@680
+906@Skeleton Transformation Ring@Duration@10080@[7 Day(s)]@500@1124@142@145@1@144@673@518@6734@10@138@680
+907@Pink Panda Ring@Duration@1440@[1 Day(s)]@100@1129@142@145@1@144@673@518@6734@10@138@680
+907@Pink Panda Ring@Duration@10080@[7 Day(s)]@500@1130@142@145@1@144@673@518@6734@10@138@680
+907@Pink Panda Ring@Duration@43200@[30 Day(s)]@1500@1131@142@145@1@144@673@518@6734@10@138@680
+908@Skeleton Transformation Ring@Duration@1440@[1 Day(s)]@50@1133@142@145@1@144@673@518@6778@10@138@680
+908@Skeleton Transformation Ring@Duration@10080@[7 Day(s)]@250@1134@142@145@1@144@673@518@6778@10@138@680
+908@Skeleton Transformation Ring@Duration@43200@[30 Day(s)]@750@1135@142@145@1@144@673@518@6778@10@138@680
+909@Amethyst Ring@Duration@1440@[1 Day(s)]@50@1137@142@145@1@144@673@518@6768@10@138@680
+909@Amethyst Ring@Duration@10080@[7 Day(s)]@250@1138@142@145@1@144@673@518@6768@10@138@680
+909@Amethyst Ring@Duration@43200@[30 Day(s)]@750@1139@142@145@1@144@673@518@6768@10@138@680
+910@Topaz Ring@Duration@1440@[1 Day(s)]@50@1141@142@145@1@144@673@518@6767@10@138@680
+910@Topaz Ring@Duration@10080@[7 Day(s)]@250@1142@142@145@1@144@673@518@6767@10@138@680
+910@Topaz Ring@Duration@43200@[30 Day(s)]@750@1143@142@145@1@144@673@518@6767@10@138@680
+911@Ruby Ring@Duration@1440@[1 Day(s)]@50@1145@142@145@1@144@673@518@6766@10@138@680
+911@Ruby Ring@Duration@10080@[7 Day(s)]@250@1146@142@145@1@144@673@518@6766@10@138@680
+911@Ruby Ring@Duration@43200@[30 Day(s)]@750@1147@142@145@1@144@673@518@6766@10@138@680
+912@Sapphire Ring@Duration@1440@[1 Day(s)]@50@1149@142@145@1@144@673@518@6765@10@138@680
+912@Sapphire Ring@Duration@10080@[7 Day(s)]@250@1150@142@145@1@144@673@518@6765@10@138@680
+912@Sapphire Ring@Duration@43200@[30 Day(s)]@750@1151@142@145@1@144@673@518@6765@10@138@680
+913@Amethyst Ring@Duration@1440@[1 Day(s)]@50@1153@142@145@1@144@673@518@6768@10@138@680
+913@Amethyst Ring@Duration@10080@[7 Day(s)]@250@1154@142@145@1@144@673@518@6768@10@138@680
+913@Amethyst Ring@Duration@43200@[30 Day(s)]@750@1155@142@145@1@144@673@518@6768@10@138@680
+914@Lethal Wizard's Ring@Duration@1440@[1 Day(s)]@50@1157@142@145@1@144@673@518@6763@10@138@680
+914@Lethal Wizard's Ring@Duration@10080@[7 Day(s)]@250@1158@142@145@1@144@673@518@6763@10@138@680
+914@Lethal Wizard's Ring@Duration@43200@[30 Day(s)]@750@1159@142@145@1@144@673@518@6763@10@138@680
+915@Wizards Ring@Duration@1440@[1 Day(s)]@30@1161@142@145@1@144@673@518@6676@10@138@680
+915@Wizards Ring@Duration@10080@[7 Day(s)]@150@1162@142@145@1@144@673@518@6676@10@138@680
+915@Wizards Ring@Duration@43200@[30 Day(s)]@375@1164@142@145@1@144@673@518@6676@10@138@680
+1018@Spirit of Guardian@Duration@1440@[1 Day(s)]@100@1270@142@145@1@144@673@518@6721@10@138@680
+1018@Spirit of Guardian@Duration@10080@[7 Day(s)]@500@1271@142@145@1@144@673@518@6721@10@138@680
+1018@Spirit of Guardian@Duration@43200@[30 Day(s)]@1400@1272@142@145@1@144@673@518@6721@10@138@680
+1019@TOA I (30 Days)@Duration@43200@[30 Day(s)]@500@1274@142@145@1@144@673@518@6833@7@138@680
+1020@Talisman of Ascension II@Quantity@1@EA@0@1276@142@145@1@144@673@518@6834@7@138@680
+1021@Talisman of Ascension III@Quantity@1@EA@0@1278@142@145@1@144@673@518@6835@7@138@680
+1022@Seal of Ascension II@Quantity@1@EA@0@1280@142@145@1@144@673@518@6836@7@138@680
+1023@Master Seal of Ascension II@Quantity@1@EA@0@1282@142@145@1@144@673@518@6837@7@138@680
+1024@Talisman of Ascension I@Quantity@1@EA@0@1284@142@145@1@144@673@518@6833@7@138@680
+1025@Talisman of Ascension I@Quantity@1@EA@0@1285@142@145@1@144@673@518@6833@7@138@680
+1026@Talisman of Ascension I@Quantity@1@EA@0@1286@142@145@1@144@673@518@6833@7@138@680
+1027@Talisman of Ascension I@Duration@1@[1 Minute(s)]@0@1287@142@145@1@144@673@518@6833@7@138@680
+1028@Talisman of Ascension I@Quantity@1@EA@0@1289@142@145@1@144@673@518@6833@7@138@680
+1029@Talisman of Ascension I 1Day@Duration@1@[1 Minute(s)]@0@1291@142@145@1@144@673@518@6833@10@138@680
+1030@TOA II (30 Days)@Duration@43200@[30 Day(s)]@1000@1292@142@145@1@144@673@518@6834@10@138@680
+1031@TOA III (30 Days)@Duration@43200@[30 Day(s)]@2500@1294@142@145@1@144@673@518@6835@10@138@680
+1032@Master Seal of Ascension II@Quantity@1@EA@1250@1296@142@145@1@144@673@518@6837@10@138@680
+1033@Talisman of Chaos Assembly@Quantity@1@EA@100@1298@142@145@1@144@673@518@7264@10@138@680
+1034@Master Seal of Ascension II@Duration@1@[1 Minute(s)]@1250@1300@142@145@1@144@673@518@6837@10@138@680
+1035@Tradeable Seal@Quantity@1@EA@100@1302@142@145@1@144@673@518@7377@10@138@680
+1036@Magic Backpack@Quantity@1@EA@100@1304@142@145@1@144@673@518@7330@10@138@680
+1037@Vault Expansion Certificate@Quantity@1@EA@100@1306@142@145@1@144@673@518@7331@10@138@680
+1038@Talisman of Luck@Rate@1@%@20@1308@142@145@1@144@673@518@7221@7@138@680
+1039@Seal of Healing@Duration@43200@[30 Day(s)]@120@1310@142@145@1@144@673@518@6718@10@138@680
+1040@Seal of Divinity@Duration@43200@[30 Day(s)]@100@1312@142@145@1@144@673@518@6719@10@138@680
+1041@Elemental Talisman of Chaos@Quantity@1@EA@100@1314@142@145@1@144@673@518@7358@10@138@680
+1041@Elemental Talisman of Chaos@Quantity@1@EA@500@1316@142@145@1@144@673@518@7358@10@138@680
+1042@Talisman Element Change@Quantity@1@EA@100@1318@142@145@1@144@673@518@7485@10@138@680
+1042@Talisman Element Change@Quantity@1@EA@100@1319@142@145@1@144@673@518@7485@10@138@680
+1043@Talisman of Chaos Assembly@Quantity@1@EA@1000@1322@142@145@1@144@673@518@7264@10@138@680
+1044@Elemental Talisman of Chaos@Quantity@1@EA@1500@1324@142@145@1@144@673@518@7358@7@138@680
+1044@Elemental Talisman of Chaos@Quantity@1@EA@5000@1325@142@145@1@144@673@518@7358@7@138@680
+1044@Seal of Divinity@Quantity@1@EA@1000@1326@142@145@1@144@673@518@7358@7@138@680
+1045@Talisman of Luck@Rate@1@%@200@1328@142@145@1@144@673@518@7221@74@138@680
+1046@Talisman Element Change@Quantity@1@EA@1000@1330@142@145@1@144@673@518@7485@7@138@680
+1046@Talisman Element Change@Quantity@1@EA@1000@1331@142@145@1@144@673@518@7485@7@138@680
+1046@Seal of Divinity@Quantity@1@EA@1000@1332@142@145@1@144@673@518@7485@7@138@680
+1047@Elemental Talisman of Luck@Quantity@1@EA@100@1334@142@145@1@144@673@518@7357@7@138@680
+1047@Elemental Talisman of Luck@Quantity@5@EA@500@1335@142@145@1@144@673@518@7357@7@138@680
+1048@Elemental Talisman of Luck@Quantity@1@EA@500@1338@142@145@1@144@673@518@7357@7@138@680
+1048@Elemental Talisman of Luck@Quantity@1@EA@500@1339@142@145@1@144@673@518@7357@7@138@680
+1048@Seal of Divinity@Quantity@1@EA@1000@1340@142@145@1@144@673@518@7357@7@138@680
+1049@Cloak of Innocence@Quantity@1@EA@5000@1342@142@145@1@144@673@518@6147@7@138@680
+1049@Cloak of Innocence@Quantity@1@EA@5000@1343@142@145@1@144@673@518@6147@7@138@680
+1049@Cloak of Innocence@Quantity@1@EA@5000@1952@142@145@1@144@673@518@6147@7@138@680
+1050@Wings of Soul@Quantity@1@EA@5000@1346@142@145@1@144@673@518@6148@7@138@680
+1050@Wings of Soul@Quantity@1@EA@5000@1347@142@145@1@144@673@518@6148@7@138@680
+1050@Wings of Soul@Quantity@1@EA@5000@1348@142@145@1@144@673@518@6148@7@138@680
+1051@Wings of Dragon@Quantity@1@EA@5000@1350@142@145@1@144@673@518@6149@7@138@680
+1051@Wings of Dragon@Quantity@1@EA@5000@1351@142@145@1@144@673@518@6149@7@138@680
+1051@Wings of Dragon@Quantity@1@EA@5000@1352@142@145@1@144@673@518@6149@7@138@680
+1052@Wings of Despair@Quantity@1@EA@5000@1354@142@145@1@144@673@518@6186@7@138@680
+1052@Wings of Despair@Quantity@1@EA@5000@1355@142@145@1@144@673@518@6186@7@138@680
+1052@Wings of Despair@Quantity@1@EA@5000@1356@142@145@1@144@673@518@6186@7@138@680
+1053@Cape of Fighter@Quantity@1@EA@100@1358@142@145@1@144@673@518@6193@7@138@680
+1053@Cape of Fighter@Quantity@1@EA@500@1359@142@145@1@144@673@518@6193@7@138@680
+1053@Cape of Fighter@Quantity@1@EA@1000@1360@142@145@1@144@673@518@6193@7@138@680
+1054@Cape of Lord@Quantity@1@EA@5000@1362@142@145@1@144@673@518@6686@7@138@680
+1054@Cape of Lord@Quantity@1@EA@5000@1363@142@145@1@144@673@518@6686@7@138@680
+1054@Cape of Lord@Quantity@1@EA@5000@1364@142@145@1@144@673@518@6686@7@138@680
+1055@Wings of Darkness@Quantity@1@EA@50000@1366@142@145@1@144@673@518@6150@7@138@680
+1055@Wings of Darkness@Quantity@1@EA@5000@1367@142@145@1@144@673@518@6150@7@138@680
+1055@Wings of Darkness@Quantity@1@EA@5000@1368@142@145@1@144@673@518@6150@7@138@680
+1056@Seal of Divinity@Quantity@1@EA@100@1370@142@145@1@144@673@518@6299@7@138@680
+1056@Seal of Divinity@Quantity@1@EA@500@1371@142@145@1@144@673@518@6299@7@138@680
+1056@Seal of Divinity@Quantity@1@EA@1000@1372@142@145@1@144@673@518@6299@7@138@680
+1057@Cloak of Innocence@Quantity@1@EA@5000@1374@142@145@1@144@673@518@6300@7@138@680
+1057@Cloak of Innocence@Quantity@1@EA@5000@1375@142@145@1@144@673@518@6300@7@138@680
+1057@Cloak of Innocence@Quantity@1@EA@5000@1376@142@145@1@144@673@518@6300@7@138@680
+1058@Pet Panda@Duration@1440@[1 Day(s)]@500@1378@142@145@1@144@673@518@6736@10@138@680
+1058@Pet Panda@Duration@10080@[7 Day(s)]@2500@1379@142@145@1@144@673@518@6736@10@138@680
+1058@Pet Panda@Duration@43200@[30 Day(s)]@5000@1380@142@145@1@144@673@518@6736@10@138@680
+1059@Pet Skeleton@Duration@1440@[1 Day(s)]@500@1382@142@145@1@144@673@518@6779@10@138@680
+1059@Pet Skeleton@Duration@10080@[7 Day(s)]@2500@1383@142@145@1@144@673@518@6779@10@138@680
+1059@Pet Skeleton@Duration@43200@[30 Day(s)]@5000@1384@142@145@1@144@673@518@6779@10@138@680
+1060@Demon@Duration@1440@[1 Day(s)]@500@1386@142@145@1@144@673@518@6720@10@138@680
+1060@Demon@Duration@10080@[7 Day(s)]@2500@1387@142@145@1@144@673@518@6720@10@138@680
+1060@Demon@Duration@43200@[30 Day(s)]@5000@1388@142@145@1@144@673@518@6720@10@138@680
+1061@Panda Ring@Duration@1440@[1 Day(s)]@250@1390@142@145@1@144@673@518@6732@10@138@680
+1061@Panda Ring@Duration@10080@[7 Day(s)]@1250@1391@142@145@1@144@673@518@6732@10@138@680
+1061@Panda Ring@Duration@43200@[30 Day(s)]@2500@1392@142@145@1@144@673@518@6732@10@138@680
+1062@Lethal Wizard's Ring@Duration@1440@[1 Day(s)]@250@1394@142@145@1@144@673@518@6763@10@138@680
+1062@Lethal Wizard's Ring@Duration@10080@[7 Day(s)]@1250@1395@142@145@1@144@673@518@6763@10@138@680
+1062@Lethal Wizard's Ring@Duration@43200@[30 Day(s)]@2500@1396@142@145@1@144@673@518@6763@10@138@680
+1063@Wizards Ring@Duration@1440@[1 Day(s)]@150@1398@142@145@1@144@673@518@6676@10@138@680
+1063@Wizards Ring@Duration@10080@[7 Day(s)]@500@1399@142@145@1@144@673@518@6676@10@138@680
+1063@Wizards Ring@Duration@43200@[30 Day(s)]@1000@1400@142@145@1@144@673@518@6676@10@138@680
+1064@Pinocchio (Evolved)@Duration@1@[1 Minute(s)]@150@1402@142@145@1@144@673@518@8193@10@138@680
+1065@Pinocchio (Evolved)@Duration@1@[1 Minute(s)]@500@1403@142@145@1@144@673@518@8193@10@138@680
+1066@Geppetto (Evolved)@Duration@1@[1 Minute(s)]@150@1405@142@145@1@144@673@518@8195@10@138@680
+1067@Geppetto (Evolved)@Duration@1@[1 Minute(s)]@500@1406@142@145@1@144@673@518@8195@10@138@680
+1068@Blue Fairy (Evolved)@Duration@1@[1 Minute(s)]@150@1408@142@145@1@144@673@518@8197@10@138@680
+1069@Blue Fairy (Evolved)@Duration@1@[1 Minute(s)]@500@1409@142@145@1@144@673@518@8197@10@138@680
+1070@Papa Bear (Evolved)@Duration@1@[1 Minute(s)]@150@1411@142@145@1@144@673@518@8199@10@138@680
+1071@Papa Bear (Evolved)@Duration@1@[1 Minute(s)]@500@1412@142@145@1@144@673@518@8199@10@138@680
+1072@Baby Bear (Evolved)@Duration@1@[1 Minute(s)]@150@1414@142@145@1@144@673@518@8201@10@138@680
+1073@Baby Bear (Evolved)@Duration@1@[1 Minute(s)]@500@1415@142@145@1@144@673@518@8201@10@138@680
+1074@Mama Bear (Evolved)@Duration@1@[1 Minute(s)]@150@1417@142@145@1@144@673@518@8203@10@138@680
+1075@Mama Bear (Evolved)@Duration@1@[1 Minute(s)]@500@1418@142@145@1@144@673@518@8203@10@138@680
+1076@Woody (Evolved)@Duration@1@[1 Minute(s)]@150@1420@142@145@1@144@673@518@8205@10@138@680
+1077@Woody (Evolved)@Duration@1@[1 Minute(s)]@500@1421@142@145@1@144@673@518@8205@10@138@680
+1078@Horn of Fenrir@Duration@1@[1 Minute(s)]@500@1423@142@145@1@144@673@518@6693@10@138@680
+1079@Expansion Scroll Radiance Slo@Quantity@1@EA@150@1425@142@145@1@144@673@518@7484@10@138@680
+1080@Bless of Light (Low Grade)@Quantity@1@EA@100@1427@142@145@1@144@673@518@7431@10@138@680
+1081@Bless of Light (Middle Grade)@Quantity@10@EA@250@1429@142@145@1@144@673@518@7432@10@138@680
+1082@[Bound] Bless of Light (Greater)@Quantity@10@EA@500@1431@142@145@1@144@673@518@7539@7@138@680
+1083@Capsule (Fire)@Quantity@1@EA@250@1433@142@145@1@144@673@518@7464@7@138@680
+1084@Capsule(Earth)@Quantity@1@EA@250@1435@142@145@1@144@673@518@7505@7@138@680
+1085@Capsule(Water)@Quantity@1@EA@250@1437@142@145@1@144@673@518@7506@7@138@680
+1086@Capsule(Wind)@Quantity@1@EA@250@1439@142@145@1@144@673@518@7507@7@138@680
+1087@Capsule(Darkness)@Quantity@1@EA@250@1441@142@145@1@144@673@518@7508@7@138@680
+1088@Seed Capsule (Fire)@Quantity@1@EA@250@1443@142@145@1@144@673@518@7546@7@138@680
+1089@Seed Capsule (Water)@Quantity@1@EA@250@1445@142@145@1@144@673@518@7547@7@138@680
+1090@Seed Capsule (Ice)@Quantity@1@EA@250@1447@142@145@1@144@673@518@7548@7@138@680
+1091@Seed Capsule (Wind)@Quantity@1@EA@250@1449@142@145@1@144@673@518@7549@7@138@680
+1092@Seed Capsule (Lightning)@Quantity@1@EA@250@1451@142@145@1@144@673@518@7550@7@138@680
+1093@Seed Capsule (Earth)@Quantity@1@EA@250@1453@142@145@1@144@673@518@7551@7@138@680
+1094@Sphere Upgrade Rune Capsule@Quantity@1@EA@100@1455@142@145@1@144@673@518@7552@7@138@680
+1095@Talisman of Chaos Assembly@Quantity@1@EA@100@1457@142@145@1@144@673@518@7264@7@138@680
+1096@Tradeable Seal@Quantity@1@EA@100@1458@142@145@1@144@673@518@7377@7@138@680
+1097@Magic Backpack@Quantity@1@EA@100@1459@142@145@1@144@673@518@7330@7@138@680
+1098@Vault Expansion Certificate@Quantity@1@EA@100@1460@142@145@1@144@673@518@7331@7@138@680
+1099@Talisman of Luck@Rate@1@%@20@1461@142@145@1@144@673@518@7221@74@138@680
+1100@Talisman of Luck@Rate@1@%@20@1462@142@145@1@144@673@518@7221@74@138@680
+1101@Elemental Talisman of Chaos@Quantity@1@EA@150@1463@142@145@1@144@673@518@7358@7@138@680
+1102@Vault Expansion Certificate@Quantity@1@EA@100@1464@142@145@1@144@673@518@7331@7@138@680
+1103@Tradeable Seal@Quantity@1@EA@100@1465@142@145@1@144@673@518@7377@7@138@680
+1104@Talisman of Chaos Assembly@Quantity@1@EA@100@1466@142@145@1@144@673@518@7264@7@138@680
+1105@Tradeable Seal@Quantity@1@EA@100@1467@142@145@1@144@673@518@7377@7@138@680
+1106@Magic Backpack@Quantity@1@EA@100@1468@142@145@1@144@673@518@7330@7@138@680
+1107@Talisman of Luck@Rate@1@%@20@1469@142@145@1@144@673@518@7221@74@138@680
+1108@Elemental Talisman of Chaos@Quantity@1@EA@150@1470@142@145@1@144@673@518@7358@7@138@680
+1109@Elemental Talisman of Chaos@Quantity@1@EA@150@1471@142@145@1@144@673@518@7358@7@138@680
+1110@Vault Expansion Certificate@Quantity@1@EA@100@1472@142@145@1@144@673@518@7331@7@138@680
+1111@Talisman of Chaos Assembly@Quantity@1@EA@100@1473@142@145@1@144@673@518@7264@7@138@680
+1112@Tradeable Seal@Quantity@1@EA@100@1474@142@145@1@144@673@518@7377@7@138@680
+1113@Magic Backpack@Quantity@1@EA@100@1475@142@145@1@144@673@518@7330@7@138@680
+1114@Elemental Talisman of Luck@Quantity@1@EA@50@1476@142@145@1@144@673@518@7357@7@138@680
+1115@Talisman Element Change@Quantity@1@EA@100@1477@142@145@1@144@673@518@7485@7@138@680
+1116@Expansion Scroll Radiance Slo@Quantity@1@EA@150@1478@142@145@1@144@673@518@7484@7@138@680
+1117@Elemental Talisman of Luck@Quantity@1@EA@50@1479@142@145@1@144@673@518@7357@7@138@680
+1118@Elemental Talisman of Luck@Quantity@1@EA@50@1480@142@145@1@144@673@518@7357@7@138@680
+1119@Elemental Talisman of Chaos@Quantity@1@EA@150@1481@142@145@1@144@673@518@7358@7@138@680
+1120@Seed Capsule (Water)@Quantity@1@EA@250@1482@142@145@1@144@673@518@7547@7@138@680
+1121@Seed Capsule (Ice)@Quantity@1@EA@250@1483@142@145@1@144@673@518@7548@7@138@680
+1122@Seed Capsule (Wind)@Quantity@1@EA@250@1484@142@145@1@144@673@518@7549@7@138@680
+1123@Seed Capsule (Fire)@Quantity@1@EA@250@1485@142@145@1@144@673@518@7546@7@138@680
+1124@Capsule(Darkness)@Quantity@1@EA@250@1486@142@145@1@144@673@518@7508@7@138@680
+1125@Capsule(Wind)@Quantity@1@EA@250@1487@142@145@1@144@673@518@7507@7@138@680
+1126@Capsule(Earth)@Quantity@1@EA@250@1488@142@145@1@144@673@518@7505@7@138@680
+1127@Capsule(Water)@Quantity@1@EA@250@1489@142@145@1@144@673@518@7506@7@138@680
+1128@Capsule (Fire)@Quantity@1@EA@250@1490@142@145@1@144@673@518@7464@7@138@680
+1129@Capsule (Fire)@Quantity@1@EA@250@1491@142@145@1@144@673@518@7464@7@138@680
+1130@Capsule (Fire)@Quantity@1@EA@250@1492@142@145@1@144@673@518@7464@7@138@680
+1131@Capsule (Fire)@Quantity@1@EA@250@1493@142@145@1@144@673@518@7464@7@138@680
+1132@Talisman of Luck@Rate@1@%@250@1494@142@145@1@144@673@518@7221@7@138@680
+1133@Talisman of Luck@Quantity@1@EA@250@1496@142@145@1@144@673@518@7221@7@138@680
+1134@Talisman of Luck@Quantity@1@EA@250@1497@142@145@1@144@673@518@7221@7@138@680
+1135@Talisman of Luck@Rate@1@%@250@1498@142@145@1@144@673@518@7221@74@138@680
+1136@Talisman of Luck@Rate@1@%@250@1499@142@145@1@144@673@518@7221@74@138@680
+1137@Talisman of Chaos Assembly@Quantity@1@EA@1000@1500@142@145@1@144@673@518@7264@7@138@680
+1138@Talisman of Luck@Rate@1@%@200@1501@142@145@1@144@673@518@7221@74@138@680
+1139@Elemental Talisman of Chaos@Quantity@1@EA@150@1502@142@145@1@144@673@518@7358@7@138@680
+1139@Elemental Talisman of Chaos@Quantity@1@EA@150@1503@142@145@1@144@673@518@7358@7@138@680
+1139@Seal of Divinity@Quantity@1@EA@1000@1504@142@145@1@144@673@518@7358@7@138@680
+1140@Talisman of Chaos Assembly@Quantity@1@EA@100@1506@142@145@1@144@673@518@7264@7@138@680
+1141@Elemental Talisman of Luck@Quantity@1@EA@50@1508@142@145@1@144@673@518@7357@7@138@680
+1141@Elemental Talisman of Luck@Quantity@1@EA@50@1509@142@145@1@144@673@518@7357@7@138@680
+1141@Seal of Divinity@Quantity@1@EA@1000@1510@142@145@1@144@673@518@7357@7@138@680
+1142@Talisman Element Change@Quantity@1@EA@100@1512@142@145@1@144@673@518@7485@7@138@680
+1142@Talisman Element Change@Quantity@1@EA@100@1513@142@145@1@144@673@518@7485@7@138@680
+1142@Seal of Divinity@Quantity@1@EA@1000@1514@142@145@1@144@673@518@7485@7@138@680
+1143@Magic Backpack@Quantity@1@EA@100@1516@142@145@1@144@673@518@7330@7@138@680
+1143@Magic Backpack@Quantity@1@EA@100@1517@142@145@1@144@673@518@7330@7@138@680
+1143@Magic Backpack@Quantity@1@EA@100@1518@142@145@1@144@673@518@7330@7@138@680
+1144@Magic Backpack@Quantity@1@EA@1000@1520@142@145@1@144@673@518@7330@7@138@680
+1144@Magic Backpack@Quantity@1@EA@1000@1521@142@145@1@144@673@518@7330@7@138@680
+1144@Magic Backpack@Quantity@1@EA@1000@1522@142@145@1@144@673@518@7330@7@138@680
+1145@Vault Expansion Certificate@Quantity@1@EA@100@1524@142@145@1@144@673@518@7331@7@138@680
+1145@Vault Expansion Certificate@Quantity@1@EA@100@1525@142@145@1@144@673@518@7331@7@138@680
+1145@Vault Expansion Certificate@Quantity@1@EA@100@1526@142@145@1@144@673@518@7331@7@138@680
+1146@Vault Expansion Certificate@Quantity@1@EA@1000@1528@142@145@1@144@673@518@7331@7@138@680
+1146@Vault Expansion Certificate@Quantity@1@EA@1000@1529@142@145@1@144@673@518@7331@7@138@680
+1146@Seal of Divinity@Quantity@1@EA@1000@1530@142@145@1@144@673@518@7331@7@138@680
+1147@Woody (Evolved)@Duration@1@[1 Minute(s)]@150@1532@142@145@1@144@673@518@8205@10@138@680
+1148@Mama Bear (Evolved)@Duration@1@[1 Minute(s)]@150@1533@142@145@1@144@673@518@8203@10@138@680
+1149@Baby Bear (Evolved)@Duration@1@[1 Minute(s)]@150@1534@142@145@1@144@673@518@8201@10@138@680
+1150@Papa Bear (Evolved)@Duration@1@[1 Minute(s)]@150@1535@142@145@1@144@673@518@8199@10@138@680
+1151@Pinocchio (Evolved)@Duration@1@[1 Minute(s)]@150@1536@142@145@1@144@673@518@8193@10@138@680
+1152@Geppetto (Evolved)@Duration@1@[1 Minute(s)]@150@1537@142@145@1@144@673@518@8195@10@138@680
+1153@Blue Fairy (Evolved)@Duration@1@[1 Minute(s)]@150@1538@142@145@1@144@673@518@8197@10@138@680
+1154@Magic Backpack@Quantity@1@EA@1000@1539@142@145@1@144@673@518@7330@7@138@680
+1155@Talisman of Chaos Assembly@Quantity@1@EA@1000@1540@142@145@1@144@673@518@7264@7@138@680
+1156@Elemental Talisman of Chaos@Quantity@1@EA@1500@1542@142@145@1@144@673@518@7358@7@138@680
+1156@Elemental Talisman of Chaos@Quantity@1@EA@1500@1543@142@145@1@144@673@518@7358@7@138@680
+1156@Elemental Talisman of Chaos@Quantity@1@EA@1500@1544@142@145@1@144@673@518@7358@7@138@680
+1157@Talisman of Luck@Rate@1@%@200@1546@142@145@1@144@673@518@7221@74@138@680
+1158@Talisman Element Change@Quantity@1@EA@1000@1548@142@145@1@144@673@518@7485@7@138@680
+1158@Talisman Element Change@Quantity@1@EA@1000@1549@142@145@1@144@673@518@7485@7@138@680
+1158@Talisman Element Change@Quantity@1@EA@1000@1550@142@145@1@144@673@518@7485@7@138@680
+1159@Elemental Talisman of Luck@Quantity@1@EA@500@1552@142@145@1@144@673@518@7357@7@138@680
+1159@Elemental Talisman of Luck@Quantity@1@EA@500@1553@142@145@1@144@673@518@7357@7@138@680
+1159@Elemental Talisman of Luck@Quantity@1@EA@500@1554@142@145@1@144@673@518@7357@7@138@680
+1160@Magic Backpack@Quantity@1@EA@1000@1556@142@145@1@144@673@518@7330@7@138@680
+1160@Magic Backpack@Quantity@1@EA@1000@1557@142@145@1@144@673@518@7330@7@138@680
+1160@Magic Backpack@Quantity@1@EA@1000@1558@142@145@1@144@673@518@7330@7@138@680
+1161@Vault Expansion Certificate@Quantity@1@EA@1000@1560@142@145@1@144@673@518@7331@7@138@680
+1161@Vault Expansion Certificate@Quantity@1@EA@1000@1561@142@145@1@144@673@518@7331@7@138@680
+1161@Vault Expansion Certificate@Quantity@1@EA@1000@1562@142@145@1@144@673@518@7331@7@138@680
+1162@Talisman of Chaos Assembly@Quantity@1@EA@1000@1564@142@145@1@144@673@518@7264@7@138@680
+1163@Talisman of Chaos Assembly@Quantity@1@EA@100@1566@142@145@1@144@673@518@7264@7@138@680
+1164@Elemental Talisman of Chaos@Quantity@1@EA@1500@1568@142@145@1@144@673@518@7358@7@138@680
+1164@Elemental Talisman of Chaos@Quantity@1@EA@150@1569@142@145@1@144@673@518@7358@7@138@680
+1164@Elemental Talisman of Chaos@Quantity@1@EA@1500@1570@142@145@1@144@673@518@7358@7@138@680
+1165@Elemental Talisman of Chaos@Quantity@1@EA@150@1572@142@145@1@144@673@518@7358@7@138@680
+1165@Elemental Talisman of Chaos@Quantity@1@EA@150@1573@142@145@1@144@673@518@7358@7@138@680
+1165@Elemental Talisman of Chaos@Quantity@1@EA@150@1574@142@145@1@144@673@518@7358@7@138@680
+1166@Talisman of Chaos Assembly@Quantity@1@EA@30000@1576@142@145@1@144@673@518@7264@7@138@680
+1167@Talisman of Luck@Rate@1@%@5000@1578@142@145@1@144@673@518@7221@74@138@680
+1168@Elemental Talisman of Luck@Quantity@1@EA@50@1580@142@145@1@144@673@518@7357@7@138@680
+1168@Elemental Talisman of Luck@Quantity@1@EA@50@1581@142@145@1@144@673@518@7357@7@138@680
+1168@Elemental Talisman of Luck@Quantity@1@EA@500@1582@142@145@1@144@673@518@7357@7@138@680
+1169@Elemental Talisman of Luck@Quantity@1@EA@500@1584@142@145@1@144@673@518@7357@7@138@680
+1169@Elemental Talisman of Luck@Quantity@1@EA@500@1585@142@145@1@144@673@518@7357@7@138@680
+1169@Elemental Talisman of Luck@Quantity@1@EA@500@1586@142@145@1@144@673@518@7357@7@138@680
+1170@Elemental Talisman of Luck@Quantity@1@EA@500@1588@142@145@1@144@673@518@7357@7@138@680
+1170@Elemental Talisman of Luck@Quantity@1@EA@500@1589@142@145@1@144@673@518@7357@7@138@680
+1170@Elemental Talisman of Luck@Quantity@1@EA@500@1590@142@145@1@144@673@518@7357@7@138@680
+1171@Elemental Talisman of Luck@Quantity@1@EA@50@1592@142@145@1@144@673@518@7357@7@138@680
+1171@Elemental Talisman of Luck@Quantity@1@EA@50@1593@142@145@1@144@673@518@7357@7@138@680
+1171@Elemental Talisman of Luck@Quantity@1@EA@50@1594@142@145@1@144@673@518@7357@7@138@680
+1172@Talisman Element Change@Quantity@1@EA@100@1596@142@145@1@144@673@518@7485@7@138@680
+1172@Talisman Element Change@Quantity@1@EA@100@1597@142@145@1@144@673@518@7485@7@138@680
+1172@Talisman Element Change@Quantity@1@EA@100@1598@142@145@1@144@673@518@7485@7@138@680
+1173@Treasure Chest (Evolved)@Duration@1@[1 Minute(s)]@500@1600@142@145@1@144@673@518@8207@10@138@680
+1174@Treasure Hunter (Evolved)@Duration@1@[1 Minute(s)]@500@1602@142@145@1@144@673@518@8209@10@138@680
+1175@Grass Fairy (Evolved)@Duration@1@[1 Minute(s)]@500@1604@142@145@1@144@673@518@8213@10@138@680
+1176@Tree Elf (Evolved)@Duration@1@[1 Minute(s)]@500@1606@142@145@1@144@673@518@8211@10@138@680
+1177@Leaf Mage (Evolved)@Duration@1@[1 Minute(s)]@500@1608@142@145@1@144@673@518@8215@10@138@680
+1178@Samba Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1610@142@145@1@144@673@518@8217@10@138@680
+1179@Rio (Evolved)@Duration@1@[1 Minute(s)]@500@1612@142@145@1@144@673@518@8219@10@138@680
+1180@Bateria (Evolved)@Duration@1@[1 Minute(s)]@500@1614@142@145@1@144@673@518@8221@10@138@680
+1181@Tiger (Evolved)@Duration@1@[1 Minute(s)]@500@1616@142@145@1@144@673@518@8225@10@138@680
+1182@Libra (Evolved)@Duration@1@[1 Minute(s)]@500@1618@142@145@1@144@673@518@8227@10@138@680
+1183@Scorpio (Evolved)@Duration@1@[1 Minute(s)]@500@1620@142@145@1@144@673@518@8229@10@138@680
+1184@Rabbit (Evolved)@Duration@1@[1 Minute(s)]@500@1622@142@145@1@144@673@518@8231@10@138@680
+1185@Chicken (Evolved)@Duration@1@[1 Minute(s)]@500@1624@142@145@1@144@673@518@8234@10@138@680
+1186@Rooster (Evolved)@Duration@1@[1 Minute(s)]@500@1626@142@145@1@144@673@518@8236@10@138@680
+1187@Angry Rooster (Evolved)@Duration@1@[1 Minute(s)]@500@1628@142@145@1@144@673@518@8238@10@138@680
+1188@Lion (Evolved)@Duration@1@[1 Minute(s)]@500@1630@142@145@1@144@673@518@8240@10@138@680
+1189@Knight Instructor (Evolved)@Duration@1@[1 Minute(s)]@500@1632@142@145@1@144@673@518@8242@10@138@680
+1190@Blackbeard (Evolved)@Duration@1@[1 Minute(s)]@500@1634@142@145@1@144@673@518@8244@10@138@680
+1191@Toy Robot (Evolved)@Duration@1@[1 Minute(s)]@500@1636@142@145@1@144@673@518@8246@10@138@680
+1192@Adventure cat (Evolved)@Duration@1@[1 Minute(s)]@500@1638@142@145@1@144@673@518@8248@10@138@680
+1193@Rainy Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1640@142@145@1@144@673@518@8252@10@138@680
+1194@Scarecrow (Evolved)@Duration@1@[1 Minute(s)]@500@1642@142@145@1@144@673@518@8254@10@138@680
+1195@Zombie Articles (Evolved)@Duration@1@[1 Minute(s)]@500@1644@142@145@1@144@673@518@8256@10@138@680
+1196@Mr. Fishing King (Evolved)@Duration@1@[1 Minute(s)]@500@1646@142@145@1@144@673@518@8258@10@138@680
+1197@Snow Fairy (Evolved)@Duration@1@[1 Minute(s)]@500@1648@142@145@1@144@673@518@8260@10@138@680
+1198@Dodo Poodle (Evolved)@Duration@1@[1 Minute(s)]@500@1650@142@145@1@144@673@518@8264@10@138@680
+1199@Shinan Beagle (Evolved)@Duration@1@[1 Minute(s)]@500@1652@142@145@1@144@673@518@8266@10@138@680
+1200@Angry Bulldog (Evolved)@Duration@1@[1 Minute(s)]@500@1654@142@145@1@144@673@518@8268@10@138@680
+1201@Figure Queen (Evolved)@Duration@1@[1 Minute(s)]@500@1656@142@145@1@144@673@518@8272@10@138@680
+1202@Hockey Bear (Evolved)@Duration@1@[1 Minute(s)]@500@1658@142@145@1@144@673@518@8274@10@138@680
+1203@Super Panda (Evolved)@Duration@1@[1 Minute(s)]@500@1660@142@145@1@144@673@518@8278@10@138@680
+1204@Belly Dancer (Evolved)@Duration@1@[1 Minute(s)]@500@1662@142@145@1@144@673@518@8280@10@138@680
+1205@Strong Captain (Evolved)@Duration@1@[1 Minute(s)]@500@1664@142@145@1@144@673@518@8282@10@138@680
+1206@Strong Keeper (Evolved)@Duration@1@[1 Minute(s)]@500@1666@142@145@1@144@673@518@8284@10@138@680
+1207@Supreme Referee (Evolved)@Duration@1@[1 Minute(s)]@500@1668@142@145@1@144@673@518@8286@10@138@680
+1208@Hip-Hop Dino (Evolved)@Duration@1@[1 Minute(s)]@500@1670@142@145@1@144@673@518@8288@10@138@680
+1209@Beach Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1672@142@145@1@144@673@518@8290@10@138@680
+1210@Bead Master (Evolved)@Duration@1@[1 Minute(s)]@500@1674@142@145@1@144@673@518@8292@10@138@680
+1211@Apple Sword (Evolved)@Duration@1@[1 Minute(s)]@500@1676@142@145@1@144@673@518@8296@10@138@680
+1212@Hangul (Evolved)@Duration@1@[1 Minute(s)]@500@1678@142@145@1@144@673@518@8294@10@138@680
+1213@Flying Bread (Evolved)@Duration@1@[1 Minute(s)]@500@1680@142@145@1@144@673@518@8298@10@138@680
+1214@The Great Fairy Kara@Duration@1@[1 Minute(s)]@500@1682@142@145@1@144@673@518@8299@10@138@680
+1215@Great Wizard Eithamu@Duration@1@[1 Minute(s)]@500@1684@142@145@1@144@673@518@8300@10@138@680
+1216@Bell@Duration@1@[1 Minute(s)]@500@1686@142@145@1@144@673@518@8301@10@138@680
+1217@Lapa (Evolved)@Duration@1@[1 Minute(s)]@500@1688@142@145@1@144@673@518@8303@10@138@680
+1218@Knicks (Evolved)@Duration@1@[1 Minute(s)]@500@1690@142@145@1@144@673@518@8305@10@138@680
+1219@Serufan (Evolved)@Duration@1@[1 Minute(s)]@500@1692@142@145@1@144@673@518@8307@10@138@680
+1220@Medusa (Evolved)@Duration@1@[1 Minute(s)]@500@1694@142@145@1@144@673@518@8309@10@138@680
+1221@Balrog (Evolved)@Duration@1@[1 Minute(s)]@500@1696@142@145@1@144@673@518@8311@10@138@680
+1222@Hellmine (Evolved)@Duration@1@[1 Minute(s)]@500@1698@142@145@1@144@673@518@8313@10@138@680
+1223@Kundun (Evolved)@Duration@1@[1 Minute(s)]@500@1700@142@145@1@144@673@518@8315@10@138@680
+1224@Hydra (Evolved)@Duration@1@[1 Minute(s)]@500@1702@142@145@1@144@673@518@8317@10@138@680
+1225@Lord Silvester (Evolved)@Duration@1@[1 Minute(s)]@500@1704@142@145@1@144@673@518@8319@10@138@680
+1226@Nightmare (Evolved)@Duration@1@[1 Minute(s)]@500@1706@142@145@1@144@673@518@8321@10@138@680
+1227@Dark Phoenix (Evolved)@Duration@1@[1 Minute(s)]@500@1708@142@145@1@144@673@518@8323@10@138@680
+1228@Kairuku (Evolved)@Duration@1@[1 Minute(s)]@500@1710@142@145@1@144@673@518@8325@10@138@680
+1229@Legendary Warlock@Duration@1@[1 Minute(s)]@500@1712@142@145@1@144@673@518@8326@10@138@680
+1230@The Fairy Guardian@Duration@1@[1 Minute(s)]@500@1714@142@145@1@144@673@518@8327@10@138@680
+1231@Desmodus (Evolved)@Duration@1@[1 Minute(s)]@500@1716@142@145@1@144@673@518@8329@10@138@680
+1232@Fairy Queen Runedil@Duration@1@[1 Minute(s)]@500@1718@142@145@1@144@673@518@8330@10@138@680
+1233@Magician Gaion Karein@Duration@1@[1 Minute(s)]@500@1720@142@145@1@144@673@518@8331@10@138@680
+1234@Fighter (Evolved)@Duration@1@[1 Minute(s)]@500@1722@142@145@1@144@673@518@8333@10@138@680
+1235@Flower Leader Leah (Evolved)@Duration@1@[1 Minute(s)]@500@1724@142@145@1@144@673@518@8335@10@138@680
+1236@Shadow Phantom (Evolved)@Duration@1@[1 Minute(s)]@500@1726@142@145@1@144@673@518@8337@10@138@680
+1237@Warehouse Guardian (Evolved)@Duration@1@[1 Minute(s)]@500@1728@142@145@1@144@673@518@8339@10@138@680
+1238@Fairy Lara (Evolved)@Duration@1@[1 Minute(s)]@500@1730@142@145@1@144@673@518@8341@10@138@680
+1239@Tablet's Elpis@Duration@1@[1 Minute(s)]@500@1732@142@145@1@144@673@518@8342@10@138@680
+1240@Magic Swordsman Muren Rexmillon@Duration@1@[1 Minute(s)]@500@1734@142@145@1@144@673@518@8343@10@138@680
+1241@Uma King@Duration@1@[1 Minute(s)]@500@1736@142@145@1@144@673@518@8344@10@138@680
+1242@Uma King (Evolved)@Duration@1@[1 Minute(s)]@500@1738@142@145@1@144@673@518@8345@10@138@680
+1243@Dandelion Fairy (Evolved)@Duration@1@[1 Minute(s)]@500@1740@142@145@1@144@673@518@8347@10@138@680
+1244@Sea Lifeguard (Evolved)@Duration@1@[1 Minute(s)]@500@1742@142@145@1@144@673@518@8349@10@138@680
+1245@Night Song Fairy (Evolved)@Duration@1@[1 Minute(s)]@500@1744@142@145@1@144@673@518@8351@10@138@680
+1246@Snowboarder (Evolved)@Duration@1@[1 Minute(s)]@500@1746@142@145@1@144@673@518@8353@10@138@680
+1247@Luki (Evolved)@Duration@1@[1 Minute(s)]@500@1748@142@145@1@144@673@518@8405@10@138@680
+1248@Tony (Evolved)@Duration@1@[1 Minute(s)]@500@1750@142@145@1@144@673@518@8407@10@138@680
+1249@Nymph (Evolved)@Duration@1@[1 Minute(s)]@500@1752@142@145@1@144@673@518@8409@10@138@680
+1250@Safi (Evolved)@Duration@1@[1 Minute(s)]@500@1754@142@145@1@144@673@518@8411@10@138@680
+1251@William (Evolved)@Duration@1@[1 Minute(s)]@500@1756@142@145@1@144@673@518@8416@10@138@680
+1252@Paul (Evolved)@Duration@1@[1 Minute(s)]@500@1758@142@145@1@144@673@518@8418@10@138@680
+1253@Chiron (Evolved)@Duration@1@[1 Minute(s)]@500@1760@142@145@1@144@673@518@8420@10@138@680
+1254@Wooparoo (Evolved)@Duration@1@[1 Minute(s)]@500@1762@142@145@1@144@673@518@8422@10@138@680
+1255@Tibetton (Evolved)@Duration@1@[1 Minute(s)]@500@1764@142@145@1@144@673@518@8424@10@138@680
+1256@Witch (Evolved)@Duration@1@[1 Minute(s)]@500@1766@142@145@1@144@673@518@8426@10@138@680
+1257@Skull (Evolved)@Duration@1@[1 Minute(s)]@500@1768@142@145@1@144@673@518@8428@10@138@680
+1258@Pumpkie (Evolved)@Duration@1@[1 Minute(s)]@500@1770@142@145@1@144@673@518@8430@10@138@680
+1259@Lycan (Evolved)@Duration@1@[1 Minute(s)]@500@1772@142@145@1@144@673@518@8436@10@138@680
+1260@Torby (Evolved)@Duration@1@[1 Minute(s)]@500@1774@142@145@1@144@673@518@8438@10@138@680
+1261@Seiren (Evolved)@Duration@1@[1 Minute(s)]@500@1776@142@145@1@144@673@518@8445@10@138@680
+1262@Behemoth (Evolved)@Duration@1@[1 Minute(s)]@500@1778@142@145@1@144@673@518@8447@10@138@680
+1263@Loggle (Evolved)@Duration@1@[1 Minute(s)]@500@1780@142@145@1@144@673@518@8449@10@138@680
+1264@Mino (Evolved)@Duration@1@[1 Minute(s)]@500@1782@142@145@1@144@673@518@8451@10@138@680
+1265@Hound (Evolved)@Duration@1@[1 Minute(s)]@500@1784@142@145@1@144@673@518@8453@10@138@680
+1266@Trive (Evolved)@Duration@1@[1 Minute(s)]@500@1786@142@145@1@144@673@518@8455@10@138@680
+1267@Vogan (Evolved)@Duration@1@[1 Minute(s)]@500@1788@142@145@1@144@673@518@8457@10@138@680
+1268@Cyclop (Evolved)@Duration@1@[1 Minute(s)]@500@1790@142@145@1@144@673@518@8459@10@138@680
+1269@Bonf (Evolved)@Duration@1@[1 Minute(s)]@500@1792@142@145@1@144@673@518@8463@10@138@680
+1270@Hawk (Evolved)@Duration@1@[1 Minute(s)]@500@1794@142@145@1@144@673@518@8465@10@138@680
+1271@Muty (Evolved)@Duration@1@[1 Minute(s)]@500@1796@142@145@1@144@673@518@8467@10@138@680
+1272@Mantis (Evolved)@Duration@1@[1 Minute(s)]@500@1798@142@145@1@144@673@518@8471@10@138@680
+1273@Scolpy (Evolved)@Duration@1@[1 Minute(s)]@500@1800@142@145@1@144@673@518@8473@10@138@680
+1274@Chafer (Evolved)@Duration@1@[1 Minute(s)]@500@1802@142@145@1@144@673@518@8475@10@138@680
+1275@Shogun (Evolved)@Duration@1@[1 Minute(s)]@500@1804@142@145@1@144@673@518@8477@10@138@680
+1276@Ninja (Evolved)@Duration@1@[1 Minute(s)]@500@1806@142@145@1@144@673@518@8479@10@138@680
+1277@Samurai (Evolved)@Duration@1@[1 Minute(s)]@500@1808@142@145@1@144@673@518@8481@10@138@680
+1278@Taaf (Evolved)@Duration@1@[1 Minute(s)]@500@1810@142@145@1@144@673@518@8493@10@138@680
+1279@Sporty Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1812@142@145@1@144@673@518@8487@10@138@680
+1280@Frozen (Evolved)@Duration@1@[1 Minute(s)]@500@1814@142@145@1@144@673@518@8495@10@138@680
+1281@Lure (Evolved)@Duration@1@[1 Minute(s)]@500@1816@142@145@1@144@673@518@8497@10@138@680
+1282@Fur Seal (Evolved)@Duration@1@[1 Minute(s)]@500@1818@142@145@1@144@673@518@8499@10@138@680
+1283@Lucky Rabbit (Evolved)@Duration@1@[1 Minute(s)]@500@1820@142@145@1@144@673@518@8501@10@138@680
+1284@Mortar Rabbit (Evolved)@Duration@1@[1 Minute(s)]@500@1822@142@145@1@144@673@518@8505@10@138@680
+1285@Mooncake Rabbit (Evolved)@Duration@1@[1 Minute(s)]@500@1824@142@145@1@144@673@518@8503@10@138@680
+1286@Tarius (Evolved)@Duration@1@[1 Minute(s)]@500@1826@142@145@1@144@673@518@8507@10@138@680
+1287@Rainer (Evolved)@Duration@1@[1 Minute(s)]@500@1828@142@145@1@144@673@518@8509@10@138@680
+1288@Alkamo (Evolved)@Duration@1@[1 Minute(s)]@500@1830@142@145@1@144@673@518@8511@10@138@680
+1289@Glacuse (Evolved)@Duration@1@[1 Minute(s)]@500@1832@142@145@1@144@673@518@8513@10@138@680
+1290@Kenturion (Evolved)@Duration@1@[1 Minute(s)]@500@1834@142@145@1@144@673@518@8515@10@138@680
+1291@Rocka (Evolved)@Duration@1@[1 Minute(s)]@500@1836@142@145@1@144@673@518@8517@10@138@680
+1292@Repen (Evolved)@Duration@1@[1 Minute(s)]@500@1838@142@145@1@144@673@518@8519@10@138@680
+1293@Pawn (Evolved)@Duration@1@[1 Minute(s)]@500@1840@142@145@1@144@673@518@8521@10@138@680
+1294@Griffs (Evolved)@Duration@1@[1 Minute(s)]@500@1842@142@145@1@144@673@518@8523@10@138@680
+1295@Polar Bear (Evolved)@Duration@1@[1 Minute(s)]@500@1844@142@145@1@144@673@518@8525@10@138@680
+1296@Present (Evolved)@Duration@1@[1 Minute(s)]@500@1846@142@145@1@144@673@518@8527@10@138@680
+1297@Rocking Horse (Evolved)@Duration@1@[1 Minute(s)]@500@1848@142@145@1@144@673@518@8529@10@138@680
+1298@Aries (Evolved)@Duration@1@[1 Minute(s)]@500@1850@142@145@1@144@673@518@8531@10@138@680
+1299@Lester (Evolved)@Duration@1@[1 Minute(s)]@500@1852@142@145@1@144@673@518@8533@10@138@680
+1300@Merino (Evolved)@Duration@1@[1 Minute(s)]@500@1854@142@145@1@144@673@518@8535@10@138@680
+1301@Splinter (Evolved)@Duration@1@[1 Minute(s)]@500@1856@142@145@1@144@673@518@8537@10@138@680
+1302@Mutation (Evolved)@Duration@1@[1 Minute(s)]@500@1858@142@145@1@144@673@518@8539@10@138@680
+1303@Fighter (Evolved)@Duration@1@[1 Minute(s)]@500@1860@142@145@1@144@673@518@8541@10@138@680
+1304@Heywood (Evolved)@Duration@1@[1 Minute(s)]@500@1862@142@145@1@144@673@518@8602@10@138@680
+1305@Branch (Evolved)@Duration@1@[1 Minute(s)]@500@1864@142@145@1@144@673@518@8604@10@138@680
+1306@Hook (Evolved)@Duration@1@[1 Minute(s)]@500@1866@142@145@1@144@673@518@8606@10@138@680
+1307@Carnifle (Evolved)@Duration@1@[1 Minute(s)]@500@1868@142@145@1@144@673@518@8608@10@138@680
+1308@Mandora (Evolved)@Duration@1@[1 Minute(s)]@500@1870@142@145@1@144@673@518@8610@10@138@680
+1309@Treat (Evolved)@Duration@1@[1 Minute(s)]@500@1872@142@145@1@144@673@518@8612@10@138@680
+1310@Rose Spirit (Evolved)@Duration@1@[1 Minute(s)]@500@1874@142@145@1@144@673@518@8614@10@138@680
+1311@Freesia Spirit (Evolved)@Duration@1@[1 Minute(s)]@500@1876@142@145@1@144@673@518@8616@10@138@680
+1312@Cherry Blossom Spirit (Evolved)@Duration@1@[1 Minute(s)]@500@1878@142@145@1@144@673@518@8618@10@138@680
+1313@Gigantes@Duration@1@[1 Minute(s)]@500@1880@142@145@1@144@673@518@8619@10@138@680
+1314@Gigantes (Evolved)@Duration@1@[1 Minute(s)]@500@1882@142@145@1@144@673@518@8620@10@138@680
+1315@Mammoth (Evolved)@Duration@1@[1 Minute(s)]@500@1884@142@145@1@144@673@518@8622@10@138@680
+1316@Walker (Evolved)@Duration@1@[1 Minute(s)]@500@1886@142@145@1@144@673@518@8624@10@138@680
+1317@Surfing Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1888@142@145@1@144@673@518@8626@10@138@680
+1318@Swim Tube Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1890@142@145@1@144@673@518@8628@10@138@680
+1319@Snorkeling Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1892@142@145@1@144@673@518@8630@10@138@680
+1320@Commander (Evolved)@Duration@1@[1 Minute(s)]@500@1894@142@145@1@144@673@518@8632@10@138@680
+1321@Lance Soldier (Evolved)@Duration@1@[1 Minute(s)]@500@1896@142@145@1@144@673@518@8634@10@138@680
+1322@Bow Soldier (Evolved)@Duration@1@[1 Minute(s)]@500@1898@142@145@1@144@673@518@8636@10@138@680
+1323@Refear (Evolved)@Duration@1@[1 Minute(s)]@500@1900@142@145@1@144@673@518@8640@10@138@680
+1324@Hammer (Evolved)@Duration@1@[1 Minute(s)]@500@1902@142@145@1@144@673@518@8638@10@138@680
+1325@Pumpkin Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1904@142@145@1@144@673@518@8644@10@138@680
+1326@Chrysanthemum (Evolved)@Duration@1@[1 Minute(s)]@500@1906@142@145@1@144@673@518@8650@10@138@680
+1327@Mummy Boy (Evolved)@Duration@1@[1 Minute(s)]@500@1908@142@145@1@144@673@518@8648@10@138@680
+1328@Ginkgo (Evolved)@Duration@1@[1 Minute(s)]@500@1910@142@145@1@144@673@518@8654@10@138@680
+1329@Maple (Evolved)@Duration@1@[1 Minute(s)]@500@1912@142@145@1@144@673@518@8652@10@138@680
+1330@Toy Soldier (Evolved)@Duration@1@[1 Minute(s)]@500@1914@142@145@1@144@673@518@8673@10@138@680
+1331@Snowman (Evolved)@Duration@1@[1 Minute(s)]@500@1916@142@145@1@144@673@518@8677@10@138@680
+1332@Christmas Tree (Evolved)@Duration@1@[1 Minute(s)]@500@1918@142@145@1@144@673@518@8675@10@138@680
+1333@Busker Monkey (Evolved)@Duration@1@[1 Minute(s)]@500@1920@142@145@1@144@673@518@8679@10@138@680
+1334@DJ Monkey (Evolved)@Duration@1@[1 Minute(s)]@500@1922@142@145@1@144@673@518@8681@10@138@680
+1335@Space Monkey (Evolved)@Duration@1@[1 Minute(s)]@500@1924@142@145@1@144@673@518@8683@10@138@680
+1336@Little Cupid (Evolved)@Duration@1@[1 Minute(s)]@500@1926@142@145@1@144@673@518@8685@10@138@680
+1337@Heart Girl (Evolved)@Duration@1@[1 Minute(s)]@500@1928@142@145@1@144@673@518@8689@10@138@680
+1338@Chocolate Cookie (Evolved)@Duration@1@[1 Minute(s)]@500@1930@142@145@1@144@673@518@8687@10@138@680
+1339@Lollipop Mama (Evolved)@Duration@1@[1 Minute(s)]@500@1932@142@145@1@144@673@518@8693@10@138@680
+1340@Sweet Muscle Man (Evolved)@Duration@1@[1 Minute(s)]@500@1934@142@145@1@144@673@518@8695@10@138@680
+1341@Seal of Wealth@Duration@1440@[1 Day(s)]@150@1936@142@145@1@144@673@518@6700@10@138@680
+1341@Seal of Wealth@Duration@4320@[3 Day(s)]@350@1937@142@145@1@144@673@518@6700@10@138@680
+1341@Seal of Wealth@Duration@10080@[7 Day(s)]@700@1938@142@145@1@144@673@518@6700@10@138@680
+1341@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@1939@142@145@1@144@673@518@6700@10@138@680
+1342@Master Seal of Wealth@Duration@1440@[1 Day(s)]@1500@1941@142@145@1@144@673@518@6750@10@138@680
+1342@Master Seal of Wealth@Duration@10080@[7 Day(s)]@5000@1942@142@145@1@144@673@518@6750@10@138@680
+1342@Master Seal of Wealth@Duration@43200@[30 Day(s)]@15000@1943@142@145@1@144@673@518@6750@10@138@680
+1343@Seal of Wealth@Duration@1440@[1 Day(s)]@750@1945@142@145@1@144@673@518@6700@10@138@680
+1343@Seal of Wealth@Duration@4320@[3 Day(s)]@1750@1946@142@145@1@144@673@518@6700@10@138@680
+1343@Seal of Wealth@Duration@10080@[7 Day(s)]@5000@1947@142@145@1@144@673@518@6700@10@138@680
+1343@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@1948@142@145@1@144@673@518@6700@10@138@680
+1344@Scroll of Strengthener_7 Day@Duration@10080@[7 Day(s)]@2800@1950@142@145@1@144@673@518@7266@10@138@680
+1345@Black Cloak@Quantity@1@EA@5000@1953@142@145@1@144@673@518@6318@7@138@680
+1345@Black Cloak@Quantity@1@EA@5000@1954@142@145@1@144@673@518@6318@7@138@680
+1345@Black Cloak@Quantity@1@EA@5000@1955@142@145@1@144@673@518@6318@7@138@680
+1346@[Bound] Bless of Light (Low Grade) x50@Quantity@50@EA@5000@1957@142@145@1@144@673@518@7541@7@138@680
+1346@[Bound] Bless of Light (Low Grade) x50@Quantity@50@EA@5000@1958@142@145@1@144@673@518@7541@7@138@680
+1346@[Bound] Bless of Light (Low Grade) x50@Quantity@50@EA@5000@1959@142@145@1@144@673@518@7541@7@138@680
+1347@Dark Horse@Quantity@1@EA@1000@1961@142@145@1@144@673@518@6660@10@138@680
+1348@Pinocchio (Evolved)@Quantity@1@EA@500@1963@142@145@1@144@673@518@8193@7@138@680
+1349@Papa Bear (Evolved)@Quantity@1@EA@500@1965@142@145@1@144@673@518@8199@7@138@680
+1350@Woody (Evolved)@Quantity@1@EA@500@1967@142@145@1@144@673@518@8205@7@138@680
+1351@Woody (Evolved)@Quantity@1@EA@500@1969@142@145@1@144@673@518@8205@7@138@680
+1352@Tree Elf (Evolved)@Quantity@1@EA@500@1971@142@145@1@144@673@518@8211@7@138@680
+1353@Samba Girl (Evolved)@Quantity@1@EA@500@1973@142@145@1@144@673@518@8217@7@138@680
+1354@Dragon Articles@Quantity@1@EA@1000@1975@142@145@1@144@673@518@8223@7@138@680
+1355@Tiger (Evolved)@Quantity@1@EA@1000@1977@142@145@1@144@673@518@8225@7@138@680
+1356@Libra (Evolved)@Quantity@1@EA@1000@1979@142@145@1@144@673@518@8227@7@138@680
+1357@Scorpio (Evolved)@Quantity@1@EA@1000@1981@142@145@1@144@673@518@8229@7@138@680
+1358@Lucky Rabbit (Evolved)@Quantity@1@EA@500@1983@142@145@1@144@673@518@6965@7@138@680
+1359@Chicken (Evolved)@Quantity@1@EA@1000@1985@142@145@1@144@673@518@8234@7@138@680
+1360@Lion (Evolved)@Quantity@1@EA@1000@1987@142@145@1@144@673@518@8240@7@138@680
+1361@Knight Instructor (Evolved)@Quantity@1@EA@1000@1989@142@145@1@144@673@518@8242@7@138@680
+1362@Blackbeard (Evolved)@Quantity@1@EA@1000@1991@142@145@1@144@673@518@8244@7@138@680
+1363@Toy Robot (Evolved)@Quantity@1@EA@1000@1993@142@145@1@144@673@518@8246@7@138@680
+1364@Adventure cat (Evolved)@Quantity@1@EA@1000@1995@142@145@1@144@673@518@8248@7@138@680
+1365@Dike (Evolved)@Quantity@1@EA@1000@1997@142@145@1@144@673@518@8250@7@138@680
+1366@Rainy Girl (Evolved)@Quantity@1@EA@1000@1999@142@145@1@144@673@518@8252@7@138@680
+1367@Scarecrow (Evolved)@Quantity@1@EA@1000@2001@142@145@1@144@673@518@8254@7@138@680
+1368@Zombie Articles (Evolved)@Quantity@1@EA@1000@2003@142@145@1@144@673@518@8256@7@138@680
+1369@Mr. Fishing King (Evolved)@Quantity@1@EA@1000@2005@142@145@1@144@673@518@8258@7@138@680
+1370@Snow Fairy (Evolved)@Quantity@1@EA@1000@2007@142@145@1@144@673@518@8260@7@138@680
+1371@Prince (Premium)@Quantity@1@EA@2000@2009@142@145@1@144@673@518@8261@7@138@680
+1372@Rex Millon (Premium)@Quantity@1@EA@2000@2011@142@145@1@144@673@518@8262@7@138@680
+1373@Dodo Poodle (Evolved)@Quantity@1@EA@1000@2013@142@145@1@144@673@518@8264@7@138@680
+1374@Pilot (Evolved)@Quantity@1@EA@1000@2015@142@145@1@144@673@518@8276@7@138@680
+1375@Super Panda (Evolved)@Quantity@1@EA@1000@2017@142@145@1@144@673@518@8278@7@138@680
+1376@Belly Dancer (Evolved)@Quantity@1@EA@1000@2019@142@145@1@144@673@518@8280@7@138@680
+1377@Strong Captain (Evolved)@Quantity@1@EA@1000@2021@142@145@1@144@673@518@8282@7@138@680
+1378@Hip-Hop Dino (Evolved)@Quantity@1@EA@1000@2023@142@145@1@144@673@518@8288@7@138@680
+1379@Beach Girl (Evolved)@Quantity@1@EA@1000@2025@142@145@1@144@673@518@8290@7@138@680
+1380@Bead Master (Evolved)@Quantity@1@EA@1000@2027@142@145@1@144@673@518@8292@7@138@680
+1381@Hangul (Evolved)@Quantity@1@EA@1000@2029@142@145@1@144@673@518@8294@7@138@680
+1382@Apple Sword (Evolved)@Quantity@1@EA@1000@2031@142@145@1@144@673@518@8296@7@138@680
+1383@Flying Bread (Evolved)@Quantity@1@EA@1000@2033@142@145@1@144@673@518@8298@7@138@680
+1384@Kara (Premium)@Quantity@1@EA@2000@2035@142@145@1@144@673@518@8299@7@138@680
+1385@Eithamu (Premium)@Quantity@1@EA@2000@2037@142@145@1@144@673@518@8300@7@138@680
+1386@Bell@Quantity@1@EA@1000@2039@142@145@1@144@673@518@8301@7@138@680
+1387@Lapa (Evolved)@Quantity@1@EA@1000@2041@142@145@1@144@673@518@8303@7@138@680
+1388@Knicks (Evolved)@Quantity@1@EA@1000@2043@142@145@1@144@673@518@8305@7@138@680
+1389@Serufan (Evolved)@Quantity@1@EA@1000@2045@142@145@1@144@673@518@8307@7@138@680
+1390@Medusa (Evolved)@Quantity@1@EA@1000@2047@142@145@1@144@673@518@8309@7@138@680
+1391@Balrog (Evolved)@Quantity@1@EA@1000@2049@142@145@1@144@673@518@8311@7@138@680
+1392@Hellmine (Evolved)@Quantity@1@EA@1000@2051@142@145@1@144@673@518@8313@7@138@680
+1393@Kundun (Evolved)@Quantity@1@EA@1000@2053@142@145@1@144@673@518@8315@7@138@680
+1394@Hydra (Evolved)@Quantity@1@EA@1000@2055@142@145@1@144@673@518@8317@7@138@680
+1395@Lord Silvester (Evolved)@Quantity@1@EA@1000@2057@142@145@1@144@673@518@8319@7@138@680
+1396@Nightmare (Evolved)@Quantity@1@EA@1000@2059@142@145@1@144@673@518@8321@7@138@680
+1397@Dark Phoenix (Evolved)@Quantity@1@EA@1000@2061@142@145@1@144@673@518@8323@7@138@680
+1398@Legendary Warlock@Quantity@1@EA@1000@2063@142@145@1@144@673@518@8326@7@138@680
+1399@Runedil (Premium)@Quantity@1@EA@2000@2065@142@145@1@144@673@518@8330@7@138@680
+1400@Karein (Premium)@Quantity@1@EA@2000@2067@142@145@1@144@673@518@8331@7@138@680
+1401@Fighter (Evolved)@Quantity@1@EA@1000@2069@142@145@1@144@673@518@8333@7@138@680
+1402@Flower Leader Leah (Evolved)@Quantity@1@EA@1000@2071@142@145@1@144@673@518@8335@7@138@680
+1403@Shadow Phantom (Evolved)@Quantity@1@EA@1000@2073@142@145@1@144@673@518@8337@7@138@680
+1404@Warehouse Guardian (Evolved)@Quantity@1@EA@1000@2075@142@145@1@144@673@518@8339@7@138@680
+1405@Fairy Lara (Evolved)@Quantity@1@EA@1000@2077@142@145@1@144@673@518@8341@7@138@680
+1406@Tablet's Elpis (Premium)@Quantity@1@EA@2000@2079@142@145@1@144@673@518@8342@7@138@680
+1407@Repen (Evolved)@Quantity@1@EA@1000@2081@142@145@1@144@673@518@8519@7@138@680
+1408@Pawn (Evolved)@Quantity@1@EA@1000@2083@142@145@1@144@673@518@8521@7@138@680
+1409@Griffs (Evolved)@Quantity@1@EA@1000@2085@142@145@1@144@673@518@8523@7@138@680
+1410@Rose Spirit (Evolved)@Quantity@1@EA@1000@2087@142@145@1@144@673@518@8614@7@138@680
+1411@Seal of Ascension@Duration@1440@[1 Day(s)]@3000@2089@142@145@1@144@673@518@6699@10@138@680
+1411@Seal of Ascension@Duration@4320@[3 Day(s)]@18000@2090@142@145@1@144@673@518@6699@10@138@680
+1411@Seal of Ascension@Duration@10080@[7 Day(s)]@72000@2091@142@145@1@144@673@518@6699@10@138@680
+1411@Seal of Ascension@Duration@43200@[30 Day(s)]@1400@2092@142@145@1@144@673@518@6699@10@138@680
+1412@Master Seal of Wealth@Duration@1440@[1 Day(s)]@5000@2094@142@145@1@144@673@518@6750@10@138@680
+1412@Master Seal of Wealth@Duration@10080@[7 Day(s)]@30000@2095@142@145@1@144@673@518@6750@10@138@680
+1412@Master Seal of Wealth@Duration@43200@[30 Day(s)]@120000@2096@142@145@1@144@673@518@6750@10@138@680
+1413@Master Seal of Ascension@Duration@1440@[1 Day(s)]@3000@2098@142@145@1@144@673@518@6749@10@138@680
+1413@Master Seal of Ascension@Duration@10080@[7 Day(s)]@18000@2099@142@145@1@144@673@518@6749@10@138@680
+1413@Master Seal of Ascension@Duration@43200@[30 Day(s)]@72000@2100@142@145@1@144@673@518@6749@10@138@680
+1414@Seal of Sustenance@Duration@1440@[1 Day(s)]@80@2102@142@145@1@144@673@518@6701@10@138@680
+1414@Seal of Sustenance@Duration@14400@[10 Day(s)]@680@2103@142@145@1@144@673@518@6701@10@138@680
+1414@Seal of Sustenance@Duration@43200@[30 Day(s)]@1250@2104@142@145@1@144@673@518@6701@10@138@680
+1415@Seal of Healing@Duration@1440@[1 Day(s)]@120@2106@142@145@1@144@673@518@6718@10@138@680
+1415@Seal of Healing@Duration@10080@[7 Day(s)]@600@2107@142@145@1@144@673@518@6718@10@138@680
+1415@Seal of Healing@Duration@43200@[30 Day(s)]@1000@2108@142@145@1@144@673@518@6718@10@138@680
+1416@Seal of Divinity@Duration@1440@[1 Day(s)]@100@2110@142@145@1@144@673@518@6719@10@138@680
+1416@Seal of Divinity@Duration@10080@[7 Day(s)]@500@2111@142@145@1@144@673@518@6719@10@138@680
+1416@Seal of Divinity@Duration@43200@[30 Day(s)]@1000@2112@142@145@1@144@673@518@6719@10@138@680
+1417@AG Boost Aura@Duration@1440@[1 Day(s)]@120@2114@142@145@1@144@673@518@6760@10@138@680
+1417@AG Boost Aura@Duration@10080@[7 Day(s)]@600@2115@142@145@1@144@673@518@6760@10@138@680
+1418@SD Boost Aura@Duration@1440@[1 Day(s)]@120@2117@142@145@1@144@673@518@6761@10@138@680
+1418@SD Boost Aura@Duration@10080@[7 Day(s)]@600@2118@142@145@1@144@673@518@6761@10@138@680
+1419@Worn Horseshoe@Duration@1440@[1 Day(s)]@80@2120@142@145@1@144@673@518@6790@10@138@680
+1419@Worn Horseshoe@Duration@10080@[7 Day(s)]@400@2121@142@145@1@144@673@518@6790@10@138@680
+1419@Worn Horseshoe@Duration@43200@[30 Day(s)]@1200@2122@142@145@1@144@673@518@6790@10@138@680
+1420@Seal of Healing@Duration@1440@[1 Day(s)]@4000@2124@142@145@1@144@673@518@6718@10@138@680
+1420@Seal of Healing@Duration@10080@[7 Day(s)]@24000@2125@142@145@1@144@673@518@6718@10@138@680
+1420@Seal of Healing@Duration@43200@[30 Day(s)]@96000@2126@142@145@1@144@673@518@6718@10@138@680
+1421@Seal of Divinity@Duration@1440@[1 Day(s)]@3000@2128@142@145@1@144@673@518@6719@10@138@680
+1421@Seal of Divinity@Duration@10080@[7 Day(s)]@18000@2129@142@145@1@144@673@518@6719@10@138@680
+1421@Seal of Divinity@Duration@43200@[30 Day(s)]@72000@2130@142@145@1@144@673@518@6719@10@138@680
+1422@AG Boost Aura@Duration@1440@[1 Day(s)]@4000@2132@142@145@1@144@673@518@6760@10@138@680
+1422@AG Boost Aura@Duration@10080@[7 Day(s)]@24000@2133@142@145@1@144@673@518@6760@10@138@680
+1423@SD Boost Aura@Duration@1440@[1 Day(s)]@4000@2135@142@145@1@144@673@518@6761@10@138@680
+1423@SD Boost Aura@Duration@10080@[7 Day(s)]@24000@2136@142@145@1@144@673@518@6761@10@138@680
+1424@Seal of Sustenance@Duration@1440@[1 Day(s)]@80@2138@142@145@1@144@673@518@6701@10@138@680
+1424@Seal of Sustenance@Duration@14400@[10 Day(s)]@680@2139@142@145@1@144@673@518@6701@10@138@680
+1424@Seal of Sustenance@Duration@43200@[30 Day(s)]@1250@2140@142@145@1@144@673@518@6701@10@138@680
+1425@Worn Horseshoe@Duration@1440@[1 Day(s)]@1000@2142@142@145@1@144@673@518@6790@10@138@680
+1425@Worn Horseshoe@Duration@10080@[7 Day(s)]@400@2143@142@145@1@144@673@518@6790@10@138@680
+1425@Worn Horseshoe@Duration@43200@[30 Day(s)]@1200@2144@142@145@1@144@673@518@6790@10@138@680
+1426@Statue of Hawk@Duration@1440@[1 Day(s)]@1000@2146@142@145@1@144@673@518@6784@10@138@680
+1426@Statue of Hawk@Duration@10080@[7 Day(s)]@6000@2147@142@145@1@144@673@518@6784@10@138@680
+1426@Statue of Hawk@Duration@43200@[30 Day(s)]@1200@2148@142@145@1@144@673@518@6784@10@138@680
+1427@Statue of Goral@Duration@1440@[1 Day(s)]@1000@2150@142@145@1@144@673@518@6785@10@138@680
+1427@Statue of Goral@Duration@10080@[7 Day(s)]@6000@2151@142@145@1@144@673@518@6785@10@138@680
+1427@Statue of Goral@Duration@43200@[30 Day(s)]@1200@2152@142@145@1@144@673@518@6785@10@138@680
+1428@Scroll of Protection@Duration@1440@[1 Day(s)]@100@2154@142@145@1@144@673@518@7393@10@138@680
+1428@Scroll of Protection@Duration@10080@[7 Day(s)]@500@2155@142@145@1@144@673@518@7393@10@138@680
+1429@Scroll Master of Wizardry@Duration@1440@[1 Day(s)]@100@2157@142@145@1@144@673@518@7394@10@138@680
+1429@Scroll Master of Wizardry@Duration@43200@[30 Day(s)]@6000@2158@142@145@1@144@673@518@7394@10@138@680
+1430@Scroll Master of Health@Duration@1440@[1 Day(s)]@1000@2160@142@145@1@144@673@518@7395@10@138@680
+1430@Scroll Master of Health@Duration@43200@[30 Day(s)]@6000@2161@142@145@1@144@673@518@7395@10@138@680
+1431@Scroll Master of Mana@Duration@1440@[1 Day(s)]@1000@2163@142@145@1@144@673@518@7396@10@138@680
+1431@Scroll Master of Mana@Duration@43200@[30 Day(s)]@6000@2164@142@145@1@144@673@518@7396@10@138@680
+1432@Scroll Master of Wrath@Duration@1440@[1 Day(s)]@1000@2166@142@145@1@144@673@518@7397@10@138@680
+1432@Scroll Master of Wrath@Duration@43200@[30 Day(s)]@6000@2167@142@145@1@144@673@518@7397@10@138@680
+1433@Scroll Master of Recovery@Duration@1440@[1 Day(s)]@1000@2169@142@145@1@144@673@518@7398@10@138@680
+1433@Scroll Master of Recovery@Duration@43200@[30 Day(s)]@6000@2170@142@145@1@144@673@518@7398@10@138@680
+1434@Scroll Master of Battle@Duration@1440@[1 Day(s)]@1000@2172@142@145@1@144@673@518@7399@10@138@680
+1434@Scroll Master of Battle@Duration@43200@[30 Day(s)]@6000@2173@142@145@1@144@673@518@7399@10@138@680
+1435@Scroll Master of Strenghener@Duration@1440@[1 Day(s)]@1000@2175@142@145@1@144@673@518@7400@10@138@680
+1435@Scroll Master of Strenghener@Duration@43200@[30 Day(s)]@6000@2176@142@145@1@144@673@518@7400@10@138@680
+1436@Scroll Master of Defense@Duration@1440@[1 Day(s)]@1000@2178@142@145@1@144@673@518@7393@10@138@680
+1436@Scroll Master of Defense@Duration@43200@[30 Day(s)]@6000@2179@142@145@1@144@673@518@7393@10@138@680
+1437@[Bound] Bless of Light (Greater)@Quantity@1@EA@500@2181@142@145@1@144@673@518@7539@7@138@680
+1438@[Bound] Bless of Light (Greater)@Quantity@1@EA@500@2183@142@145@1@144@673@518@7539@7@138@680
+1439@Bless of Light (Low Grade) X50@Quantity@1@EA@250@2185@142@145@1@144@673@518@7431@7@138@680
+1440@Bless of Light (Middle Grade) X50@Quantity@1@EA@500@2187@142@145@1@144@673@518@7432@7@138@680
+1441@[Bound] Bless of Light (Greater)@Quantity@1@EA@1000@2189@142@145@1@144@673@518@7539@7@138@680
+1442@Topaz Ring@Duration@1440@[1 Day(s)]@50@2191@142@145@1@144@673@518@6767@10@138@680
+1442@Topaz Ring@Duration@10080@[7 Day(s)]@250@2192@142@145@1@144@673@518@6767@10@138@680
+1442@Topaz Ring@Duration@43200@[30 Day(s)]@750@2193@142@145@1@144@673@518@6767@10@138@680
+1443@Wizards Ring@Duration@1440@[1 Day(s)]@30@2195@142@145@1@144@673@518@6676@10@138@680
+1443@Wizards Ring@Duration@10080@[7 Day(s)]@150@2196@142@145@1@144@673@518@6676@10@138@680
+1443@Wizards Ring@Duration@43200@[30 Day(s)]@375@2197@142@145@1@144@673@518@6676@10@138@680
+1444@Wizards Ring@Duration@1440@[1 Day(s)]@30@2199@142@145@1@144@673@518@6676@10@138@680
+1444@Wizards Ring@Duration@10080@[7 Day(s)]@150@2200@142@145@1@144@673@518@6676@10@138@680
+1444@Wizards Ring@Duration@43200@[30 Day(s)]@375@2201@142@145@1@144@673@518@6676@10@138@680
+1445@Topaz Ring@Duration@1440@[1 Day(s)]@50@2203@142@145@1@144@673@518@6767@10@138@680
+1445@Topaz Ring@Duration@10080@[7 Day(s)]@250@2204@142@145@1@144@673@518@6767@10@138@680
+1445@Topaz Ring@Duration@43200@[30 Day(s)]@750@2205@142@145@1@144@673@518@6767@10@138@680
+1446@Oak Charm@Duration@1440@[1 Day(s)]@1000@2207@142@145@1@144@673@518@6786@10@138@680
+1446@Oak Charm@Duration@10080@[7 Day(s)]@6000@2208@142@145@1@144@673@518@6786@10@138@680
+1446@Oak Charm@Duration@43200@[30 Day(s)]@500@2209@142@145@1@144@673@518@6786@10@138@680
+1447@Boss Battle Ticket@Quantity@1@EA@2000@2211@142@145@1@144@673@518@10349@7@138@680
+1448@Bless of Light (Greater) (50)@Quantity@1@EA@1000@2213@142@145@1@144@673@518@7392@7@138@680
+1449@Bless of Light (Greater) X50@Quantity@1@EA@1000@2215@142@145@1@144@673@518@7392@7@138@680
+1450@Horn of Dinorant@Duration@1@[1 Minute(s)]@1000@2216@142@145@1@144@673@518@6659@7@138@680
+1451@Talisman of Item Protection@Duration@1440@[1 Day(s)]@80@2218@142@145@1@144@673@518@6738@10@138@680
+1451@Talisman of Item Protection@Duration@10080@[7 Day(s)]@400@2219@142@145@1@144@673@518@6738@10@138@680
+1451@Talisman of Item Protection@Duration@43200@[30 Day(s)]@1200@2220@142@145@1@144@673@518@6738@10@138@680
+1452@Talisman of Item Protection@Duration@1440@[1 Day(s)]@2000@2221@142@145@1@144@673@518@6738@10@138@680
+1452@Talisman of Item Protection@Duration@10080@[7 Day(s)]@12000@2222@142@145@1@144@673@518@6738@10@138@680
+1452@Talisman of Item Protection@Duration@43200@[30 Day(s)]@48000@2223@142@145@1@144@673@518@6738@10@138@680
+1453@Seed Capsule (Fire)@Quantity@1@EA@250@2225@142@145@1@144@673@518@7546@7@138@680
+1454@Sphere Upgrade Rune Capsule@Quantity@1@EA@100@2227@142@145@1@144@673@518@7552@7@138@680
+1455@Seed Capsule (Fire)@Quantity@1@EA@250@2229@142@145@1@144@673@518@7546@7@138@680
+1456@Sphere Upgrade Rune Capsule@Quantity@1@EA@100@2231@142@145@1@144@673@518@7552@7@138@680
+1457@Seed Capsule (Fire)@Quantity@1@EA@250@2233@142@145@1@144@673@518@7546@7@138@680
+1458@Sphere Upgrade Rune Capsule@Quantity@1@EA@100@2235@142@145@1@144@673@518@7552@7@138@680
+1459@Premium Pass Voucher@Duration@1@Days@1000@2236@142@145@1@144@673@518@10364@10@138@680
+1460@Pass Ticket@Rate@1@%@1000@2238@142@145@1@144@673@518@10362@74@138@680
+1461@Pass Ticket X1@Rate@1@%@1000@2240@142@145@1@144@673@518@10363@74@138@680
+1462@Premium Pass Voucher@Rate@1@%@10000@2242@142@145@1@144@673@518@10364@74@138@680
+1463@Premium Pass Voucher@Rate@1@%@10000@2244@142@145@1@144@673@518@10363@74@138@680
+1464@Complete Secromicon@Quantity@1@EA@100000@2246@142@145@1@144@673@518@10364@74@138@680
+1465@Pass Ticket@Rate@1@%@50000@2248@142@145@1@144@673@518@10363@74@138@680
+1466@Pass Ticket@Rate@1@%@1000@2250@142@145@1@144@673@518@10362@74@138@680
+1467@Pass Ticket X1@Rate@1@%@1000@2252@142@145@1@144@673@518@10362@74@138@680
+1467@Pass Ticket X5@Rate@1@%@5000@2253@142@145@1@144@673@518@10362@74@138@680
+1468@Talisman of Chaos Assembly@Quantity@1@EA@30000@2254@142@145@1@144@673@518@7264@7@138@680
+1469@Skeleton Transformation Ring@Duration@1440@[1 Day(s)]@5000@2255@142@145@1@144@673@518@6778@10@138@680
+1469@Skeleton Transformation Ring@Duration@10080@[7 Day(s)]@30000@2256@142@145@1@144@673@518@6778@10@138@680
+1469@Skeleton Transformation Ring@Duration@43200@[30 Day(s)]@120000@2257@142@145@1@144@673@518@6778@10@138@680
+1470@Lethal Wizard's Ring@Duration@1440@[1 Day(s)]@3000@2259@142@145@1@144@673@518@6763@10@138@680
+1470@Lethal Wizard's Ring@Duration@10080@[7 Day(s)]@18000@2260@142@145@1@144@673@518@6763@10@138@680
+1470@Lethal Wizard's Ring@Duration@43200@[30 Day(s)]@72000@2261@142@145@1@144@673@518@6763@10@138@680
+1471@Wizards Ring@Duration@1440@[1 Day(s)]@3000@2263@142@145@1@144@673@518@6676@10@138@680
+1471@Wizards Ring@Duration@10080@[7 Day(s)]@1800@2264@142@145@1@144@673@518@6676@10@138@680
+1471@Wizards Ring@Duration@43200@[30 Day(s)]@72000@2265@142@145@1@144@673@518@6676@10@138@680
+1472@Ruby Ring@Duration@1440@[1 Day(s)]@3000@2267@142@145@1@144@673@518@6766@10@138@680
+1472@Ruby Ring@Duration@10080@[7 Day(s)]@18000@2268@142@145@1@144@673@518@6766@10@138@680
+1472@Ruby Ring@Duration@43200@[30 Day(s)]@72000@2269@142@145@1@144@673@518@6766@10@138@680
+1473@Sapphire Ring@Duration@1440@[1 Day(s)]@3000@2271@142@145@1@144@673@518@6765@10@138@680
+1473@Sapphire Ring@Duration@10080@[7 Day(s)]@18000@2272@142@145@1@144@673@518@6765@10@138@680
+1473@Sapphire Ring@Duration@43200@[30 Day(s)]@72000@2273@142@145@1@144@673@518@6765@10@138@680
+1474@Topaz Ring@Duration@1440@[1 Day(s)]@3000@2275@142@145@1@144@673@518@6767@10@138@680
+1474@Topaz Ring@Duration@10080@[7 Day(s)]@18000@2276@142@145@1@144@673@518@6767@10@138@680
+1474@Topaz Ring@Duration@43200@[30 Day(s)]@72000@2277@142@145@1@144@673@518@6767@10@138@680
+1475@Emerald Necklace@Duration@1440@[1 Day(s)]@3000@2279@142@145@1@144@673@518@6770@10@138@680
+1475@Emerald Necklace@Duration@10080@[7 Day(s)]@18000@2280@142@145@1@144@673@518@6770@10@138@680
+1476@Sapphire Necklace@Duration@1440@[1 Day(s)]@3000@2282@142@145@1@144@673@518@6771@10@138@680
+1476@Sapphire Necklace@Duration@10080@[7 Day(s)]@18000@2283@142@145@1@144@673@518@6771@10@138@680
+1477@Scroll Master of Wizardry@Duration@1440@[1 Day(s)]@100@2285@142@145@1@144@673@518@7394@10@138@680
+1477@Scroll Master of Wizardry@Duration@43200@[30 Day(s)]@500@2286@142@145@1@144@673@518@7394@10@138@680
+1478@Talisman of Item Protection@Duration@1440@[1 Day(s)]@2000@2288@142@145@1@144@673@518@6738@10@138@680
+1478@Talisman of Item Protection@Duration@10080@[7 Day(s)]@12000@2289@142@145@1@144@673@518@6738@10@138@680
+1478@Talisman of Item Protection@Duration@43200@[30 Day(s)]@48000@2290@142@145@1@144@673@518@6738@10@138@680
+1479@Gaion's Order@Quantity@1@EA@2000@2292@142@145@1@144@673@518@7270@7@138@680
+1480@Elena's Letter@Quantity@1@EA@2000@2294@142@145@1@144@673@518@7598@7@138@680
+1481@Elena's Letter@Quantity@1@EA@2000@2296@142@145@1@144@673@518@7598@7@138@680
+1482@Devil Square Ticket@Quantity@1@EA@5000@2298@142@145@1@144@673@518@6702@7@138@680
+1483@Illusion Temple Ticket@Quantity@1@EA@5000@2300@142@145@1@144@673@518@6717@7@138@680
+1484@Illusion Temple Ticket@Quantity@1@EA@5000@2302@142@145@1@144@673@518@6717@7@138@680
+1485@Vault Expansion Certificate@Quantity@1@EA@5000@2304@142@145@1@144@673@518@7331@7@138@680
+1486@Scroll of Gray Oblivion@Quantity@1@EA@5000@2306@142@145@1@144@673@518@6811@7@138@680
+1487@Scroll of Black Oblivion@Quantity@1@EA@10000@2308@142@145@1@144@673@518@7165@7@138@680
+1488@Seal of Wealth@Duration@1440@[1 Day(s)]@5000@2310@142@145@1@144@673@518@6700@10@138@680
+1488@Seal of Wealth@Duration@4320@[3 Day(s)]@30000@2311@142@145@1@144@673@518@6700@10@138@680
+1488@Seal of Wealth@Duration@10080@[7 Day(s)]@120000@2312@142@145@1@144@673@518@6700@10@138@680
+1488@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2313@142@145@1@144@673@518@6700@10@138@680
+1489@Seal of Wealth@Duration@1440@[1 Day(s)]@5000@2315@142@145@1@144@673@518@6274@10@138@680
+1489@Seal of Wealth@Duration@4320@[3 Day(s)]@30000@2316@142@145@1@144@673@518@6274@10@138@680
+1489@Seal of Wealth@Duration@10080@[7 Day(s)]@120000@2317@142@145@1@144@673@518@6274@10@138@680
+1489@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2318@142@145@1@144@673@518@6274@10@138@680
+1490@Seal of Wealth@Duration@1440@[1 Day(s)]@1000@2320@142@145@1@144@673@518@6274@10@138@680
+1490@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2321@142@145@1@144@673@518@6274@10@138@680
+1490@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2322@142@145@1@144@673@518@6274@10@138@680
+1490@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2323@142@145@1@144@673@518@6274@10@138@680
+1491@Seal of Wealth@Duration@1440@[1 Day(s)]@1000@2325@142@145@1@144@673@518@6275@10@138@680
+1491@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2326@142@145@1@144@673@518@6275@10@138@680
+1491@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2327@142@145@1@144@673@518@6275@10@138@680
+1491@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2328@142@145@1@144@673@518@6275@10@138@680
+1492@Seal of Wealth@Duration@1440@[1 Day(s)]@1000@2330@142@145@1@144@673@518@6276@10@138@680
+1492@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2331@142@145@1@144@673@518@6276@10@138@680
+1492@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2332@142@145@1@144@673@518@6276@10@138@680
+1492@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2333@142@145@1@144@673@518@6276@10@138@680
+1493@Small Cape of Lord@Duration@1440@[1 Day(s)]@1000@2335@142@145@1@144@673@518@6274@10@138@680
+1493@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2336@142@145@1@144@673@518@6274@10@138@680
+1493@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2337@142@145@1@144@673@518@6274@10@138@680
+1493@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2338@142@145@1@144@673@518@6274@10@138@680
+1494@Small Wing of Curse@Duration@1440@[1 Day(s)]@1000@2340@142@145@1@144@673@518@6275@10@138@680
+1494@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2341@142@145@1@144@673@518@6275@10@138@680
+1494@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2342@142@145@1@144@673@518@6275@10@138@680
+1494@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2343@142@145@1@144@673@518@6275@10@138@680
+1495@Small Wings of Elf@Duration@1440@[1 Day(s)]@1000@2345@142@145@1@144@673@518@6276@10@138@680
+1495@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2346@142@145@1@144@673@518@6276@10@138@680
+1495@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2347@142@145@1@144@673@518@6276@10@138@680
+1495@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2348@142@145@1@144@673@518@6276@10@138@680
+1496@Small Wings of Heaven@Duration@1440@[1 Day(s)]@1000@2350@142@145@1@144@673@518@6277@10@138@680
+1496@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2351@142@145@1@144@673@518@6277@10@138@680
+1496@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2352@142@145@1@144@673@518@6277@10@138@680
+1496@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2353@142@145@1@144@673@518@6277@10@138@680
+1497@Small Wings of Satan@Duration@1440@[1 Day(s)]@1000@2355@142@145@1@144@673@518@6278@10@138@680
+1497@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2356@142@145@1@144@673@518@6278@10@138@680
+1497@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2357@142@145@1@144@673@518@6278@10@138@680
+1497@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2358@142@145@1@144@673@518@6278@10@138@680
+1498@Little Warrior's Cloak@Duration@1440@[1 Day(s)]@1000@2360@142@145@1@144@673@518@6279@10@138@680
+1498@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2361@142@145@1@144@673@518@6279@10@138@680
+1498@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2362@142@145@1@144@673@518@6279@10@138@680
+1498@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2363@142@145@1@144@673@518@6279@10@138@680
+1499@Seal of Wealth@Duration@1440@[1 Day(s)]@1000@2365@142@145@1@144@673@518@6298@10@138@680
+1499@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2366@142@145@1@144@673@518@6298@10@138@680
+1499@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2367@142@145@1@144@673@518@6298@10@138@680
+1499@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2368@142@145@1@144@673@518@6298@10@138@680
+1500@Small Cloak of Limit@Duration@1440@[1 Day(s)]@1000@2370@142@145@1@144@673@518@6422@10@138@680
+1500@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2371@142@145@1@144@673@518@6422@10@138@680
+1500@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2372@142@145@1@144@673@518@6422@10@138@680
+1500@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2373@142@145@1@144@673@518@6422@10@138@680
+1501@Seal of Wealth@Duration@1440@[1 Day(s)]@1000@2375@142@145@1@144@673@518@6344@10@138@680
+1501@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2376@142@145@1@144@673@518@6344@10@138@680
+1501@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2377@142@145@1@144@673@518@6344@10@138@680
+1501@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2378@142@145@1@144@673@518@6344@10@138@680
+1502@Small White Cloak@Duration@1440@[1 Day(s)]@1000@2379@142@145@1@144@673@518@6298@10@138@680
+1502@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2380@142@145@1@144@673@518@6298@10@138@680
+1502@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2381@142@145@1@144@673@518@6298@10@138@680
+1502@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2382@142@145@1@144@673@518@6298@10@138@680
+1503@Small Iron Cloak@Duration@1440@[1 Day(s)]@1000@2384@142@145@1@144@673@518@6316@10@138@680
+1503@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2385@142@145@1@144@673@518@6316@10@138@680
+1503@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2386@142@145@1@144@673@518@6316@10@138@680
+1503@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2387@142@145@1@144@673@518@6316@10@138@680
+1504@Worn Horseshoe@Duration@1440@[1 Day(s)]@1000@2389@142@145@1@144@673@518@6790@10@138@680
+1504@Worn Horseshoe@Duration@10080@[7 Day(s)]@400@2390@142@145@1@144@673@518@6790@10@138@680
+1504@Worn Horseshoe@Duration@43200@[30 Day(s)]@1200@2391@142@145@1@144@673@518@6790@10@138@680
+1505@Statue of Hawk@Duration@1440@[1 Day(s)]@1000@2393@142@145@1@144@673@518@6784@10@138@680
+1505@Statue of Hawk@Duration@10080@[7 Day(s)]@6000@2394@142@145@1@144@673@518@6784@10@138@680
+1505@Statue of Hawk@Duration@43200@[30 Day(s)]@1200@2395@142@145@1@144@673@518@6784@10@138@680
+1506@Golden Oak Charm@Duration@1440@[1 Day(s)]@1000@2397@142@145@1@144@673@518@6788@10@138@680
+1506@Golden Oak Charm@Duration@10080@[7 Day(s)]@6000@2398@142@145@1@144@673@518@6788@10@138@680
+1506@Golden Oak Charm@Duration@43200@[30 Day(s)]@1800@2399@142@145@1@144@673@518@6788@10@138@680
+1507@Oak Charm@Duration@1440@[1 Day(s)]@1000@2401@142@145@1@144@673@518@6786@10@138@680
+1507@Oak Charm@Duration@10080@[7 Day(s)]@6000@2402@142@145@1@144@673@518@6786@10@138@680
+1507@Oak Charm@Duration@43200@[30 Day(s)]@500@2403@142@145@1@144@673@518@6786@10@138@680
+1508@Statue of Goral@Duration@1440@[1 Day(s)]@1000@2405@142@145@1@144@673@518@6785@10@138@680
+1508@Statue of Goral@Duration@10080@[7 Day(s)]@6000@2406@142@145@1@144@673@518@6785@10@138@680
+1508@Statue of Goral@Duration@43200@[30 Day(s)]@1200@2407@142@145@1@144@673@518@6785@10@138@680
+1509@Scroll Master of Wizardry@Duration@1440@[1 Day(s)]@100@2409@142@145@1@144@673@518@7394@10@138@680
+1509@Scroll Master of Wizardry@Duration@43200@[30 Day(s)]@6000@2410@142@145@1@144@673@518@7394@10@138@680
+1510@Scroll Master of Health@Duration@1440@[1 Day(s)]@1000@2412@142@145@1@144@673@518@7395@10@138@680
+1510@Scroll Master of Health@Duration@43200@[30 Day(s)]@6000@2413@142@145@1@144@673@518@7395@10@138@680
+1511@Scroll Master of Mana@Duration@1440@[1 Day(s)]@1000@2415@142@145@1@144@673@518@7396@10@138@680
+1511@Scroll Master of Mana@Duration@43200@[30 Day(s)]@6000@2416@142@145@1@144@673@518@7396@10@138@680
+1512@Scroll Master of Wrath@Duration@1440@[1 Day(s)]@1000@2418@142@145@1@144@673@518@7397@10@138@680
+1512@Scroll Master of Wrath@Duration@43200@[30 Day(s)]@6000@2419@142@145@1@144@673@518@7397@10@138@680
+1513@Scroll Master of Recovery@Duration@1440@[1 Day(s)]@1000@2421@142@145@1@144@673@518@7398@10@138@680
+1513@Scroll Master of Recovery@Duration@43200@[30 Day(s)]@6000@2422@142@145@1@144@673@518@7398@10@138@680
+1514@Scroll Master of Battle@Duration@1440@[1 Day(s)]@1000@2424@142@145@1@144@673@518@7399@10@138@680
+1514@Scroll Master of Battle@Duration@43200@[30 Day(s)]@6000@2425@142@145@1@144@673@518@7399@10@138@680
+1515@Scroll Master of Strenghener@Duration@1440@[1 Day(s)]@1000@2427@142@145@1@144@673@518@7400@10@138@680
+1515@Scroll Master of Strenghener@Duration@43200@[30 Day(s)]@6000@2428@142@145@1@144@673@518@7400@10@138@680
+1516@Scroll Master of Defense@Duration@1440@[1 Day(s)]@1000@2430@142@145@1@144@673@518@7393@10@138@680
+1516@Scroll Master of Defense@Duration@43200@[30 Day(s)]@6000@2431@142@145@1@144@673@518@7393@10@138@680
+1517@Small Cape of Lord@Duration@1440@[1 Day(s)]@1000@2433@142@145@1@144@673@518@6274@10@138@680
+1517@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2434@142@145@1@144@673@518@6274@10@138@680
+1517@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2435@142@145@1@144@673@518@6274@10@138@680
+1517@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2436@142@145@1@144@673@518@6274@10@138@680
+1518@Small Wing of Curse@Duration@1440@[1 Day(s)]@1000@2438@142@145@1@144@673@518@6275@10@138@680
+1518@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2439@142@145@1@144@673@518@6275@10@138@680
+1518@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2440@142@145@1@144@673@518@6275@10@138@680
+1518@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2441@142@145@1@144@673@518@6275@10@138@680
+1519@Small Wings of Elf@Duration@1440@[1 Day(s)]@1000@2443@142@145@1@144@673@518@6276@10@138@680
+1519@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2444@142@145@1@144@673@518@6276@10@138@680
+1519@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2445@142@145@1@144@673@518@6276@10@138@680
+1519@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2446@142@145@1@144@673@518@6276@10@138@680
+1520@Small Wings of Heaven@Duration@1440@[1 Day(s)]@1000@2448@142@145@1@144@673@518@6277@10@138@680
+1520@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2449@142@145@1@144@673@518@6277@10@138@680
+1520@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2450@142@145@1@144@673@518@6277@10@138@680
+1520@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2451@142@145@1@144@673@518@6277@10@138@680
+1521@Small Wings of Satan@Duration@1440@[1 Day(s)]@1000@2453@142@145@1@144@673@518@6278@10@138@680
+1521@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2454@142@145@1@144@673@518@6278@10@138@680
+1521@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2455@142@145@1@144@673@518@6278@10@138@680
+1521@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2456@142@145@1@144@673@518@6278@10@138@680
+1522@Little Warrior's Cloak@Duration@1440@[1 Day(s)]@1000@2458@142@145@1@144@673@518@6279@10@138@680
+1522@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2459@142@145@1@144@673@518@6279@10@138@680
+1522@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2460@142@145@1@144@673@518@6279@10@138@680
+1522@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2461@142@145@1@144@673@518@6279@10@138@680
+1523@Small White Cloak@Duration@1440@[1 Day(s)]@1000@2463@142@145@1@144@673@518@6298@10@138@680
+1523@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2464@142@145@1@144@673@518@6298@10@138@680
+1523@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2465@142@145@1@144@673@518@6298@10@138@680
+1523@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2466@142@145@1@144@673@518@6298@10@138@680
+1524@Small Cloak of Limit@Duration@1440@[1 Day(s)]@1000@2468@142@145@1@144@673@518@6422@10@138@680
+1524@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2469@142@145@1@144@673@518@6422@10@138@680
+1524@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2470@142@145@1@144@673@518@6422@10@138@680
+1524@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2471@142@145@1@144@673@518@6422@10@138@680
+1525@Small Iron Cloak@Duration@1440@[1 Day(s)]@1000@2473@142@145@1@144@673@518@6316@10@138@680
+1525@Seal of Wealth@Duration@4320@[3 Day(s)]@6000@2474@142@145@1@144@673@518@6316@10@138@680
+1525@Seal of Wealth@Duration@10080@[7 Day(s)]@24000@2475@142@145@1@144@673@518@6316@10@138@680
+1525@Seal of Wealth@Duration@43200@[30 Day(s)]@2100@2476@142@145@1@144@673@518@6316@10@138@680
